@@ -1,0 +1,1 @@
+* Steps of knowledge: remember, understand, apply, analyze, evaluate, create
