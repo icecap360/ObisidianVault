@@ -1,8 +1,8 @@
 {
   "citationExportFormat": "biblatex",
-  "literatureNoteTitleTemplate": "@{{containerTitle}}",
+  "literatureNoteTitleTemplate": "@{{titleShort}}",
   "literatureNoteFolder": "000 Primary Text",
-  "literatureNoteContentTemplate": "---\n\naliases:\n  \nDoggo\nWoofer\nYapper\n\n\n---\n**Title**: {{title}}\n**Authors**: {{authorString}}\n**Year**: {{year}}\n**URL**: {{URL}}\n---\n\n",
+  "literatureNoteContentTemplate": "---\ntitle: {{title}}\nurl: {{URL}}\nauthors: {{authorString}}\nyear: {{year}}\npublisher: {{publisher}}\nzotero: {{zoteroSelectURI}}\ndoi: {{DOI}}\naliases: \n  - {{citekey}}\n  - {{title}}\n--- \n\n# Short Summary\n\n# Abstract\n```\n{{abstract}}\n```\n\n# Details\n\n## Methodology\n\n## Results\n\n# Comments and Implications\n",
   "markdownCitationTemplate": "[@{{citekey}}]",
   "alternativeMarkdownCitationTemplate": "@{{citekey}}",
   "citationExportPath": "C:\\WORKSPACE\\ObsidianVaults\\Qasim\\008 Obsidian\\Zotero My Library.bib"
