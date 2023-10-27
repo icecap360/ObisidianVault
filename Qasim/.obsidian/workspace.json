@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "006 Personal/Zotero and Raindrop.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "006 Personal/Zotero and Raindrop.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "006 Personal/Zotero and Raindrop.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "006 Personal/Zotero and Raindrop.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -163,13 +163,15 @@
   },
   "active": "0b22c0b31cae698f",
   "lastOpenFiles": [
+    "008 Obsidian/Templates/Primary Text (Video).md",
+    "Untitled.md",
+    "006 Personal/Zotero and Raindrop.md",
     "006 Personal/Obsidian Rules.md",
     "008 Obsidian/Templates/Project (Software).md",
     "008 Obsidian/Templates/Topic (Learn).md",
     "008 Obsidian/Templates/Topic (Chris).md",
     "008 Obsidian/Templates/Topic.md",
     "008 Obsidian/Templates/Topic (Chris Detailed).md",
-    "Untitled.md",
     "008 Obsidian/Templates/Idea.md",
     "008 Obsidian/Templates/Personal (Book Philosophy).md",
     "008 Obsidian/Templates/Personal (Book Fiction).md",
@@ -188,8 +190,6 @@
     "008 Obsidian/Templates/Primary Text (Article).md",
     "003 Topics",
     "008 Obsidian/Templates/Primary Text (Paper).md",
-    "008 Obsidian/Templates/Primary Text (Video).md",
-    "008 Obsidian/Templates/Idea (Definition).md",
     "Untitled.canvas",
     "008 Obsidian/Files",
     "008 Obsidian/Templates",
