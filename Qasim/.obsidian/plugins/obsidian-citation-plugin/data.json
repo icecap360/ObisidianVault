@@ -1,0 +1,9 @@
+{
+  "citationExportFormat": "biblatex",
+  "literatureNoteTitleTemplate": "@{{containerTitle}}",
+  "literatureNoteFolder": "000 Primary Text",
+  "literatureNoteContentTemplate": "---\n\naliases:\n  \nDoggo\nWoofer\nYapper\n\n\n---\n**Title**: {{title}}\n**Authors**: {{authorString}}\n**Year**: {{year}}\n**URL**: {{URL}}\n---\n\n",
+  "markdownCitationTemplate": "[@{{citekey}}]",
+  "alternativeMarkdownCitationTemplate": "@{{citekey}}",
+  "citationExportPath": "C:\\WORKSPACE\\ObsidianVaults\\Qasim\\008 Obsidian\\Zotero My Library.bib"
+}

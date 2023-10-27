@@ -30,21 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d87a20a4c71bbf9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,11 +161,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d87a20a4c71bbf9f",
+  "active": "0b22c0b31cae698f",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Untitled.md",
+    "008 Obsidian/Zotero My Library.bib",
     "008 Obsidian/Templates/Primary Text (Video).md",
+    "Untitled.md",
     "006 Personal/Zotero and Raindrop.md",
     "006 Personal/Obsidian Rules.md",
     "008 Obsidian/Templates/Project (Software).md",
