@@ -3,29 +3,35 @@ tags:
   - "#RawInformation"
   - "#Paper"
   - "#Unread"
-Link: 
 completed: false
+title: "{{title}}"
+short title: "{{titleShort}}"
+year: "{{year}}"
+url: "{{URL}}"
+publisher: "{{publisher}}"
+zotero: "{{zoteroSelectURI}}"
+doi: "{{DOI}}"
+aliases:
+  - "{{citekey}}"
+  - "{{title}}"
+  - "{{titleShort}}"
+authors: "{{authorString}}"
 ---
-# 3-Sentence Summary
 
+# Short Summary
 
+## Key Points
+
+# Abstract
+```
+{{abstract}}
+```
 
 # Details
+## Problem
 
-### Abstract
-- 
+## Methodology
 
-### Related Works
-- 
+## Results
 
-### Methodology
-- 
-
-### Results + Discussion
-- 
-
-# Comments, Implications and Relationships
-- 
-
-# Reference
-
+# Comments and Implications

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "008 Obsidian/Templates/Primary Text (Paper).md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "008 Obsidian/Templates/Primary Text (Paper).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "008 Obsidian/Templates/Primary Text (Paper).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "008 Obsidian/Templates/Primary Text (Paper).md"
               }
             }
           }
@@ -163,9 +163,12 @@
   },
   "active": "0b22c0b31cae698f",
   "lastOpenFiles": [
+    "008 Obsidian/Templates/Primary Text (Article).md",
+    "008 Obsidian/Templates/Primary Text (Paper).md",
+    "008 Obsidian/Templates/Primary Text (Book).md",
+    "Untitled.md",
     "008 Obsidian/Zotero My Library.bib",
     "008 Obsidian/Templates/Primary Text (Video).md",
-    "Untitled.md",
     "006 Personal/Zotero and Raindrop.md",
     "006 Personal/Obsidian Rules.md",
     "008 Obsidian/Templates/Project (Software).md",
@@ -181,14 +184,12 @@
     "008 Obsidian/Templates/Personal (Reflection Long Term).md",
     "008 Obsidian/Templates/Personal (Job Opportunity).md",
     "008 Obsidian/Templates/Personal (Business Idea).md",
-    "008 Obsidian/Templates/Primary Text (Book).md",
     "Topic.md",
     "008 Obsidian/Templates/Personal (Recipe).md",
     "008 Obsidian/Templates/Personal (Goals).md",
     "008 Obsidian/Templates/Peer Review.md",
     "008 Obsidian/Templates/Literature Note.md",
     "008 Obsidian/Templates/Ideas (Equation Aligned).md",
-    "008 Obsidian/Templates/Primary Text (Article).md",
     "003 Topics",
     "Untitled.canvas",
     "008 Obsidian/Files",
@@ -199,7 +200,6 @@
     "006 Personal/000 Reflections",
     "004 Programming",
     "000 Primary Text",
-    "005 Topics To Learn",
     "Untitled 1.canvas",
     "Untitled 2.canvas"
   ]
