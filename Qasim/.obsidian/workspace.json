@@ -4,71 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "42ce9305a2000484",
+        "id": "6b756b1a698938cc",
         "type": "tabs",
         "children": [
           {
-            "id": "014dba294e416555",
+            "id": "6cb8fda7b6e8060d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "008 Obsidian/Templates/Primary Text (Paper).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a9e0188aed4261fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "008 Obsidian/Templates/Primary Text (Paper).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4fa240f8b70fb9bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 Primary Text/Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8d60bab001a5d281",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "008 Obsidian/Templates/Literature Note.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aed71345b082d62f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "008 Obsidian/Templates/Primary Text (Paper).md",
+                "file": "006 Personal/TODO.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "008 Obsidian/Templates/Primary Text (Paper).md",
+                "file": "006 Personal/TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "008 Obsidian/Templates/Primary Text (Paper).md",
+                "file": "006 Personal/TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "008 Obsidian/Templates/Primary Text (Paper).md"
+                "file": "006 Personal/TODO.md"
               }
             }
           }
@@ -197,13 +148,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a9e0188aed4261fa",
+  "active": "6cb8fda7b6e8060d",
   "lastOpenFiles": [
-    "000 Primary Text/Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks.md",
+    "006 Personal/Obsidian Rules.md",
     "008 Obsidian/Templates/Primary Text (Paper).md",
-    "Untitled.md",
-    "Faster R-CNN.md",
     "008 Obsidian/Templates/Literature Note.md",
+    "Untitled.md",
+    "000 Primary Text/Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks.md",
+    "Faster R-CNN.md",
     "Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks.md",
     "008 Obsidian/Templates/Primary Text (Article).md",
     "008 Obsidian/Templates/temp.md",
@@ -214,7 +166,6 @@
     "000 Primary Text/Paper test.md",
     "008 Obsidian/Zotero My Library.bib",
     "006 Personal/Zotero and Raindrop.md",
-    "006 Personal/Obsidian Rules.md",
     "008 Obsidian/Templates/Project (Software).md",
     "008 Obsidian/Templates/Topic (Learn).md",
     "008 Obsidian/Templates/Topic (Chris).md",

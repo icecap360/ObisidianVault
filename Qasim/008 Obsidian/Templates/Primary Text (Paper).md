@@ -31,3 +31,6 @@ aliases:
 ## Results
 
 # Comments and Implications
+
+# Links
+[@{{citekey}}]
