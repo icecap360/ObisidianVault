@@ -5,12 +5,10 @@ tags:
   - "#Unread"
 completed: false
 title: "{{title}}"
-authors: "{{author}}"
-year: "{{year}}"
+authors: "{{authors}}"
+year: '{{date | format("YYYY/MM/DD")}}'
 url: "{{url}}"
-publisher: "{{publisher}}"
 citekey: "{{citekey}}"
-zotero: "{{zoteroReaderLink}}"
 aliases:
   - "{{title}}"
   - "{{citekey}}"

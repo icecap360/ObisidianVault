@@ -37,19 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Faster R-CNN.md",
+                "file": "008 Obsidian/Templates/Primary Text (Paper).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b0378a16032e93b3",
+            "id": "8d60bab001a5d281",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks.md",
+                "file": "008 Obsidian/Templates/Literature Note.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Faster R-CNN.md",
+                "file": "008 Obsidian/Templates/Primary Text (Paper).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Faster R-CNN.md",
+                "file": "008 Obsidian/Templates/Primary Text (Paper).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Faster R-CNN.md"
+                "file": "008 Obsidian/Templates/Primary Text (Paper).md"
               }
             }
           }
@@ -197,15 +197,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "44b3d44a0534c5ad",
+  "active": "4a312b8ce7cbd475",
   "lastOpenFiles": [
-    "008 Obsidian/Templates/Primary Text (Paper).md",
     "Faster R-CNN.md",
+    "008 Obsidian/Templates/Primary Text (Paper).md",
+    "008 Obsidian/Templates/Literature Note.md",
     "Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks.md",
     "008 Obsidian/Templates/Primary Text (Article).md",
     "008 Obsidian/Templates/temp.md",
     "renFasterRCNNRealTime2017.md",
-    "008 Obsidian/Templates/Literature Note.md",
     "008 Obsidian/Templates Table of Contents.md",
     "008 Obsidian/Templates/Primary Text (Book).md",
     "008 Obsidian/Templates/Primary Text (Video).md",
