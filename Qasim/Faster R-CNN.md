@@ -7,13 +7,14 @@ completed: false
 title: "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
 authors: ""
 year: ""
-url: ""
+url: "http://ieeexplore.ieee.org/document/7485869/"
 publisher: ""
+citekey: "renFasterRCNNRealTime2017"
 zotero: ""
-doi: "10.1109/TPAMI.2016.2577031"
 aliases:
   - "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
   - "renFasterRCNNRealTime2017"
+  - "Faster R-CNN"
 ---
 
 # Short Summary

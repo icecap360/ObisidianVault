@@ -5,16 +5,16 @@ tags:
   - "#Unread"
 completed: false
 title: "{{title}}"
-short title: "{{titleShort}}"
+authors: "{{author}}"
 year: "{{year}}"
-url: "{{URL}}"
+url: "{{url}}"
 publisher: "{{publisher}}"
-zotero: "{{zoteroSelectURI}}"
-doi: "{{DOI}}"
+citekey: "{{citekey}}"
+zotero: "{{zoteroReaderLink}}"
 aliases:
   - "{{title}}"
-  - "{{titleShort}}"
-authors: "{{authorString}}"
+  - "{{citekey}}"
+  - "{{shortTitle}}"
 ---
 
 # Short Summary
