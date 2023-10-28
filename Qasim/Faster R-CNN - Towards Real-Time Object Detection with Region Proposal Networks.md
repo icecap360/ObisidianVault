@@ -1,25 +1,21 @@
 ---
-tags:
-  - "#RawInformation"
-  - Article
-  - "#Unread"
-completed: false
-url: ""
-year: ""
-authors: ""
----
----
-
-
-
+title:
+  "{ title }": 
+authors:
+  "{ authorString }": 
+year:
+  "{ year }": 
+doi:
+  "{ DOI }": 
+zotero:
+  "{ zoteroSelectURI }":
 ---
 
-# 3-Sentence Summary
+## Read
 
+[Open from DOI](https://doi.org/10.1109/TPAMI.2016.2577031)
+[Open in Zotero]()
 
+## Overview
 
-# Details
 - 
-
-# Reference
-

@@ -8,28 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8bc327c752780253",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "008 Obsidian/Templates/Primary Text (Paper).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c9423eae80bd3a76",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.16"
-              }
-            }
-          },
-          {
             "id": "014dba294e416555",
             "type": "leaf",
             "state": {
@@ -40,9 +18,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f83f223023646ead",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "008 Obsidian/Templates/temp.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "79633b3936a87029",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "008 Obsidian/Templates/temp.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aed71345b082d62f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -108,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "008 Obsidian/Templates/Primary Text (Paper).md",
+                "file": "Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "008 Obsidian/Templates/Primary Text (Paper).md",
+                "file": "Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "008 Obsidian/Templates/Primary Text (Paper).md"
+                "file": "Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks.md"
               }
             }
           }
@@ -171,11 +185,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c9423eae80bd3a76",
+  "active": "4a312b8ce7cbd475",
   "lastOpenFiles": [
+    "008 Obsidian/Templates/temp.md",
     "Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks.md",
-    "008 Obsidian/Templates/Primary Text (Paper).md",
+    "renFasterRCNNRealTime2017.md",
     "008 Obsidian/Templates/Primary Text (Article).md",
+    "008 Obsidian/Templates/Literature Note.md",
+    "008 Obsidian/Templates/Primary Text (Paper).md",
     "008 Obsidian/Templates Table of Contents.md",
     "008 Obsidian/Templates/Primary Text (Book).md",
     "008 Obsidian/Templates/Primary Text (Video).md",
@@ -197,9 +214,6 @@
     "008 Obsidian/Templates/Personal (Reflection Long Term).md",
     "008 Obsidian/Templates/Personal (Job Opportunity).md",
     "008 Obsidian/Templates/Personal (Business Idea).md",
-    "Topic.md",
-    "008 Obsidian/Templates/Personal (Recipe).md",
-    "008 Obsidian/Templates/Personal (Goals).md",
     "003 Topics",
     "Untitled.canvas",
     "008 Obsidian/Files",

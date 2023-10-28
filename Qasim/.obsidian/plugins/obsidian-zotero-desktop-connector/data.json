@@ -7,6 +7,13 @@
   "citeFormats": [],
   "exportFormats": [
     {
+      "name": "Import #3",
+      "outputPathTemplate": "{{title}}.md",
+      "imageOutputPathTemplate": "{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "008 Obsidian/Templates/temp.md"
+    },
+    {
       "name": "Import Article",
       "outputPathTemplate": "{{title}}.md",
       "imageOutputPathTemplate": "008 Obsidian/Zotero Media/{{title}}/",
@@ -15,10 +22,10 @@
     },
     {
       "name": "Import Paper",
-      "outputPathTemplate": "{{titleShort}}.md",
-      "imageOutputPathTemplate": "008 Obsidian/Zotero Media/{{citekey}}/",
+      "outputPathTemplate": "{{title}}.md",
+      "imageOutputPathTemplate": "008 Obsidian/Zotero Media/{{title}}/",
       "imageBaseNameTemplate": "image",
-      "templatePath": "008 Obsidian/Templates/Primary Text (Paper).md"
+      "templatePath": "008 Obsidian/Templates/Literature Note.md"
     }
   ],
   "citeSuggestTemplate": "[[{{citekey}}]]",

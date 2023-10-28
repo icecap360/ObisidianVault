@@ -1,9 +1,14 @@
 ---
-title: {{title}}
-authors: {{authorString}}
-year: {{year}}
-doi: {{DOI}}
-zotero: {{zoteroSelectURI}}
+title:
+  "{ title }": 
+authors:
+  "{ authorString }": 
+year:
+  "{ year }": 
+doi:
+  "{ DOI }": 
+zotero:
+  "{ zoteroSelectURI }":
 ---
 
 ## Read
