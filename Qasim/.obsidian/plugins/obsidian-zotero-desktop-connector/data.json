@@ -1,6 +1,6 @@
 {
   "database": "Zotero",
-  "noteImportFolder": "000 Primary Text",
+  "noteImportFolder": "000 Primary Text/",
   "pdfExportImageDPI": 120,
   "pdfExportImageFormat": "jpg",
   "pdfExportImageQuality": 90,
@@ -18,8 +18,7 @@
       "outputPathTemplate": "{{titleShort}}.md",
       "imageOutputPathTemplate": "008 Obsidian/Zotero Media/{{citekey}}/",
       "imageBaseNameTemplate": "image",
-      "templatePath": "008 Obsidian/Templates/Primary Text (Paper).md",
-      "cslStyle": "ieee-with-url"
+      "templatePath": "008 Obsidian/Templates/Primary Text (Paper).md"
     }
   ],
   "citeSuggestTemplate": "[[{{citekey}}]]",
