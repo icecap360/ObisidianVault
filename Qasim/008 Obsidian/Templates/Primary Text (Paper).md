@@ -6,13 +6,12 @@ tags:
 completed: false
 title: "{{title}}"
 authors: "{{authors}}"
-year: '{{date | format("YYYY/MM/DD")}}'
+year: '{{date | format("YYYY/MM")}}'
 url: "{{url}}"
 citekey: "{{citekey}}"
 aliases:
-  - "{{title}}"
-  - "{{citekey}}"
   - "{{shortTitle}}"
+  - "{{citekey}}"
 ---
 
 # Short Summary

@@ -8,14 +8,14 @@
   "exportFormats": [
     {
       "name": "Import Article",
-      "outputPathTemplate": "{{title}}.md",
+      "outputPathTemplate": "000 Primary Text/{{title}}.md",
       "imageOutputPathTemplate": "008 Obsidian/Zotero Media/{{title}}/",
       "imageBaseNameTemplate": "image",
       "templatePath": "008 Obsidian/Templates/Primary Text (Article).md"
     },
     {
       "name": "Import Paper",
-      "outputPathTemplate": "{{shortTitle}}.md",
+      "outputPathTemplate": "000 Primary Text/{{title}}.md",
       "imageOutputPathTemplate": "008 Obsidian/Zotero Media/{{title}}/",
       "imageBaseNameTemplate": "image",
       "templatePath": "008 Obsidian/Templates/Primary Text (Paper).md"
