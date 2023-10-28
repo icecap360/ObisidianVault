@@ -4,13 +4,13 @@ tags:
   - Article
   - "#Unread"
 completed: false
-url: "{{URL}}"
-year: "{{year}}"
-authors: "{{authorString}}"
+url: ""
+year: ""
+authors: ""
 ---
 ---
-{{URL}}
-{{year}}
+
+
 
 ---
 

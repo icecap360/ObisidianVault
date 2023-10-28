@@ -12,7 +12,6 @@ publisher: "{{publisher}}"
 zotero: "{{zoteroSelectURI}}"
 doi: "{{DOI}}"
 aliases:
-  - "{{citekey}}"
   - "{{title}}"
   - "{{titleShort}}"
 authors: "{{authorString}}"
