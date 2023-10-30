@@ -73,7 +73,15 @@ This paper proposes a Fast Region-based Convolutional Network method (Fast R-CNN
 * Replace last max pooling layer with an RoI pooling layer, make sure to pick H and W to be compatible with the net's first FC layer
 ### Fine-tuning for detection
 - SPPNet is unable to update weights below the spatial pyramid pooling layer
-- Back-prop tSPP
+
+Problem
+- Back-prop thourgh SPP is inefficient when each training sample (i.e. RoI) comes from a different image, which is how R-CNN and SPPnet are trained
+	- Inefficiency comes from the fact that each RoI may have a very large receptive field, comparable to the entire input image.
+	- Thus forward pass must process the entire receptive field
+Solution
+- Take advantage of feature sharing during training
+- SGD mini-batches are sampled hierarchically, first by sampling N images, then by sampling *R/N* RoIs from each image. Critically, RoIs from the same image share computation and memory in the forward and backward passes.
+- For example, when using N = 2 and R = 128, the proposed training scheme is roughly 64× faster than sampling one RoI from 128 different images (i.e., the R-CNN and SPPnet strategy)
 ## Results
 - 9x faster then VGG16
 - 9x faster then SPPnet
