@@ -30,10 +30,16 @@ This paper proposes a Fast Region-based Convolutional Network method (Fast R-CNN
 - Other solutions may resolve these issues at the cost of speed accuracy or simplicity
 - R-CNN drawbacks:
 	- Training is multi-stage : train convnets, SVM, and finally bounding box regressors
-	- Expensive in compute and space: 
+	- Expensive in compute and space: Convnet runs many times (number of proposals * number of images)
+	- 48 sec per image
+## Related works
+- Why is R-CNN slow?
+	- Convnet does not share computation: 1 Convnet forward pass for each object proposal
+		- SPPNet tried to address: It runs CNN on whole image, it then extracts proposals from the shared feature space
+		-  
+		- 
 ## Methodology
 - We propose a single-stage training algorithm that jointly learns to classify object proposals and refine their spatial locations
-
 ## Results
 - 9x faster then VGG16
 - 9x faster then SPPnet
