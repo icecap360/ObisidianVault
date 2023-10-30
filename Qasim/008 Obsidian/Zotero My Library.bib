@@ -1,3 +1,21 @@
+@misc{girshickFastRCNN2015,
+  title = {Fast {{R-CNN}}},
+  author = {Girshick, Ross},
+  year = {2015},
+  month = sep,
+  number = {arXiv:1504.08083},
+  eprint = {1504.08083},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.1504.08083},
+  urldate = {2023-10-30},
+  abstract = {This paper proposes a Fast Region-based Convolutional Network method (Fast R-CNN) for object detection. Fast R-CNN builds on previous work to efficiently classify object proposals using deep convolutional networks. Compared to previous work, Fast R-CNN employs several innovations to improve training and testing speed while also increasing detection accuracy. Fast R-CNN trains the very deep VGG16 network 9x faster than R-CNN, is 213x faster at test-time, and achieves a higher mAP on PASCAL VOC 2012. Compared to SPPnet, Fast R-CNN trains VGG16 3x faster, tests 10x faster, and is more accurate. Fast R-CNN is implemented in Python and C++ (using Caffe) and is available under the open-source MIT License at https://github.com/rbgirshick/fast-rcnn.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  note = {Comment: To appear in ICCV 2015},
+  file = {C\:\\Users\\iceca\\Zotero\\storage\\QEQIBVCQ\\Girshick_2015_Fast R-CNN.pdf;C\:\\Users\\iceca\\Zotero\\storage\\GXU7JB2Q\\1504.html}
+}
+
 @misc{Hello,
   title = {Hello},
   abstract = {this is cool}
@@ -43,4 +61,22 @@
 \par
 ``l networks (RCNNs) [5]. Although region-based CNNs were computationally expensive as originally developed in [5], their cost has been drastically reduced thanks to sharing convolutions across proposals [1], [2]. The latest incarnation, Fast R-CNN [2], achieves near real-time rates using very deep networks [3], when igno'' (Ren et al., 2017, p. 1)},
   file = {C:\Users\iceca\Zotero\storage\PC8Z9L3M\Ren et al. - 2017 - Faster R-CNN Towards Real-Time Object Detection w.pdf}
+}
+
+@misc{xieSimMIMSimpleFramework2022,
+  title = {{{SimMIM}}: {{A Simple Framework}} for {{Masked Image Modeling}}},
+  shorttitle = {{{SimMIM}}},
+  author = {Xie, Zhenda and Zhang, Zheng and Cao, Yue and Lin, Yutong and Bao, Jianmin and Yao, Zhuliang and Dai, Qi and Hu, Han},
+  year = {2022},
+  month = apr,
+  number = {arXiv:2111.09886},
+  eprint = {2111.09886},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2111.09886},
+  urldate = {2023-10-28},
+  abstract = {This paper presents SimMIM, a simple framework for masked image modeling. We simplify recently proposed related approaches without special designs such as block-wise masking and tokenization via discrete VAE or clustering. To study what let the masked image modeling task learn good representations, we systematically study the major components in our framework, and find that simple designs of each component have revealed very strong representation learning performance: 1) random masking of the input image with a moderately large masked patch size (e.g., 32) makes a strong pre-text task; 2) predicting raw pixels of RGB values by direct regression performs no worse than the patch classification approaches with complex designs; 3) the prediction head can be as light as a linear layer, with no worse performance than heavier ones. Using ViT-B, our approach achieves 83.8\% top-1 fine-tuning accuracy on ImageNet-1K by pre-training also on this dataset, surpassing previous best approach by +0.6\%. When applied on a larger model of about 650 million parameters, SwinV2-H, it achieves 87.1\% top-1 accuracy on ImageNet-1K using only ImageNet-1K data. We also leverage this approach to facilitate the training of a 3B model (SwinV2-G), that by \$40\textbackslash times\$ less data than that in previous practice, we achieve the state-of-the-art on four representative vision benchmarks. The code and models will be publicly available at https://github.com/microsoft/SimMIM.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  file = {C\:\\Users\\iceca\\Zotero\\storage\\G5CHPPIE\\Xie et al. - 2022 - SimMIM A Simple Framework for Masked Image Modeli.pdf;C\:\\Users\\iceca\\Zotero\\storage\\7R9B4D7S\\2111.html}
 }

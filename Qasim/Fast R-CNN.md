@@ -4,7 +4,7 @@ tags:
   - "#Paper"
   - "#Unread"
 completed: false
-title: "{{title}}"
+title: Fast R-CNN
 authors: "{{authors}}"
 year: '{{date | format("YYYY/MM")}}'
 url: "{{url}}"
@@ -20,7 +20,7 @@ aliases:
 
 # Abstract
 ```
-{{abstractNote}}
+{{abstract}}
 ```
 
 # Details

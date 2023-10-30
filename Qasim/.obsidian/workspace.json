@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "006 Personal/Zotero and Raindrop.md",
+                "file": "Fast R-CNN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "41cb549144429653",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 Primary Text/Fast R-CNN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4aa3c98a3c3e766",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "008 Obsidian/Templates/Primary Text (Paper).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "006 Personal/Zotero and Raindrop.md",
+                "file": "000 Primary Text/Fast R-CNN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "006 Personal/Zotero and Raindrop.md",
+                "file": "000 Primary Text/Fast R-CNN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "006 Personal/Zotero and Raindrop.md"
+                "file": "000 Primary Text/Fast R-CNN.md"
               }
             }
           }
@@ -148,11 +173,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6cb8fda7b6e8060d",
+  "active": "41cb549144429653",
   "lastOpenFiles": [
+    "Fast R-CNN.md",
+    "008 Obsidian/Templates/Primary Text (Paper).md",
+    "000 Primary Text/Fast R-CNN.md",
+    "006 Personal/Zotero and Raindrop.md",
+    "Untitled 1.md",
     "006 Personal/Obsidian Rules.md",
     "006 Personal/TODO.md",
-    "008 Obsidian/Templates/Primary Text (Paper).md",
     "008 Obsidian/Templates/Literature Note.md",
     "Untitled.md",
     "000 Primary Text/Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks.md",
@@ -166,7 +195,6 @@
     "008 Obsidian/Templates/Primary Text (Video).md",
     "000 Primary Text/Paper test.md",
     "008 Obsidian/Zotero My Library.bib",
-    "006 Personal/Zotero and Raindrop.md",
     "008 Obsidian/Templates/Project (Software).md",
     "008 Obsidian/Templates/Topic (Learn).md",
     "008 Obsidian/Templates/Topic (Chris).md",
@@ -174,9 +202,6 @@
     "008 Obsidian/Templates/Topic (Chris Detailed).md",
     "008 Obsidian/Templates/Idea.md",
     "008 Obsidian/Templates/Personal (Book Philosophy).md",
-    "008 Obsidian/Templates/Personal (Book Fiction).md",
-    "008 Obsidian/Templates/Personal (Book).md",
-    "008 Obsidian/Templates/Personal (Reflection Weekly).md",
     "003 Topics",
     "Untitled.canvas",
     "008 Obsidian/Files",
