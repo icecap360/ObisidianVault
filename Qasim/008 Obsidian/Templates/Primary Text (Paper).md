@@ -22,7 +22,6 @@ aliases:
 ```
 {{abstractNote}}
 ```
-
 # Details
 ## Problem
 
