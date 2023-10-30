@@ -27,12 +27,18 @@ This paper proposes a Fast Region-based Convolutional Network method (Fast R-CNN
 - Modern CNNs are slow and inelegent
 	- (1) Numerous candidate object locations must be processed
 	- (2) Candidates provide only rough localization that must be refined thorugh precise localization
-	- 
-
+- Other solutions may resolve these issues at the cost of speed accuracy or simplicity
+- R-CNN drawbacks:
+	- Training is multi-stage : train convnets, SVM, and finally bounding box regressors
+	- Expensive in compute and space: 
 ## Methodology
+- We propose a single-stage training algorithm that jointly learns to classify object proposals and refine their spatial locations
 
 ## Results
-
+- 9x faster then VGG16
+- 9x faster then SPPnet
+- top accuracy on PASCAL VOC 2012
+- 
 # Comments and Implications
 
 # Links
