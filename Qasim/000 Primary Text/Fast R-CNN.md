@@ -62,8 +62,9 @@ This paper proposes a Fast Region-based Convolutional Network method (Fast R-CNN
 	- The feature maps has a fixed spatial extent of H × W (e.g., 7 × 7), where H and W are layer hyper-parameters that are independent of any particular RoI
 - RoI: a rectangular window within a convolutional feature map
 	- Each RoI is defined by a four-tuple *(r, c, h, w)* that specifies its top-left corner *(r, c)* and its height and width *(h, w)*
-	- 
-	- 
+- RoI max pooling:
+	- Works by dividing the *h × w* RoI window into an *H × W* grid of sub-windows of approximate size *h/H × w/W* and then max-pooling the values in each sub-window into the corresponding output grid cell
+	- Pooling is applied independently to each feature map channel, as in standard max pooling.
 - 
 ## Results
 - 9x faster then VGG16
