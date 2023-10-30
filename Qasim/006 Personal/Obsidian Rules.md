@@ -71,7 +71,7 @@
 * Structure notes: Structure Notes are not limited to hierarchical structures like the nested list from above. Structure notes can also have sequential structures. Imagine the following line of argumentation: a -> b -> c, therefore a -> c. A Structure Note could capture this sequence and link each step of the sequence to a Zettel which expands on it.
 
 
-citation manager
+
 
 
 
