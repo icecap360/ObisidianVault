@@ -56,6 +56,13 @@ This paper proposes a Fast Region-based Convolutional Network method (Fast R-CNN
 3. Each feature vector is fed into a sequence of FC layers, that finally branch into 2 sibling output layers: 
 	- Cls: one that produces softmax probability estimates over K object classes plus a catch-all “background” class 
 	- BBox Reg: another layer that outputs four real-valued numbers for each of the K object classes
+### ROI Pooling
+- The RoI pooling layer uses max pooling to convert the features inside any valid region of interest into a small feature map
+	- The feature maps has a fixed spatial extent of H × W (e.g., 7 × 7), where H and W are layer hyper-parameters that are independent of any particular RoI
+- RoI: a rectangular window within a convolutional feature map
+	- Each RoI is defined by a four-tuple *(r, c, h, w)* that specifies its top-left corner *(r, c)* and its height and width *(h, w)*
+	- 
+	- 
 - 
 ## Results
 - 9x faster then VGG16
