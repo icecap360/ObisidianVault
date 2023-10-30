@@ -26,18 +26,23 @@ This paper proposes a Fast Region-based Convolutional Network method (Fast R-CNN
 ## Problem
 - Modern CNNs are slow and inelegent
 	- (1) Numerous candidate object locations must be processed
-	- (2) Candidates provide only rough localization that must be refined thorugh precise localization
+	- (2) Candidates provide only rough localization that must be refined through precise localization
 - Other solutions may resolve these issues at the cost of speed accuracy or simplicity
 - R-CNN drawbacks:
 	- Training is multi-stage : train convnets, SVM, and finally bounding box regressors
-	- Expensive in compute and space: Convnet runs many times (number of proposals * number of images)
+	- Expensive in compute and space: Convnet runs many times (number of proposals * number of images), and all of the extracted features need to be written to disk
 	- 48 sec per image
 ## Related works
 - Why is R-CNN slow?
 	- Convnet does not share computation: 1 Convnet forward pass for each object proposal
-		- SPPNet tried to address: It runs CNN on whole image, it then extracts proposals from the shared feature space
-		-  
-		- 
+- SPPNet tried to address
+		- It runs CNN on whole image, it then extracts proposals from the shared feature space
+		- Features are extracted for a proposal by maxpooling the portion of the feature map inside the proposal into a fixed-size output (e.g., 6 × 6). 
+		- Multiple output sizes are pooled and then concatenated as in spatial pyramid pooling 
+		- It reduces training time by 3x (cause of shared features), accelerate by 10-100x
+- SPPNet drawbacks:
+	- Training is a multi-stage pipeline extracting features, fine-tuning a network with log loss, training SVMs, and finally fitting bounding-box regressors. 
+	- Features are also written to disk. But unlike R-CNN, the fine-tuning algorithm proposed in [11] cannot update the convolutional layers that precede the spatial pyramid pooling. Unsurprisingly, this limitation (fixed convolutional layers) limits the accuracy of very deep networks
 ## Methodology
 - We propose a single-stage training algorithm that jointly learns to classify object proposals and refine their spatial locations
 ## Results
