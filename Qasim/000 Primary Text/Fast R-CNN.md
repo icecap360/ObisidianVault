@@ -60,12 +60,20 @@ This paper proposes a Fast Region-based Convolutional Network method (Fast R-CNN
 ### ROI Pooling
 - The RoI pooling layer uses max pooling to convert the features inside any valid region of interest into a small feature map
 	- The feature maps has a fixed spatial extent of H × W (e.g., 7 × 7), where H and W are layer hyper-parameters that are independent of any particular RoI
-- RoI: a rectangular window within a convolutional feature map
+- RoI: 
+	- a rectangular window within a convolutional feature map
 	- Each RoI is defined by a four-tuple *(r, c, h, w)* that specifies its top-left corner *(r, c)* and its height and width *(h, w)*
 - RoI max pooling:
 	- Works by dividing the *h × w* RoI window into an *H × W* grid of sub-windows of approximate size *h/H × w/W* and then max-pooling the values in each sub-window into the corresponding output grid cell
 	- Pooling is applied independently to each feature map channel, as in standard max pooling.
-- 
+	- The RoI layer is simply the special-case of the spatial pyramid pooling layer used in SPPnets in which there is only one pyramid level. We use the pooling sub-window calculation given in SPPnet.
+### Adapting a pre-trained ImageNet network
+* Use 2 data inputs: RoI and raw Image
+* Replace the last FC layer with a class + bbox_reg head
+* Replace last max pooling layer with an RoI pooling layer, make sure to pick H and W to be compatible with the net's first FC layer
+### Fine-tuning for detection
+- SPPNet is unable to update weights below the spatial pyramid pooling layer
+- Back-prop tSPP
 ## Results
 - 9x faster then VGG16
 - 9x faster then SPPnet
