@@ -50,6 +50,7 @@ This paper proposes a Fast Region-based Convolutional Network method (Fast R-CNN
 	3. Training can update all network layers 
 	4. No disk storage is required for feature caching
 ### Architecture
+![[Pasted image 20231030192023.png]]
 - Input: image and object proposals
 1. Process the image using a Convnet
 2. For each proposal, a RoI pooling layer extracts a fixed-length feature vector from the feature map
