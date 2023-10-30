@@ -42,9 +42,21 @@ This paper proposes a Fast Region-based Convolutional Network method (Fast R-CNN
 		- It reduces training time by 3x (cause of shared features), accelerate by 10-100x
 - SPPNet drawbacks:
 	- Training is a multi-stage pipeline extracting features, fine-tuning a network with log loss, training SVMs, and finally fitting bounding-box regressors. 
-	- Features are also written to disk. But unlike R-CNN, the fine-tuning algorithm proposed in [11] cannot update the convolutional layers that precede the spatial pyramid pooling. Unsurprisingly, this limitation (fixed convolutional layers) limits the accuracy of very deep networks
+	- Features are also written to disk. But unlike R-CNN, the fine-tuning algorithm proposed in SPPNet cannot update the convolutional layers that precede the spatial pyramid pooling. Unsurprisingly, this limitation (fixed convolutional layers) limits the accuracy of very deep networks
 ## Methodology
 - We propose a single-stage training algorithm that jointly learns to classify object proposals and refine their spatial locations
+	1. Higher detection quality (mAP) than R-CNN, SPPnet 
+	2. Training is single-stage, using a multi-task loss 
+	3. Training can update all network layers 
+	4. No disk storage is required for feature caching
+### Architecture
+- Input: image and object proposals
+1. Process the image using a Convnet
+2. For each proposal, a RoI pooling layer extracts a fixed-length feature vector from the feature map
+3. Each feature vector is fed into a sequence of FC layers, that finally branch into 2 sibling output layers: 
+	- Cls: one that produces softmax probability estimates over K object classes plus a catch-all “background” class 
+	- BBox Reg: another layer that outputs four real-valued numbers for each of the K object classes
+- 
 ## Results
 - 9x faster then VGG16
 - 9x faster then SPPnet
