@@ -13,28 +13,53 @@ topics: "[[PyTorch]]"
     - Use .to() to move to a different device
 
 # Syntax
-- numpy()
+- .numpy()
 - .shape, 
 - .dtype, 
 - .device
 - .item()
     - converts tensor into numerical, only for tensors with 1 element
-- .to
+- .to()
 	- move to a defive
 	- change dtype, e.g. b.to(torch.int32)
+- .clone()
+	- .detatch().clone() - turn off gradient tracking before cloning
 - Creation
 	- torch.tensor()
-	- from_numpy() 
-	- rand_like()
-	- ones_like()
-	- zeros()
-	- .empty() - allocates memory for the tensor, but does not initialize it with any values - so what you’re seeing is whatever was in memory at the time of allocation. 
+	- torch.from_numpy() 
+	- torch.rand_like()
+	- torch.ones_like()
+	- torch.zeros()
+	- torch.empty() - allocates memory for the tensor, but does not initialize it with any values - so what you’re seeing is whatever was in memory at the time of allocation. 
 	- dtype is a field in many of these methods
 - Math
-	- 
+	- torch.ceil()
+	- torch.abs()
+	- torch.floor()
+	- torch.clamp(a, min, max)
+	- torch.sin()
+	- torch.asin()
+	- torch.max()
+	- torch.mean()
+	- torch.std()
+	- torch.prod()
+	- torch.cross()
+	- torch.matmul()
+	- torch.svd()
+	- torch.unique() - filter unique elements
+	- .add_() and .mul_() - inplace versions of add and multple
 
 # Examples
+```
+if torch.cuda.is_available():
+    my_device = torch.device('cuda')
+else:
+    my_device = torch.device('cpu')
 
+x = torch.rand(2, 2, device=my_device)
+y = torch.rand(2, 2)
+y = y.to(my_device)
+```
 
 # Comments and Links
 - 
