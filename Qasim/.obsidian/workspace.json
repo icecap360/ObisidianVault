@@ -4,59 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "6b756b1a698938cc",
+        "id": "74bf3891034b8bf7",
         "type": "tabs",
         "children": [
           {
-            "id": "f0954b8d54323c0a",
+            "id": "b788142adcb2dae2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ordered Dict.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ca3f21a5bc28f37d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deque.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "db67e71998d616cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Counter.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9d972ae306f26840",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chainmap.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chainmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chainmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Chainmap.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -185,13 +140,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9d972ae306f26840",
+  "active": "4a312b8ce7cbd475",
   "lastOpenFiles": [
-    "Counter.md",
-    "Deque.md",
+    "004 Software/Intra-Package Imports.md",
     "Ordered Dict.md",
-    "Datatypes.md",
-    "Chainmap.md",
+    "004 Software/Deque.md",
+    "004 Software/Counter.md",
+    "004 Software/Chainmap.md",
+    "004 Software/Datatypes.md",
     "Named Tuples.md",
     "008 Obsidian/Templates/Idea (Software).md",
     "Untitled 3.md",
@@ -217,7 +173,6 @@
     "Untitled.md",
     "000 Primary Text/Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks.md",
     "Faster R-CNN.md",
-    "Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks.md",
     "008 Obsidian/Zotero My Library.bib",
     "003 Topics",
     "Untitled.canvas",
