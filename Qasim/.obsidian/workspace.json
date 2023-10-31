@@ -4,18 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "74bf3891034b8bf7",
+        "id": "ef0b72bf85fa8583",
         "type": "tabs",
         "children": [
           {
-            "id": "b788142adcb2dae2",
+            "id": "817c275c7a4776a7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "004 Software/PyTorch.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d065677a18e6072e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tensors.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c877e62498ffccb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Numpy Array.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Tensors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Tensors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Tensors.md"
+              }
             }
           }
         ],
@@ -140,15 +173,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4a312b8ce7cbd475",
+  "active": "d065677a18e6072e",
   "lastOpenFiles": [
-    "004 Software/Intra-Package Imports.md",
-    "Ordered Dict.md",
-    "004 Software/Deque.md",
-    "004 Software/Counter.md",
-    "004 Software/Chainmap.md",
+    "Numpy Array.md",
+    "Tensors.md",
+    "004 Software/PyTorch.md",
+    "004 Software/Python Packages.md",
+    "004 Software/Ideas/Intra-Package Imports.md",
+    "004 Software/Ideas",
+    "004 Software/Ideas/Ordered Dict.md",
+    "004 Software/Ideas/Deque.md",
+    "004 Software/Ideas/Counter.md",
+    "004 Software/Ideas/Chainmap.md",
     "004 Software/Datatypes.md",
-    "Named Tuples.md",
+    "004 Software/Ideas/Named Tuples.md",
     "008 Obsidian/Templates/Idea (Software).md",
     "Untitled 3.md",
     "004 Software/Collections Library for Python Datatypes.md",
@@ -169,10 +207,6 @@
     "Untitled 1.md",
     "006 Personal/Obsidian Rules.md",
     "006 Personal/TODO.md",
-    "008 Obsidian/Templates/Literature Note.md",
-    "Untitled.md",
-    "000 Primary Text/Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks.md",
-    "Faster R-CNN.md",
     "008 Obsidian/Zotero My Library.bib",
     "003 Topics",
     "Untitled.canvas",
@@ -183,7 +217,6 @@
     "007 Random",
     "006 Personal/000 Reflections",
     "004 Software",
-    "000 Primary Text",
     "Untitled 1.canvas",
     "Untitled 2.canvas"
   ]
