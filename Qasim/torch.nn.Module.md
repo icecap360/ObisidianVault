@@ -19,7 +19,28 @@ topics:
 - .eval() - sets thte module in evaluation mode
 	- This is equivalent with self.train(False).
 	- Effects certain modules, e.g. Dropout, BatchNorm, etc.
-- get_parameter(_target_)
+- get_parameter(_target_) - Returns the parameter given by target if it exists, otherwise throws an error.
+- Iterator
+	- modules() - iterator of all modules in a netowrk, duplicates are returned once 
+	- named_children() - returns iterator of immediate children
+	- named_parameters() - returns iterator over module parameters, yielding both name of pareter and parameter itself
+	- parameters() - returns iterator over parameters
+- Hooks
+	- register_full_backward_hook()
+		- register_backward_hook is depreciated
+	- register_forward_hook()
+	- register_forward_pre_hook()
+- load_state_dict(state_dict, strict=True, assign=False) - If strict is True, then the keys of state_dict must exactly match the keys returned by this module’s state_dict() function
+	- assign (bool, optional) – whether to assign items in the state dictionary to their corresponding keys in the module instead of copying them inplace into the module’s current parameters and buffers. When False, the properties of the tensors in the current module are preserved while when True, the properties of the Tensors in the state dict are preserved. Default: False
+	- If assign is True the optimizer must be created after the call to load_state_dict.
+	- Returns
+		- missing_keys is a list of str containing the missing keys
+		- unexpected_keys is a list of str containing the unexpected keys
+
+
+
+
+
 	- 
 
 
