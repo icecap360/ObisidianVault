@@ -13,6 +13,14 @@ topics: "[[Datatypes]]"
 # Syntax
 - `class collections.deque([iterable[, maxlen]])`
 	- If _maxlen_ is not specified or is `None`, deques may grow to an arbitrary length. Otherwise, the deque is bounded to the specified maximum length. Once a bounded length deque is full, when new items are added, a corresponding number of items are discarded from the opposite end.
+- `rotate`
+-  `index(z[,start[,stop]])` - returns position of first match in deque
+-  `extend` - extend the right side of the deque 
+-  `pop`
+-  `count(x)` - count number of elements equal to x
+- `copy()` - shallow copy
+- `append` 
+- `clear` - clear all elements from the deque, leaving it with length 0
 # Examples
 
 # Comments and Links

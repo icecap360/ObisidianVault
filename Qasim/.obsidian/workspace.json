@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deque.md",
+                "file": "Counter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deque.md",
+                "file": "Counter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deque.md"
+                "file": "Counter.md"
               }
             }
           }
@@ -185,11 +185,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ca3f21a5bc28f37d",
+  "active": "db67e71998d616cc",
   "lastOpenFiles": [
+    "Deque.md",
     "Ordered Dict.md",
     "Datatypes.md",
-    "Deque.md",
     "Counter.md",
     "Chainmap.md",
     "Named Tuples.md",
