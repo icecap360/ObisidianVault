@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6cb8fda7b6e8060d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "004 Software/Collections Library for Python Datatypes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f0954b8d54323c0a",
             "type": "leaf",
             "state": {
@@ -44,7 +32,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,11 +164,11 @@
   "active": "0eb0338a051c04b8",
   "lastOpenFiles": [
     "Named Tuples.md",
-    "Ordered Dict.md",
+    "008 Obsidian/Templates/Idea (Software).md",
     "004 Software/Collections Library for Python Datatypes.md",
+    "Ordered Dict.md",
     "008 Obsidian/Files/Pasted image 20231031103358.png",
     "Fast R-CNN.md",
-    "008 Obsidian/Templates/Idea (Software).md",
     "008 Obsidian/Templates/Idea.md",
     "008 Obsidian/Templates/Ideas (Equation Aligned).md",
     "008 Obsidian/Templates/Idea (Definition).md",

@@ -8,7 +8,9 @@ topics:
 
 # Purpose
 
-# Syntax/Examples
+# Syntax
+
+# Examples
 
 # Comments and Links
 - 
