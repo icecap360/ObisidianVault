@@ -1,0 +1,3 @@
+- *torch.nn* namespace provides all the building blocks you need to build your own neural network
+- Every module in PyTorch subclasses the [[torch.nn.Module]].
+- 
