@@ -13,19 +13,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Named Tuples.md",
+                "file": "Ordered Dict.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0eb0338a051c04b8",
+            "id": "ca3f21a5bc28f37d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ordered Dict.md",
+                "file": "Deque.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "db67e71998d616cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Counter.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d972ae306f26840",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chainmap.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ordered Dict.md",
+                "file": "Deque.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ordered Dict.md",
+                "file": "Deque.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ordered Dict.md"
+                "file": "Deque.md"
               }
             }
           }
@@ -161,12 +185,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0eb0338a051c04b8",
+  "active": "ca3f21a5bc28f37d",
   "lastOpenFiles": [
+    "Ordered Dict.md",
+    "Datatypes.md",
+    "Deque.md",
+    "Counter.md",
+    "Chainmap.md",
     "Named Tuples.md",
     "008 Obsidian/Templates/Idea (Software).md",
+    "Untitled 3.md",
     "004 Software/Collections Library for Python Datatypes.md",
-    "Ordered Dict.md",
     "008 Obsidian/Files/Pasted image 20231031103358.png",
     "Fast R-CNN.md",
     "008 Obsidian/Templates/Idea.md",
@@ -189,11 +218,6 @@
     "000 Primary Text/Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks.md",
     "Faster R-CNN.md",
     "Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks.md",
-    "008 Obsidian/Templates/Primary Text (Article).md",
-    "008 Obsidian/Templates/temp.md",
-    "renFasterRCNNRealTime2017.md",
-    "008 Obsidian/Templates Table of Contents.md",
-    "008 Obsidian/Templates/Primary Text (Book).md",
     "008 Obsidian/Zotero My Library.bib",
     "003 Topics",
     "Untitled.canvas",

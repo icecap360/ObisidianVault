@@ -7,7 +7,7 @@ topics:
 ---
 - Named tuples assign meaning to each position in a tuple and allow for more readable, self-documenting code. 
 - They can be used wherever regular tuples are used, and they add the ability to access fields by name instead of position index.
-- Located in the [[Collections Library for Python Datatypes]], [[Datatypes]]
+
 
 
 # Syntax
@@ -30,6 +30,7 @@ Point(x=11, y=22)
 ```
 
 # Comments and Links
-- 
+- - Located in the [[Collections Library for Python Datatypes]], 
+- [[Datatypes]]
 # Reference
 https://docs.python.org/3/library/collections.html#namedtuple-factory-function-for-tuples-with-named-fields

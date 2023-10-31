@@ -3,7 +3,7 @@ tags:
   - "#Ideas"
   - "#Incomplete"
   - "#Software"
-topics:
+topics: "[[Datatypes]]"
 ---
 
 
@@ -12,5 +12,5 @@ topics:
 # Examples
 
 # Comments and Links
-- 
+- - Implemented by [[Collections Library for Python Datatypes]], 
 # Reference

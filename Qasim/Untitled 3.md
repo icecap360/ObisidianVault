@@ -6,6 +6,7 @@ tags:
 topics:
 ---
 
+# Purpose
 
 # Syntax
 
