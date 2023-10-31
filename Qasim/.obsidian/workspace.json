@@ -8,48 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "817c275c7a4776a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "004 Software/PyTorch.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d065677a18e6072e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tensors.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ef9851ca6a97b3ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Broadcasting.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c877e62498ffccb7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numpy Array.md",
+                "file": "004 Software/Ideas/Numpy Array.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ec6a639b3a807110",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PyTorch Dataset and Dataloaders.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tensors.md",
+                "file": "PyTorch Dataset and Dataloaders.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tensors.md",
+                "file": "PyTorch Dataset and Dataloaders.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tensors.md"
+                "file": "PyTorch Dataset and Dataloaders.md"
               }
             }
           }
@@ -185,12 +161,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d065677a18e6072e",
+  "active": "ec6a639b3a807110",
   "lastOpenFiles": [
-    "Broadcasting.md",
-    "Tensors.md",
-    "Numpy Array.md",
+    "004 Software/Ideas/Numpy Array.md",
+    "PyTorch Dataset and Dataloaders.md",
+    "004 Software/Ideas/Broadcasting.md",
     "004 Software/PyTorch.md",
+    "004 Software/Ideas/Tensors.md",
     "004 Software/Python Packages.md",
     "004 Software/Ideas/Intra-Package Imports.md",
     "004 Software/Ideas",
@@ -218,7 +195,6 @@
     "008 Obsidian/Templates/Primary Text (Paper).md",
     "006 Personal/Zotero and Raindrop.md",
     "Untitled 1.md",
-    "006 Personal/Obsidian Rules.md",
     "008 Obsidian/Zotero My Library.bib",
     "003 Topics",
     "Untitled.canvas",
