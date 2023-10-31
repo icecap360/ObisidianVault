@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "004 Software/Ideas/torch.Autograd.md",
+                "file": "004 Software/Ideas/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "004 Software/Ideas/torch.Autograd.md",
+                "file": "004 Software/Ideas/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "004 Software/Ideas/torch.Autograd.md",
+                "file": "004 Software/Ideas/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "004 Software/Ideas/torch.Autograd.md"
+                "file": "004 Software/Ideas/Untitled.md"
               }
             }
           }
@@ -150,11 +150,12 @@
   },
   "active": "0ca3776cbd4d67fe",
   "lastOpenFiles": [
+    "004 Software/Ideas/torch.Autograd.md",
+    "004 Software/Ideas/Untitled.md",
     "008 Obsidian/Files/Pasted image 20231031133319.png",
     "004 Software/Ideas/torch.Tensors.md",
     "torch.zero_grad.md",
     "004 Software/Ideas/torch.Datasets and Dataloaders.md",
-    "004 Software/Ideas/torch.Autograd.md",
     "004 Software/Ideas/numpy.Array.md",
     "004 Software/PyTorch.md",
     "004 Software/Ideas/torch.nn.Module.md",
