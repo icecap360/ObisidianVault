@@ -67,11 +67,14 @@ This paper proposes a Fast Region-based Convolutional Network method (Fast R-CNN
 	- Works by dividing the *h × w* RoI window into an *H × W* grid of sub-windows of approximate size *h/H × w/W* and then max-pooling the values in each sub-window into the corresponding output grid cell
 	- Pooling is applied independently to each feature map channel, as in standard max pooling.
 	- The RoI layer is simply the special-case of the spatial pyramid pooling layer used in SPPnets in which there is only one pyramid level. We use the pooling sub-window calculation given in SPPnet.
-### Adapting a pre-trained ImageNet network
+
+
+### Fine-tuning for detection
+#### Adapting a pre-trained ImageNet network
 * Use 2 data inputs: RoI and raw Image
 * Replace the last FC layer with a class + bbox_reg head
 * Replace last max pooling layer with an RoI pooling layer, make sure to pick H and W to be compatible with the net's first FC layer
-### Fine-tuning for detection
+
 - SPPNet is unable to update weights below the spatial pyramid pooling layer
 
 Problem
@@ -82,6 +85,14 @@ Solution
 - Take advantage of feature sharing during training
 - SGD mini-batches are sampled hierarchically, first by sampling N images, then by sampling *R/N* RoIs from each image. Critically, RoIs from the same image share computation and memory in the forward and backward passes.
 - For example, when using N = 2 and R = 128, the proposed training scheme is roughly 64× faster than sampling one RoI from 128 different images (i.e., the R-CNN and SPPnet strategy)
+- One concern over this strategy is it may cause slow training convergence because RoIs from the same image are correlated. This concern does not appear to be a practical issue and we achieve good results with N = 2 and R = 128 using fewer SGD iterations than R-CNN.
+
+#### Multi-task loss
+- Classification head: discrete probability distribution (per RoI), *p = ($p_0$, . . . , $p_K$)*, over *K + 1* categories
+- Regression head: offsets, *$t_k$ = ($t_k^x$ , $t_k^y$ , $t_k^w$, $t_k^h$)* for each of the *K* object classes. $t_k$ specifies a scale-invariant translation and log-space height/width shift relative to an object proposal
+- Each training RoI is labeled with a ground-truth class u and a ground-truth bounding-box regression target v
+![[Pasted image 20231030200658.png]]
+
 ## Results
 - 9x faster then VGG16
 - 9x faster then SPPnet
