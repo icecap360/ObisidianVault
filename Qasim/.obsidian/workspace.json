@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "004 Software/Ideas/Untitled.md",
+                "file": "004 Software/Ideas/torch.Save and Load Weights.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "004 Software/Ideas/Untitled.md",
+                "file": "004 Software/Ideas/torch.Save and Load Weights.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "004 Software/Ideas/Untitled.md",
+                "file": "004 Software/Ideas/torch.Save and Load Weights.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "004 Software/Ideas/Untitled.md"
+                "file": "004 Software/Ideas/torch.Save and Load Weights.md"
               }
             }
           }
@@ -150,8 +150,9 @@
   },
   "active": "0ca3776cbd4d67fe",
   "lastOpenFiles": [
+    "004 Software/Ideas/torch.Optimizer.md",
+    "004 Software/Ideas/torch.Save and Load Weights.md",
     "004 Software/Ideas/torch.Autograd.md",
-    "004 Software/Ideas/Untitled.md",
     "008 Obsidian/Files/Pasted image 20231031133319.png",
     "004 Software/Ideas/torch.Tensors.md",
     "torch.zero_grad.md",
@@ -178,7 +179,6 @@
     "008 Obsidian/Templates/Ideas (Equation Aligned).md",
     "008 Obsidian/Templates/Idea (Definition).md",
     "008 Obsidian/Templates/Idea (Component).md",
-    "000 Primary Text/Fast R-CNN.md",
     "008 Obsidian/Files/Pasted image 20231030201149.png",
     "008 Obsidian/Files/Pasted image 20231030200916.png",
     "008 Obsidian/Files/Pasted image 20231030200658.png",
