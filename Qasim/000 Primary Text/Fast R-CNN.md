@@ -90,8 +90,13 @@ Solution
 #### Multi-task loss
 - Classification head: discrete probability distribution (per RoI), *p = ($p_0$, . . . , $p_K$)*, over *K + 1* categories
 - Regression head: offsets, *$t_k$ = ($t_k^x$ , $t_k^y$ , $t_k^w$, $t_k^h$)* for each of the *K* object classes. $t_k$ specifies a scale-invariant translation and log-space height/width shift relative to an object proposal
-- Each training RoI is labeled with a ground-truth class u and a ground-truth bounding-box regression target v
+- Each training RoI is labeled with a ground-truth class *u* and a ground-truth bounding-box regression target *v*
 ![[Pasted image 20231030200658.png]]
+![[Pasted image 20231030200916.png]]
+![[Pasted image 20231030201149.png]]
+- *L2* loss used in R-CNN and SPPnet, is bad because. When the regression targets are unbounded (large error), training with *L2* loss can require careful tuning of learning rates in order to prevent exploding gradients. 
+- In this paper, they use $\lambda = 1$ (equal weight to both tasks)
+
 
 ## Results
 - 9x faster then VGG16
