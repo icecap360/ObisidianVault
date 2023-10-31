@@ -1,0 +1,2 @@
+- PyTorch has a built-in differentiation engine called torch.autograd. It supports automatic computation of gradient for any computational graph.
+- You can set the value of requires_grad when creating a tensor, or later by using x.requires_grad_(True) method.

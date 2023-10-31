@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ef0b72bf85fa8583",
+        "id": "433d4144a1a2d026",
         "type": "tabs",
         "children": [
           {
-            "id": "c877e62498ffccb7",
+            "id": "0ca3776cbd4d67fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "004 Software/Ideas/Numpy Array.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ec6a639b3a807110",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "004 Software/PyTorch.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c65fbde6652918f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "torch.nn.Module.md",
+                "file": "004 Software/Ideas/torch.Autograd.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "torch.zero_grad",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "torch.nn.Module.md",
+                "file": "004 Software/Ideas/torch.Autograd.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "torch.nn.Module.md",
+                "file": "004 Software/Ideas/torch.Autograd.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "torch.nn.Module.md"
+                "file": "004 Software/Ideas/torch.Autograd.md"
               }
             }
           }
@@ -173,23 +148,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c65fbde6652918f2",
+  "active": "0ca3776cbd4d67fe",
   "lastOpenFiles": [
+    "004 Software/Ideas/torch.Tensors.md",
+    "torch.zero_grad.md",
+    "004 Software/Ideas/torch.Datasets and Dataloaders.md",
+    "004 Software/Ideas/torch.Autograd.md",
+    "004 Software/Ideas/numpy.Array.md",
     "004 Software/PyTorch.md",
-    "torch.nn.Module.md",
-    "PyTorch Datasets and Dataloaders.md",
-    "004 Software/Ideas/Numpy Array.md",
+    "004 Software/Ideas/torch.nn.Module.md",
+    "004 Software/Ideas/collections.Ordered_Dict.md",
+    "004 Software/Ideas/collections.Named_Tuples.md",
+    "004 Software/Ideas/collections.Deque.md",
+    "004 Software/Ideas/collections.Counter.md",
+    "004 Software/Ideas/collections.Chainmap.md",
     "004 Software/Ideas/Broadcasting.md",
-    "004 Software/Ideas/Tensors.md",
     "004 Software/Python Packages.md",
     "004 Software/Ideas/Intra-Package Imports.md",
     "004 Software/Ideas",
-    "004 Software/Ideas/Ordered Dict.md",
-    "004 Software/Ideas/Deque.md",
-    "004 Software/Ideas/Counter.md",
-    "004 Software/Ideas/Chainmap.md",
     "004 Software/Datatypes.md",
-    "004 Software/Ideas/Named Tuples.md",
     "008 Obsidian/Templates/Idea (Software).md",
     "Untitled 3.md",
     "004 Software/Collections Library for Python Datatypes.md",
@@ -205,8 +182,6 @@
     "008 Obsidian/Files/Pasted image 20231030200658.png",
     "008 Obsidian/Files/Pasted image 20231030192023.png",
     "Untitled 2.md",
-    "008 Obsidian/Templates/Primary Text (Paper).md",
-    "006 Personal/Zotero and Raindrop.md",
     "008 Obsidian/Zotero My Library.bib",
     "003 Topics",
     "Untitled.canvas",
