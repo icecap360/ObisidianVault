@@ -10,7 +10,25 @@ topics: "[[Datatypes]]"
 - Internally,  It is a collection where elements are stored as dictionary keys and their counts are stored as dictionary values.
 - 
 # Syntax
+```
+c = Counter()                           # a new, empty counter
+>>> c = Counter('gallahad')                 # a new counter from an iterable
+>>> c = Counter({'red': 4, 'blue': 2})      # a new counter from a mapping
+>>> c = Counter(cats=4, dogs=8)             # a new counter from keyword args
+```
 
+- elements - interator over elements repeating each as many times as its count
+```
+c = Counter(a=4, b=2, c=0, d=-2)
+>>> sorted(c.elements())
+['a', 'a', 'a', 'a', 'b', 'b']
+```
+- most_common(n), returns n most common elements and their counts from the most common to the least
+```
+Counter('abracadabra').most_common(3)
+[('a', 5), ('b', 2), ('r', 2)]
+```
+- total() - returns total sum of the counts
 # Examples
 ```
 # Tally occurrences of words in a list

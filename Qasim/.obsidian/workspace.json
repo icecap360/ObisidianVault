@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Counter.md",
+                "file": "Chainmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Counter.md",
+                "file": "Chainmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Counter.md"
+                "file": "Chainmap.md"
               }
             }
           }
@@ -185,12 +185,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "db67e71998d616cc",
+  "active": "9d972ae306f26840",
   "lastOpenFiles": [
+    "Counter.md",
     "Deque.md",
     "Ordered Dict.md",
     "Datatypes.md",
-    "Counter.md",
     "Chainmap.md",
     "Named Tuples.md",
     "008 Obsidian/Templates/Idea (Software).md",
