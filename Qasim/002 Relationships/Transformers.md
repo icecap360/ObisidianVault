@@ -1,7 +1,7 @@
 ---
 tags:
-  - "#Ideas"
   - "#Incomplete"
+  - "#Relationships"
 topics:
 ---
 # Key Ideas
@@ -11,9 +11,10 @@ topics:
     - The last subspace (for the keys) may be hard to understand, but it is a subspace that finds keys such that high q\*k == similar encodings
     - Note that I believe although keys and queries are computed using different change-of-basis matrices, they are still in the same subspace which allows dot product to be valid mapping
 # Details
-## What is attention?
-* 
+
 # Comments and Links
 - 
 # Reference
-[https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
+[[Blog - Illustrated Transformer]]
+[[Blog - Visualizing Attention]]
+[[Video - Transformers by Andrej Karpathy]]

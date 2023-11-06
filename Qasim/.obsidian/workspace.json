@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 Primary Text/Illustrated Transformer.md",
+                "file": "001 Ideas/Training - Fine-Tuning.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 Primary Text/Illustrated Transformer.md",
+                "file": "001 Ideas/Training - Fine-Tuning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 Primary Text/Illustrated Transformer.md",
+                "file": "001 Ideas/Training - Fine-Tuning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 Primary Text/Illustrated Transformer.md"
+                "file": "001 Ideas/Training - Fine-Tuning.md"
               }
             }
           }
@@ -150,17 +150,22 @@
   },
   "active": "cad7fb63ce8fa59b",
   "lastOpenFiles": [
+    "001 Ideas/RNNs - LSTM.md",
+    "008 Obsidian/Files/Pasted image 20231106153231.png",
+    "008 Obsidian/Files/Pasted image 20231106153215.png",
+    "002 Relationships/RNNs.md",
+    "001 Ideas/NN Architecture - Attention.md",
+    "002 Relationships/Transformers.md",
+    "000 Primary Text/Video - Transformers by Andrej Karpathy.md",
+    "000 Primary Text/Blog - Illustrated Transformer.md",
+    "008 Obsidian/Files/Pasted image 20231106152710.png",
+    "008 Obsidian/Files/Pasted image 20231106152600.png",
+    "008 Obsidian/Files/Pasted image 20231106152532.png",
+    "008 Obsidian/Files/Pasted image 20231106152443.png",
     "008 Obsidian/Files/Pasted image 20231106152350.png",
     "008 Obsidian/Files/Pasted image 20231106152259.png",
     "008 Obsidian/Files/Pasted image 20231106152234.png",
     "008 Obsidian/Files/Pasted image 20231106152143.png",
-    "008 Obsidian/Files/Pasted image 20231106151848.png",
-    "008 Obsidian/Files/Pasted image 20231106151624.png",
-    "008 Obsidian/Files/Pasted image 20231106151551.png",
-    "008 Obsidian/Files/Pasted image 20231106151427.png",
-    "002 Relationships/Transformers.md",
-    "000 Primary Text/Illustrated Transformer.md",
-    "001 Ideas/NN Architecture - Attention.md",
     "000 Primary Text/Blog - Visualizing Attention.md",
     "000 Primary Text/Paper - Understanding the difficulty of training deep feedforward neural networks.md",
     "000 Primary Text/Paper - Fast R-CNN.md",
@@ -174,19 +179,13 @@
     "000 Primary Text/Paper - Delving Deep into Rectifiers - Surpassing Human-Level Performance on ImageNet Classification.md",
     "002 Relationships/Neural Network - Initialization.md",
     "001 Ideas/Training - Transformers.md",
-    "008 Obsidian/Files/Pasted image 20231106145611.png",
-    "008 Obsidian/Files/Pasted image 20231106145510.png",
-    "008 Obsidian/Files/Pasted image 20231106145448.png",
     "008 Obsidian/Templates/Primary Text (Paper).md",
     "001 Ideas/Neural Network - Keep variance of activations constant.md",
     "001 Ideas/Data Augmentation - Crop.md",
-    "001 Ideas/Fine-Tuning - Use a higher Resolution.md",
+    "001 Ideas/Training - Fine-Tuning.md",
     "001 Ideas/Neck - Last Feature Map.md",
     "001 Ideas/GPUs - Multi-GPU training.md",
-    "001 Ideas/Deep Learning as Functional Programming.md",
-    "001 Ideas/GPUs - Improving Performance in 1 GPU.md",
     "001 Ideas/High-level and General AI",
-    "001 Ideas/GPUs - Memory Footprint.md",
     "006 Personal/002 Research Advice",
     "004 Software/Ideas",
     "008 Obsidian/Zotero My Library.bib",

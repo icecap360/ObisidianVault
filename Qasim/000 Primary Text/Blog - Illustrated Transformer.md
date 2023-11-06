@@ -56,12 +56,29 @@ Complex View (residuals, shown in dotted line, and normalization)
 - In the original paper, they add a second vector to each embedding
 ![[Pasted image 20231106152350.png]]
 
-## Dec
+## Decoder
+- Also has 6 layers
+![[Pasted image 20231106152443.png]]
 
+Simple view of decoder layer
+![[Pasted image 20231106152532.png]]
 
+Complex view of 2 layer decoder/encoder (with residual, and layer norms)
+![[Pasted image 20231106152600.png]]
 
+* The encoder-decoder attention sublayer:
+    - the self-attention values (z) of the last encoder are used to calculate the self attention matrices K and V. The matrices are shared among all 6 layers of the decoder,
+    - Thus at each layer, it creates its Queries matrix from the layer below it, but takes the Keys and Values matrix from the output of the encoder stack.
+- Self-Attention in the decoder
+	- To ensure that the decoder does not use future/unpredicted words, we set future words to -inf before the softmax that calculates the score
+	- The decoder of course has feedback
+![[Pasted image 20231106152710.png]]
 
-
+## FInal linear and softmax layer
+- - the decoder stack (in the image above) outputs floats, which need to be turned into words
+- Linear layer is a simple fully connected neural network that projects into larger vector of logits
+- The final vector is usually has size equal to the vocabulary (e.g. 10000 words)
+- 
 
 # Reference
 
