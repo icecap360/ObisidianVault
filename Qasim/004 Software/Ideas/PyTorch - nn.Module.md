@@ -7,7 +7,7 @@ topics:
 ---
 - Every module in PyTorch subclasses the torch.nn.Module.
 - By subclassing nn.module, all parameters will be tracked
-- 
+-  What's more, you may require different [[Weight Initialisation]] schemes for different sort of layers. This can be accomplished by the `modules` and `apply`  functions. `modules()` is a member function of nn.Module class which returns an iterator containing all the member `nn.Module` members objects of an `nn.Module` function. Then use the `apply` function can be called on each nn.Module to set it's initialisation.
 # Syntax
 - .training - variable
 - add_module(name, module) - add child module
