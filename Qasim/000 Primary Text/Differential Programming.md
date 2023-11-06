@@ -20,6 +20,9 @@ year: "{{2022}}"
 - **Question**:  Given a target at a known distance, how can we adjust a cannon's angle and ejection velocity in order to hit the target?
 - With neural networks, we have a complicated two step training process to learn the mapping from control params (theta and velocity_init) to distance, then learn the inputs/parameters that give us the desired distance in the simulator. 
 	- Note that we cannot predict control parameters directly because we don't know a good loss function between estimated control parameters and the ground-truth best control parameters.
+	- Given  NN that approximates the mapping from control parameters to resulting distance, how are we to get suitable control parameters for a given target distance
+		- Once we have a loss surface which is a function of the control parameters and whose shape is parameterized by our target distance; we can simply use **gradient descent**. While we first used gradient descent in order to _learn_ an approximation of the control parameters to distances mapping, we are now using gradient descent to _minimize_ the corresponding loss surface of this mapping as parameterized by our input target distance.
+	- Using this Newtonian Approach, the error between model control parameter's  is technically unbounded. 
 ![[Pasted image 20231106123009.png]]
 - Newtonian Approach
 	- - A gif is shown showing the true shape of the loss function given velocity/angle parameters derived from physics equations
