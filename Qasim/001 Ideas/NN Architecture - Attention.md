@@ -1,11 +1,8 @@
 ---
 tags:
   - "#Ideas"
-  - "#Incomplete"
 topics: "[[Transformers]]"
 ---
-
-# Comments and Links
-- 
+* Weighted sum of a sequence of input
 # Reference
-[https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
+[[NN Architecture - Attention]]

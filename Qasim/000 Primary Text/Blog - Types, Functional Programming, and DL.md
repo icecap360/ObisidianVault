@@ -2,7 +2,7 @@
 tags:
   - "#RawInformation"
   - Article
-completed: false
+completed: true
 url: https://colah.github.io/posts/2015-09-NN-Types-FP/
 year: "2015"
 authors: Christopher Olah

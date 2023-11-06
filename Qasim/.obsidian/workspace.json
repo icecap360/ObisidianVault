@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "001 Ideas/NN Architecture - Transformers.md",
+                "file": "000 Primary Text/Illustrated Transformer.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "001 Ideas/NN Architecture - Transformers.md",
+                "file": "000 Primary Text/Illustrated Transformer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "001 Ideas/NN Architecture - Transformers.md",
+                "file": "000 Primary Text/Illustrated Transformer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "001 Ideas/NN Architecture - Transformers.md"
+                "file": "000 Primary Text/Illustrated Transformer.md"
               }
             }
           }
@@ -150,19 +150,26 @@
   },
   "active": "cad7fb63ce8fa59b",
   "lastOpenFiles": [
+    "002 Relationships/Transformers.md",
+    "000 Primary Text/Illustrated Transformer.md",
     "001 Ideas/NN Architecture - Attention.md",
-    "001 Ideas/NN Architecture - Transformers.md",
+    "000 Primary Text/Blog - Visualizing Attention.md",
+    "000 Primary Text/Paper - Understanding the difficulty of training deep feedforward neural networks.md",
+    "000 Primary Text/Paper - Fast R-CNN.md",
+    "000 Primary Text/Untitled 2.md",
+    "000 Primary Text/Untitled 1.md",
+    "000 Primary Text/Paper test.md",
+    "000 Primary Text/Blog - Differential Programming.md",
+    "000 Primary Text/Blog - Types, Functional Programming, and DL.md",
     "001 Ideas/NN Initialization - Xavier.md",
     "001 Ideas/NN Initialization He.md",
     "000 Primary Text/Paper - Delving Deep into Rectifiers - Surpassing Human-Level Performance on ImageNet Classification.md",
-    "000 Primary Text/Paper - Understanding the difficulty of training deep feedforward neural networks.md",
     "002 Relationships/Neural Network - Initialization.md",
     "001 Ideas/Training - Transformers.md",
     "008 Obsidian/Files/Pasted image 20231106145611.png",
     "008 Obsidian/Files/Pasted image 20231106145510.png",
     "008 Obsidian/Files/Pasted image 20231106145448.png",
     "008 Obsidian/Templates/Primary Text (Paper).md",
-    "000 Primary Text/Untitled 2.md",
     "008 Obsidian/Files/Pasted image 20231106144518.png",
     "008 Obsidian/Files/Pasted image 20231106144450.png",
     "008 Obsidian/Files/Pasted image 20231106144441.png",
@@ -170,8 +177,6 @@
     "008 Obsidian/Files/Pasted image 20231106144331.png",
     "008 Obsidian/Files/Pasted image 20231106144307.png",
     "008 Obsidian/Files/Pasted image 20231106144217.png",
-    "000 Primary Text/Untitled 1.md",
-    "000 Primary Text/Untitled.md",
     "001 Ideas/Neural Network - Keep variance of activations constant.md",
     "001 Ideas/Data Augmentation - Crop.md",
     "001 Ideas/Fine-Tuning - Use a higher Resolution.md",
@@ -182,11 +187,6 @@
     "001 Ideas/High-level and General AI",
     "001 Ideas/GPUs - Memory Footprint.md",
     "004 Software/Ideas/PyTorch - GPUs.md",
-    "006 Personal/001 Productivity/Drills better then Projects.md",
-    "006 Personal/001 Productivity/How to read a programming book.md",
-    "000 Primary Text/Differential Programming.md",
-    "000 Primary Text/Blog - Types, Functional Programming, and DL.md",
-    "004 Software/Ideas/Broadcasting.md",
     "006 Personal/002 Research Advice",
     "004 Software/Ideas",
     "008 Obsidian/Zotero My Library.bib",

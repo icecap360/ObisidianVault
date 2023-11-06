@@ -3,7 +3,7 @@ tags:
   - "#RawInformation"
   - Article
 topics: "[[Deep Learning]]"
-completed: false
+completed: true
 url: "{{https://www.assemblyai.com/blog/differentiable-programming-a-simple-introduction/#:~:text=Deep%20Learning%20builds%20on%20top,requirements%20%2D%20training%20via%20automatic%20differentiation.}}"
 year: "{{2022}}"
 ---
