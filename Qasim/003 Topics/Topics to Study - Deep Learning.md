@@ -1,0 +1,11 @@
+- Deep Generative Models (Moment Matching Networks)
+- GANs - Generative Models, MMD, and GAN, Conditional GAN, Autoencoders with GAN, GAN for the Image to Image and Text to Image transformation
+- BERT, GPT
+- Auto-encoder
+- Variational Autoencoder
+- Deep Reinforcement Learning
+- Graph Neural Networks - GCN, Graph Attention Networks
+- Diffusion Networks
+- Sharpness-Aware Minimization for Efficiently Improving Generalization
+- Transfer Learning with Pretrained Models:
+- 

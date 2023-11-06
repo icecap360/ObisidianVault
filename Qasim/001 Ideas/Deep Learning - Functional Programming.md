@@ -2,10 +2,10 @@
 tags:
   - "#Ideas"
   - "#Incomplete"
-topics:
+topics: "[[Deep Learning Perspectives]]"
 ---
 Deep learning studies a connection between optimization and functional programming.
 
 
 # Comments and Links
-[[Deep Learning as Functional Programming]]
+[[Deep Learning - Functional Programming]]

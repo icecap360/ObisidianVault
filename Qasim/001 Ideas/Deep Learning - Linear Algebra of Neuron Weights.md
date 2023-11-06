@@ -1,7 +1,7 @@
 ---
 tags:
   - "#Ideas"
-topics:
+topics: "[[Deep Learning Perspectives]]"
 ---
 - Ways to interpret matrix multiplication with a vector
 
@@ -26,8 +26,17 @@ topics:
     - The activations of neurons in a hidden layer can be seen as dot products between the weights (rows of the weight matrix) and the input data (the vector).
     - Each neuron focuses on specific aspects or features of the input data, and the dot products determine their importance.
     - The activation can be seen as the dot product or similarity between the weights and the input vector. The more similarity between the weights and the input vector greater the activation, the more orthogonality the lower the activation.
-    - 
+- - Projection: In some applications, matrix-vector multiplication can be used to project one vector onto another, especially when dealing with orthogonal matrices or orthogonal projections.
+    - Project the input data into a different space
+    - The choice of activation functions (e.g., ReLU, sigmoid) can influence the nature of this projection.
+- Eigenvalues
+    - Analyzing the eigenvalues and eigenvectors of weight matrices can provide insights into how information is transformed in hidden layers.
+    - Larger eigenvalues tell you which directions the matrix enhances or which direction contains most of the variance in the matrix.
+    - help understand which directions the matrix scales
 
+### Reading matrices
+- Weigth matrix
+    - Each neuron in a given layer is a column in the weight matrix (contains a weight for each of the previuos layers)
 # Comments and Links
 - 
 # Reference
