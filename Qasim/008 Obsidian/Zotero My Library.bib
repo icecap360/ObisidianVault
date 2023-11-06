@@ -1,3 +1,200 @@
+@misc{bealTransformerBasedObjectDetection2020,
+  title = {Toward {{Transformer-Based Object Detection}}},
+  author = {Beal, Josh and Kim, Eric and Tzeng, Eric and Park, Dong Huk and Zhai, Andrew and Kislyuk, Dmitry},
+  year = {2020},
+  month = dec,
+  number = {arXiv:2012.09958},
+  eprint = {2012.09958},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  urldate = {2023-11-02},
+  abstract = {Transformers have become the dominant model in natural language processing, owing to their ability to pretrain on massive amounts of data, then transfer to smaller, more specific tasks via fine-tuning. The Vision Transformer was the first major attempt to apply a pure transformer model directly to images as input, demonstrating that as compared to convolutional networks, transformer-based architectures can achieve competitive results on benchmark classification tasks. However, the computational complexity of the attention operator means that we are limited to low-resolution inputs. For more complex tasks such as detection or segmentation, maintaining a high input resolution is crucial to ensure that models can properly identify and reflect fine details in their output. This naturally raises the question of whether or not transformer-based architectures such as the Vision Transformer are capable of performing tasks other than classification. In this paper, we determine that Vision Transformers can be used as a backbone by a common detection task head to produce competitive COCO results. The model that we propose, ViT-FRCNN, demonstrates several known properties associated with transformers, including large pretraining capacity and fast fine-tuning performance. We also investigate improvements over a standard detection backbone, including superior performance on out-of-domain images, better performance on large objects, and a lessened reliance on non-maximum suppression. We view ViT-FRCNN as an important stepping stone toward a pure-transformer solution of complex vision tasks such as object detection.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning},
+  file = {C\:\\Users\\iceca\\Zotero\\storage\\7XYEYFAG\\Beal et al. - 2020 - Toward Transformer-Based Object Detection.pdf;C\:\\Users\\iceca\\Zotero\\storage\\9VLVMTBB\\2012.html}
+}
+
+@misc{beyerKnowledgeDistillationGood2022,
+  title = {Knowledge Distillation: {{A}} Good Teacher Is Patient and Consistent},
+  shorttitle = {Knowledge Distillation},
+  author = {Beyer, Lucas and Zhai, Xiaohua and Royer, Am{\'e}lie and Markeeva, Larisa and Anil, Rohan and Kolesnikov, Alexander},
+  year = {2022},
+  month = jun,
+  number = {arXiv:2106.05237},
+  eprint = {2106.05237},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2106.05237},
+  urldate = {2023-11-02},
+  abstract = {There is a growing discrepancy in computer vision between large-scale models that achieve state-of-the-art performance and models that are affordable in practical applications. In this paper we address this issue and significantly bridge the gap between these two types of models. Throughout our empirical investigation we do not aim to necessarily propose a new method, but strive to identify a robust and effective recipe for making state-of-the-art large scale models affordable in practice. We demonstrate that, when performed correctly, knowledge distillation can be a powerful tool for reducing the size of large models without compromising their performance. In particular, we uncover that there are certain implicit design choices, which may drastically affect the effectiveness of distillation. Our key contribution is the explicit identification of these design choices, which were not previously articulated in the literature. We back up our findings by a comprehensive empirical study, demonstrate compelling results on a wide range of vision datasets and, in particular, obtain a state-of-the-art ResNet-50 model for ImageNet, which achieves 82.8\% top-1 accuracy.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning},
+  note = {Comment: Lucas, Xiaohua, Am\textbackslash 'elie, Larisa, and Alex contributed equally; CVPR 2022},
+  file = {C\:\\Users\\iceca\\Zotero\\storage\\YYAZY3GJ\\Beyer et al. - 2022 - Knowledge distillation A good teacher is patient .pdf;C\:\\Users\\iceca\\Zotero\\storage\\U2KNEIWE\\2106.html}
+}
+
+@misc{caiCascadeRCNNHigh2019,
+  title = {Cascade {{R-CNN}}: {{High Quality Object Detection}} and {{Instance Segmentation}}},
+  shorttitle = {Cascade {{R-CNN}}},
+  author = {Cai, Zhaowei and Vasconcelos, Nuno},
+  year = {2019},
+  month = jun,
+  number = {arXiv:1906.09756},
+  eprint = {1906.09756},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.1906.09756},
+  urldate = {2023-11-02},
+  abstract = {In object detection, the intersection over union (IoU) threshold is frequently used to define positives/negatives. The threshold used to train a detector defines its \textbackslash textit\{quality\}. While the commonly used threshold of 0.5 leads to noisy (low-quality) detections, detection performance frequently degrades for larger thresholds. This paradox of high-quality detection has two causes: 1) overfitting, due to vanishing positive samples for large thresholds, and 2) inference-time quality mismatch between detector and test hypotheses. A multi-stage object detection architecture, the Cascade R-CNN, composed of a sequence of detectors trained with increasing IoU thresholds, is proposed to address these problems. The detectors are trained sequentially, using the output of a detector as training set for the next. This resampling progressively improves hypotheses quality, guaranteeing a positive training set of equivalent size for all detectors and minimizing overfitting. The same cascade is applied at inference, to eliminate quality mismatches between hypotheses and detectors. An implementation of the Cascade R-CNN without bells or whistles achieves state-of-the-art performance on the COCO dataset, and significantly improves high-quality detection on generic and specific object detection datasets, including VOC, KITTI, CityPerson, and WiderFace. Finally, the Cascade R-CNN is generalized to instance segmentation, with nontrivial improvements over the Mask R-CNN. To facilitate future research, two implementations are made available at \textbackslash url\{https://github.com/zhaoweicai/cascade-rcnn\} (Caffe) and \textbackslash url\{https://github.com/zhaoweicai/Detectron-Cascade-RCNN\} (Detectron).},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  note = {Comment: extension of arXiv:1712.00726 "Cascade R-CNN: Delving into High Quality Object Detection"},
+  file = {C\:\\Users\\iceca\\Zotero\\storage\\8PBZYL2D\\Cai and Vasconcelos - 2019 - Cascade R-CNN High Quality Object Detection and I.pdf;C\:\\Users\\iceca\\Zotero\\storage\\EXXUDJUB\\1906.html}
+}
+
+@misc{carionEndtoEndObjectDetection2020,
+  title = {End-to-{{End Object Detection}} with {{Transformers}}},
+  author = {Carion, Nicolas and Massa, Francisco and Synnaeve, Gabriel and Usunier, Nicolas and Kirillov, Alexander and Zagoruyko, Sergey},
+  year = {2020},
+  month = may,
+  number = {arXiv:2005.12872},
+  eprint = {2005.12872},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2005.12872},
+  urldate = {2023-11-02},
+  abstract = {We present a new method that views object detection as a direct set prediction problem. Our approach streamlines the detection pipeline, effectively removing the need for many hand-designed components like a non-maximum suppression procedure or anchor generation that explicitly encode our prior knowledge about the task. The main ingredients of the new framework, called DEtection TRansformer or DETR, are a set-based global loss that forces unique predictions via bipartite matching, and a transformer encoder-decoder architecture. Given a fixed small set of learned object queries, DETR reasons about the relations of the objects and the global image context to directly output the final set of predictions in parallel. The new model is conceptually simple and does not require a specialized library, unlike many other modern detectors. DETR demonstrates accuracy and run-time performance on par with the well-established and highly-optimized Faster RCNN baseline on the challenging COCO object detection dataset. Moreover, DETR can be easily generalized to produce panoptic segmentation in a unified manner. We show that it significantly outperforms competitive baselines. Training code and pretrained models are available at https://github.com/facebookresearch/detr.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  note = {query-based},
+  file = {C\:\\Users\\iceca\\Zotero\\storage\\3GLMSU2G\\Carion et al. - 2020 - End-to-End Object Detection with Transformers.pdf;C\:\\Users\\iceca\\Zotero\\storage\\LR5F223Q\\2005.html}
+}
+
+@misc{chenPaLIJointlyScaledMultilingual2023,
+  title = {{{PaLI}}: {{A Jointly-Scaled Multilingual Language-Image Model}}},
+  shorttitle = {{{PaLI}}},
+  author = {Chen, Xi and Wang, Xiao and Changpinyo, Soravit and Piergiovanni, A. J. and Padlewski, Piotr and Salz, Daniel and Goodman, Sebastian and Grycner, Adam and Mustafa, Basil and Beyer, Lucas and Kolesnikov, Alexander and Puigcerver, Joan and Ding, Nan and Rong, Keran and Akbari, Hassan and Mishra, Gaurav and Xue, Linting and Thapliyal, Ashish and Bradbury, James and Kuo, Weicheng and Seyedhosseini, Mojtaba and Jia, Chao and Ayan, Burcu Karagol and Riquelme, Carlos and Steiner, Andreas and Angelova, Anelia and Zhai, Xiaohua and Houlsby, Neil and Soricut, Radu},
+  year = {2023},
+  month = jun,
+  number = {arXiv:2209.06794},
+  eprint = {2209.06794},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2209.06794},
+  urldate = {2023-11-02},
+  abstract = {Effective scaling and a flexible task interface enable large language models to excel at many tasks. We present PaLI (Pathways Language and Image model), a model that extends this approach to the joint modeling of language and vision. PaLI generates text based on visual and textual inputs, and with this interface performs many vision, language, and multimodal tasks, in many languages. To train PaLI, we make use of large pre-trained encoder-decoder language models and Vision Transformers (ViTs). This allows us to capitalize on their existing capabilities and leverage the substantial cost of training them. We find that joint scaling of the vision and language components is important. Since existing Transformers for language are much larger than their vision counterparts, we train a large, 4-billion parameter ViT (ViT-e) to quantify the benefits from even larger-capacity vision models. To train PaLI, we create a large multilingual mix of pretraining tasks, based on a new image-text training set containing 10B images and texts in over 100 languages. PaLI achieves state-of-the-art in multiple vision and language tasks (such as captioning, visual question-answering, scene-text understanding), while retaining a simple, modular, and scalable design.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computation and Language,Computer Science - Computer Vision and Pattern Recognition},
+  note = {Comment: ICLR 2023 (Notable-top-5\%)},
+  file = {C\:\\Users\\iceca\\Zotero\\storage\\QAQ8F7GZ\\Chen et al. - 2023 - PaLI A Jointly-Scaled Multilingual Language-Image.pdf;C\:\\Users\\iceca\\Zotero\\storage\\WDZAHH7J\\2209.html}
+}
+
+@misc{chenPaLIJointlyScaledMultilingual2023a,
+  title = {{{PaLI}}: {{A Jointly-Scaled Multilingual Language-Image Model}}},
+  shorttitle = {{{PaLI}}},
+  author = {Chen, Xi and Wang, Xiao and Changpinyo, Soravit and Piergiovanni, A. J. and Padlewski, Piotr and Salz, Daniel and Goodman, Sebastian and Grycner, Adam and Mustafa, Basil and Beyer, Lucas and Kolesnikov, Alexander and Puigcerver, Joan and Ding, Nan and Rong, Keran and Akbari, Hassan and Mishra, Gaurav and Xue, Linting and Thapliyal, Ashish and Bradbury, James and Kuo, Weicheng and Seyedhosseini, Mojtaba and Jia, Chao and Ayan, Burcu Karagol and Riquelme, Carlos and Steiner, Andreas and Angelova, Anelia and Zhai, Xiaohua and Houlsby, Neil and Soricut, Radu},
+  year = {2023},
+  month = jun,
+  number = {arXiv:2209.06794},
+  eprint = {2209.06794},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2209.06794},
+  urldate = {2023-11-02},
+  abstract = {Effective scaling and a flexible task interface enable large language models to excel at many tasks. We present PaLI (Pathways Language and Image model), a model that extends this approach to the joint modeling of language and vision. PaLI generates text based on visual and textual inputs, and with this interface performs many vision, language, and multimodal tasks, in many languages. To train PaLI, we make use of large pre-trained encoder-decoder language models and Vision Transformers (ViTs). This allows us to capitalize on their existing capabilities and leverage the substantial cost of training them. We find that joint scaling of the vision and language components is important. Since existing Transformers for language are much larger than their vision counterparts, we train a large, 4-billion parameter ViT (ViT-e) to quantify the benefits from even larger-capacity vision models. To train PaLI, we create a large multilingual mix of pretraining tasks, based on a new image-text training set containing 10B images and texts in over 100 languages. PaLI achieves state-of-the-art in multiple vision and language tasks (such as captioning, visual question-answering, scene-text understanding), while retaining a simple, modular, and scalable design.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computation and Language,Computer Science - Computer Vision and Pattern Recognition},
+  note = {Comment: ICLR 2023 (Notable-top-5\%)},
+  file = {C\:\\Users\\iceca\\Zotero\\storage\\ESF8R8GZ\\Chen et al. - 2023 - PaLI A Jointly-Scaled Multilingual Language-Image.pdf;C\:\\Users\\iceca\\Zotero\\storage\\IGNH4EN9\\2209.html}
+}
+
+@misc{dehghaniScalingVisionTransformers2023,
+  title = {Scaling {{Vision Transformers}} to 22 {{Billion Parameters}}},
+  author = {Dehghani, Mostafa and Djolonga, Josip and Mustafa, Basil and Padlewski, Piotr and Heek, Jonathan and Gilmer, Justin and Steiner, Andreas and Caron, Mathilde and Geirhos, Robert and Alabdulmohsin, Ibrahim and Jenatton, Rodolphe and Beyer, Lucas and Tschannen, Michael and Arnab, Anurag and Wang, Xiao and Riquelme, Carlos and Minderer, Matthias and Puigcerver, Joan and Evci, Utku and Kumar, Manoj and {van Steenkiste}, Sjoerd and Elsayed, Gamaleldin F. and Mahendran, Aravindh and Yu, Fisher and Oliver, Avital and Huot, Fantine and Bastings, Jasmijn and Collier, Mark Patrick and Gritsenko, Alexey and Birodkar, Vighnesh and Vasconcelos, Cristina and Tay, Yi and Mensink, Thomas and Kolesnikov, Alexander and Paveti{\'c}, Filip and Tran, Dustin and Kipf, Thomas and Lu{\v c}i{\'c}, Mario and Zhai, Xiaohua and Keysers, Daniel and Harmsen, Jeremiah and Houlsby, Neil},
+  year = {2023},
+  month = feb,
+  number = {arXiv:2302.05442},
+  eprint = {2302.05442},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2302.05442},
+  urldate = {2023-11-02},
+  abstract = {The scaling of Transformers has driven breakthrough capabilities for language models. At present, the largest large language models (LLMs) contain upwards of 100B parameters. Vision Transformers (ViT) have introduced the same architecture to image and video modelling, but these have not yet been successfully scaled to nearly the same degree; the largest dense ViT contains 4B parameters (Chen et al., 2022). We present a recipe for highly efficient and stable training of a 22B-parameter ViT (ViT-22B) and perform a wide variety of experiments on the resulting model. When evaluated on downstream tasks (often with a lightweight linear model on frozen features), ViT-22B demonstrates increasing performance with scale. We further observe other interesting benefits of scale, including an improved tradeoff between fairness and performance, state-of-the-art alignment to human visual perception in terms of shape/texture bias, and improved robustness. ViT-22B demonstrates the potential for "LLM-like" scaling in vision, and provides key steps towards getting there.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning},
+  file = {C\:\\Users\\iceca\\Zotero\\storage\\BKHW3MM5\\Dehghani et al. - 2023 - Scaling Vision Transformers to 22 Billion Paramete.pdf;C\:\\Users\\iceca\\Zotero\\storage\\PBUZIMHM\\2302.html}
+}
+
+@misc{duanCenterNetKeypointTriplets2019,
+  title = {{{CenterNet}}: {{Keypoint Triplets}} for {{Object Detection}}},
+  shorttitle = {{{CenterNet}}},
+  author = {Duan, Kaiwen and Bai, Song and Xie, Lingxi and Qi, Honggang and Huang, Qingming and Tian, Qi},
+  year = {2019},
+  month = apr,
+  number = {arXiv:1904.08189},
+  eprint = {1904.08189},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.1904.08189},
+  urldate = {2023-11-02},
+  abstract = {In object detection, keypoint-based approaches often suffer a large number of incorrect object bounding boxes, arguably due to the lack of an additional look into the cropped regions. This paper presents an efficient solution which explores the visual patterns within each cropped region with minimal costs. We build our framework upon a representative one-stage keypoint-based detector named CornerNet. Our approach, named CenterNet, detects each object as a triplet, rather than a pair, of keypoints, which improves both precision and recall. Accordingly, we design two customized modules named cascade corner pooling and center pooling, which play the roles of enriching information collected by both top-left and bottom-right corners and providing more recognizable information at the central regions, respectively. On the MS-COCO dataset, CenterNet achieves an AP of 47.0\%, which outperforms all existing one-stage detectors by at least 4.9\%. Meanwhile, with a faster inference speed, CenterNet demonstrates quite comparable performance to the top-ranked two-stage detectors. Code is available at https://github.com/Duankaiwen/CenterNet.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  note = {anchor-free
+\par
+Comment: 10 pages (including 2 pages of References), 7 figures, 5 tables},
+  file = {C\:\\Users\\iceca\\Zotero\\storage\\IS3DS7LU\\Duan et al. - 2019 - CenterNet Keypoint Triplets for Object Detection.pdf;C\:\\Users\\iceca\\Zotero\\storage\\53IXLL9I\\1904.html}
+}
+
+@inproceedings{fangYouOnlyLook2021,
+  title = {You {{Only Look}} at {{One Sequence}}: {{Rethinking Transformer}} in {{Vision}} through {{Object Detection}}},
+  shorttitle = {You {{Only Look}} at {{One Sequence}}},
+  booktitle = {Advances in {{Neural Information Processing Systems}}},
+  author = {Fang, Yuxin and Liao, Bencheng and Wang, Xinggang and Fang, Jiemin and Qi, Jiyang and Wu, Rui and Niu, Jianwei and Liu, Wenyu},
+  year = {2021},
+  volume = {34},
+  pages = {26183--26197},
+  publisher = {{Curran Associates, Inc.}},
+  urldate = {2023-11-02},
+  file = {C:\Users\iceca\Zotero\storage\KUNBLWFX\Fang et al. - 2021 - You Only Look at One Sequence Rethinking Transfor.pdf}
+}
+
+@misc{fanMultiscaleVisionTransformers2021,
+  title = {Multiscale {{Vision Transformers}}},
+  author = {Fan, Haoqi and Xiong, Bo and Mangalam, Karttikeya and Li, Yanghao and Yan, Zhicheng and Malik, Jitendra and Feichtenhofer, Christoph},
+  year = {2021},
+  month = apr,
+  number = {arXiv:2104.11227},
+  eprint = {2104.11227},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2104.11227},
+  urldate = {2023-11-02},
+  abstract = {We present Multiscale Vision Transformers (MViT) for video and image recognition, by connecting the seminal idea of multiscale feature hierarchies with transformer models. Multiscale Transformers have several channel-resolution scale stages. Starting from the input resolution and a small channel dimension, the stages hierarchically expand the channel capacity while reducing the spatial resolution. This creates a multiscale pyramid of features with early layers operating at high spatial resolution to model simple low-level visual information, and deeper layers at spatially coarse, but complex, high-dimensional features. We evaluate this fundamental architectural prior for modeling the dense nature of visual signals for a variety of video recognition tasks where it outperforms concurrent vision transformers that rely on large scale external pre-training and are 5-10x more costly in computation and parameters. We further remove the temporal dimension and apply our model for image classification where it outperforms prior work on vision transformers. Code is available at: https://github.com/facebookresearch/SlowFast},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning},
+  note = {Comment: Technical report},
+  file = {C\:\\Users\\iceca\\Zotero\\storage\\KJM8UGLM\\Fan et al. - 2021 - Multiscale Vision Transformers.pdf;C\:\\Users\\iceca\\Zotero\\storage\\7UH88ZYS\\2104.html}
+}
+
+@misc{ghiasiSimpleCopyPasteStrong2021,
+  title = {Simple {{Copy-Paste}} Is a {{Strong Data Augmentation Method}} for {{Instance Segmentation}}},
+  author = {Ghiasi, Golnaz and Cui, Yin and Srinivas, Aravind and Qian, Rui and Lin, Tsung-Yi and Cubuk, Ekin D. and Le, Quoc V. and Zoph, Barret},
+  year = {2021},
+  month = jun,
+  number = {arXiv:2012.07177},
+  eprint = {2012.07177},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2012.07177},
+  urldate = {2023-11-06},
+  abstract = {Building instance segmentation models that are data-efficient and can handle rare object categories is an important challenge in computer vision. Leveraging data augmentations is a promising direction towards addressing this challenge. Here, we perform a systematic study of the Copy-Paste augmentation ([13, 12]) for instance segmentation where we randomly paste objects onto an image. Prior studies on Copy-Paste relied on modeling the surrounding visual context for pasting the objects. However, we find that the simple mechanism of pasting objects randomly is good enough and can provide solid gains on top of strong baselines. Furthermore, we show Copy-Paste is additive with semi-supervised methods that leverage extra data through pseudo labeling (e.g. self-training). On COCO instance segmentation, we achieve 49.1 mask AP and 57.3 box AP, an improvement of +0.6 mask AP and +1.5 box AP over the previous state-of-the-art. We further demonstrate that Copy-Paste can lead to significant improvements on the LVIS benchmark. Our baseline model outperforms the LVIS 2020 Challenge winning entry by +3.6 mask AP on rare categories.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  note = {Comment: Accepted at CVPR 2021 (Oral)},
+  file = {C\:\\Users\\iceca\\Zotero\\storage\\ZDV6YGX4\\Ghiasi et al_2021_Simple Copy-Paste is a Strong Data Augmentation Method for Instance Segmentation.pdf;C\:\\Users\\iceca\\Zotero\\storage\\4FEDX72K\\2012.html}
+}
+
 @misc{girshickFastRCNN2015,
   title = {Fast {{R-CNN}}},
   author = {Girshick, Ross},
@@ -12,13 +209,35 @@
   abstract = {This paper proposes a Fast Region-based Convolutional Network method (Fast R-CNN) for object detection. Fast R-CNN builds on previous work to efficiently classify object proposals using deep convolutional networks. Compared to previous work, Fast R-CNN employs several innovations to improve training and testing speed while also increasing detection accuracy. Fast R-CNN trains the very deep VGG16 network 9x faster than R-CNN, is 213x faster at test-time, and achieves a higher mAP on PASCAL VOC 2012. Compared to SPPnet, Fast R-CNN trains VGG16 3x faster, tests 10x faster, and is more accurate. Fast R-CNN is implemented in Python and C++ (using Caffe) and is available under the open-source MIT License at https://github.com/rbgirshick/fast-rcnn.},
   archiveprefix = {arxiv},
   keywords = {Computer Science - Computer Vision and Pattern Recognition},
-  note = {Comment: To appear in ICCV 2015},
+  note = {2 stage 
+\par
+also region based?
+\par
+Comment: To appear in ICCV 2015},
   file = {C\:\\Users\\iceca\\Zotero\\storage\\QEQIBVCQ\\Girshick_2015_Fast R-CNN.pdf;C\:\\Users\\iceca\\Zotero\\storage\\GXU7JB2Q\\1504.html}
 }
 
 @misc{Hello,
   title = {Hello},
   abstract = {this is cool}
+}
+
+@misc{heMomentumContrastUnsupervised2020,
+  title = {Momentum {{Contrast}} for {{Unsupervised Visual Representation Learning}}},
+  author = {He, Kaiming and Fan, Haoqi and Wu, Yuxin and Xie, Saining and Girshick, Ross},
+  year = {2020},
+  month = mar,
+  number = {arXiv:1911.05722},
+  eprint = {1911.05722},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.1911.05722},
+  urldate = {2023-11-02},
+  abstract = {We present Momentum Contrast (MoCo) for unsupervised visual representation learning. From a perspective on contrastive learning as dictionary look-up, we build a dynamic dictionary with a queue and a moving-averaged encoder. This enables building a large and consistent dictionary on-the-fly that facilitates contrastive unsupervised learning. MoCo provides competitive results under the common linear protocol on ImageNet classification. More importantly, the representations learned by MoCo transfer well to downstream tasks. MoCo can outperform its supervised pre-training counterpart in 7 detection/segmentation tasks on PASCAL VOC, COCO, and other datasets, sometimes surpassing it by large margins. This suggests that the gap between unsupervised and supervised representation learning has been largely closed in many vision tasks.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  note = {Comment: CVPR 2020 camera-ready. Code: https://github.com/facebookresearch/moco},
+  file = {C\:\\Users\\iceca\\Zotero\\storage\\2JAG9XM6\\He et al. - 2020 - Momentum Contrast for Unsupervised Visual Represen.pdf;C\:\\Users\\iceca\\Zotero\\storage\\IZH4IW6P\\1911.html}
 }
 
 @incollection{heSpatialPyramidPooling2014,
@@ -34,8 +253,98 @@
   abstract = {Existing deep convolutional neural networks (CNNs) require a fixed-size (e.g., 224x224) input image. This requirement is "artificial" and may reduce the recognition accuracy for the images or sub-images of an arbitrary size/scale. In this work, we equip the networks with another pooling strategy, "spatial pyramid pooling", to eliminate the above requirement. The new network structure, called SPP-net, can generate a fixed-length representation regardless of image size/scale. Pyramid pooling is also robust to object deformations. With these advantages, SPP-net should in general improve all CNN-based image classification methods. On the ImageNet 2012 dataset, we demonstrate that SPP-net boosts the accuracy of a variety of CNN architectures despite their different designs. On the Pascal VOC 2007 and Caltech101 datasets, SPP-net achieves state-of-the-art classification results using a single full-image representation and no fine-tuning. The power of SPP-net is also significant in object detection. Using SPP-net, we compute the feature maps from the entire image only once, and then pool features in arbitrary regions (sub-images) to generate fixed-length representations for training the detectors. This method avoids repeatedly computing the convolutional features. In processing test images, our method is 24-102x faster than the R-CNN method, while achieving better or comparable accuracy on Pascal VOC 2007. In ImageNet Large Scale Visual Recognition Challenge (ILSVRC) 2014, our methods rank \#2 in object detection and \#3 in image classification among all 38 teams. This manuscript also introduces the improvement made for this competition.},
   archiveprefix = {arxiv},
   keywords = {Computer Science - Computer Vision and Pattern Recognition},
-  note = {Comment: This manuscript is the accepted version for IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2015. See Changelog},
-  file = {C:\Users\iceca\Zotero\storage\8HYTAJI9\1406.html}
+  note = {2 stage
+\par
+also region based?
+\par
+Comment: This manuscript is the accepted version for IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2015. See Changelog},
+  file = {C\:\\Users\\iceca\\Zotero\\storage\\JLBL2I9S\\He et al_2014_Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition.pdf;C\:\\Users\\iceca\\Zotero\\storage\\8HYTAJI9\\1406.html}
+}
+
+@misc{lawCornerNetDetectingObjects2019,
+  title = {{{CornerNet}}: {{Detecting Objects}} as {{Paired Keypoints}}},
+  shorttitle = {{{CornerNet}}},
+  author = {Law, Hei and Deng, Jia},
+  year = {2019},
+  month = mar,
+  number = {arXiv:1808.01244},
+  eprint = {1808.01244},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.1808.01244},
+  urldate = {2023-11-02},
+  abstract = {We propose CornerNet, a new approach to object detection where we detect an object bounding box as a pair of keypoints, the top-left corner and the bottom-right corner, using a single convolution neural network. By detecting objects as paired keypoints, we eliminate the need for designing a set of anchor boxes commonly used in prior single-stage detectors. In addition to our novel formulation, we introduce corner pooling, a new type of pooling layer that helps the network better localize corners. Experiments show that CornerNet achieves a 42.2\% AP on MS COCO, outperforming all existing one-stage detectors.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  note = {anchor-free
+\par
+Comment: Extended version with additional results. Test AP on MS COOO improved from 42.1\% to 42.2\% after a bug fix},
+  file = {C\:\\Users\\iceca\\Zotero\\storage\\BUU5V2ZR\\Law and Deng - 2019 - CornerNet Detecting Objects as Paired Keypoints.pdf;C\:\\Users\\iceca\\Zotero\\storage\\8AA6W9MG\\1808.html}
+}
+
+@misc{linFocalLossDense2018,
+  title = {Focal {{Loss}} for {{Dense Object Detection}}},
+  author = {Lin, Tsung-Yi and Goyal, Priya and Girshick, Ross and He, Kaiming and Doll{\'a}r, Piotr},
+  year = {2018},
+  month = feb,
+  number = {arXiv:1708.02002},
+  eprint = {1708.02002},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.1708.02002},
+  urldate = {2023-11-02},
+  abstract = {The highest accuracy object detectors to date are based on a two-stage approach popularized by R-CNN, where a classifier is applied to a sparse set of candidate object locations. In contrast, one-stage detectors that are applied over a regular, dense sampling of possible object locations have the potential to be faster and simpler, but have trailed the accuracy of two-stage detectors thus far. In this paper, we investigate why this is the case. We discover that the extreme foreground-background class imbalance encountered during training of dense detectors is the central cause. We propose to address this class imbalance by reshaping the standard cross entropy loss such that it down-weights the loss assigned to well-classified examples. Our novel Focal Loss focuses training on a sparse set of hard examples and prevents the vast number of easy negatives from overwhelming the detector during training. To evaluate the effectiveness of our loss, we design and train a simple dense detector we call RetinaNet. Our results show that when trained with the focal loss, RetinaNet is able to match the speed of previous one-stage detectors while surpassing the accuracy of all existing state-of-the-art two-stage detectors. Code is at: https://github.com/facebookresearch/Detectron.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  note = {one stage},
+  file = {C\:\\Users\\iceca\\Zotero\\storage\\FUN4PH67\\Lin et al. - 2018 - Focal Loss for Dense Object Detection.pdf;C\:\\Users\\iceca\\Zotero\\storage\\BZK3LB4J\\1708.html}
+}
+
+@article{liuConvNet2020s,
+  title = {A {{ConvNet}} for the 2020s},
+  author = {Liu, Zhuang and Mao, Hanzi and Wu, Chao-Yuan and Feichtenhofer, Christoph and Darrell, Trevor and Xie, Saining},
+  abstract = {The ``Roaring 20s'' of visual recognition began with the introduction of Vision Transformers (ViTs), which quickly superseded ConvNets as the state-of-the-art image classification model. A vanilla ViT, on the other hand, faces difficulties when applied to general computer vision tasks such as object detection and semantic segmentation. It is the hierarchical Transformers (e.g., Swin Transformers) that reintroduced several ConvNet priors, making Transformers practically viable as a generic vision backbone and demonstrating remarkable performance on a wide variety of vision tasks. However, the effectiveness of such hybrid approaches is still largely credited to the intrinsic superiority of Transformers, rather than the inherent inductive biases of convolutions. In this work, we reexamine the design spaces and test the limits of what a pure ConvNet can achieve. We gradually ``modernize'' a standard ResNet toward the design of a vision Transformer, and discover several key components that contribute to the performance difference along the way. The outcome of this exploration is a family of pure ConvNet models dubbed ConvNeXt. Constructed entirely from standard ConvNet modules, ConvNeXts compete favorably with Transformers in terms of accuracy and scalability, achieving 87.8\% ImageNet top-1 accuracy and outperforming Swin Transformers on COCO detection and ADE20K segmentation, while maintaining the simplicity and efficiency of standard ConvNets.},
+  langid = {english},
+  file = {C:\Users\iceca\Zotero\storage\EKJZPWLA\Liu et al. - A ConvNet for the 2020s.pdf}
+}
+
+@incollection{liuSSDSingleShot2016,
+  title = {{{SSD}}: {{Single Shot MultiBox Detector}}},
+  shorttitle = {{{SSD}}},
+  author = {Liu, Wei and Anguelov, Dragomir and Erhan, Dumitru and Szegedy, Christian and Reed, Scott and Fu, Cheng-Yang and Berg, Alexander C.},
+  year = {2016},
+  volume = {9905},
+  eprint = {1512.02325},
+  primaryclass = {cs},
+  pages = {21--37},
+  doi = {10.1007/978-3-319-46448-0_2},
+  urldate = {2023-11-02},
+  abstract = {We present a method for detecting objects in images using a single deep neural network. Our approach, named SSD, discretizes the output space of bounding boxes into a set of default boxes over different aspect ratios and scales per feature map location. At prediction time, the network generates scores for the presence of each object category in each default box and produces adjustments to the box to better match the object shape. Additionally, the network combines predictions from multiple feature maps with different resolutions to naturally handle objects of various sizes. Our SSD model is simple relative to methods that require object proposals because it completely eliminates proposal generation and subsequent pixel or feature resampling stage and encapsulates all computation in a single network. This makes SSD easy to train and straightforward to integrate into systems that require a detection component. Experimental results on the PASCAL VOC, MS COCO, and ILSVRC datasets confirm that SSD has comparable accuracy to methods that utilize an additional object proposal step and is much faster, while providing a unified framework for both training and inference. Compared to other single stage methods, SSD has much better accuracy, even with a smaller input image size. For \$300\textbackslash times 300\$ input, SSD achieves 72.1\% mAP on VOC2007 test at 58 FPS on a Nvidia Titan X and for \$500\textbackslash times 500\$ input, SSD achieves 75.1\% mAP, outperforming a comparable state of the art Faster R-CNN model. Code is available at https://github.com/weiliu89/caffe/tree/ssd .},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  note = {Comment: ECCV 2016
+\par
+one stage},
+  file = {C\:\\Users\\iceca\\Zotero\\storage\\YPFZWQ3Q\\Liu et al. - 2016 - SSD Single Shot MultiBox Detector.pdf;C\:\\Users\\iceca\\Zotero\\storage\\NJE9ZP9U\\1512.html}
+}
+
+@misc{redmonYouOnlyLook2016,
+  title = {You {{Only Look Once}}: {{Unified}}, {{Real-Time Object Detection}}},
+  shorttitle = {You {{Only Look Once}}},
+  author = {Redmon, Joseph and Divvala, Santosh and Girshick, Ross and Farhadi, Ali},
+  year = {2016},
+  month = may,
+  number = {arXiv:1506.02640},
+  eprint = {1506.02640},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.1506.02640},
+  urldate = {2023-11-02},
+  abstract = {We present YOLO, a new approach to object detection. Prior work on object detection repurposes classifiers to perform detection. Instead, we frame object detection as a regression problem to spatially separated bounding boxes and associated class probabilities. A single neural network predicts bounding boxes and class probabilities directly from full images in one evaluation. Since the whole detection pipeline is a single network, it can be optimized end-to-end directly on detection performance. Our unified architecture is extremely fast. Our base YOLO model processes images in real-time at 45 frames per second. A smaller version of the network, Fast YOLO, processes an astounding 155 frames per second while still achieving double the mAP of other real-time detectors. Compared to state-of-the-art detection systems, YOLO makes more localization errors but is far less likely to predict false detections where nothing exists. Finally, YOLO learns very general representations of objects. It outperforms all other detection methods, including DPM and R-CNN, by a wide margin when generalizing from natural images to artwork on both the Picasso Dataset and the People-Art Dataset.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  note = {one stage},
+  file = {C\:\\Users\\iceca\\Zotero\\storage\\RCL6G8Q3\\Redmon et al. - 2016 - You Only Look Once Unified, Real-Time Object Dete.pdf;C\:\\Users\\iceca\\Zotero\\storage\\2QXUL7F8\\1506.html}
 }
 
 @misc{renFasterRCNNRealTime2016,
@@ -55,6 +364,29 @@
   keywords = {Computer Science - Computer Vision and Pattern Recognition},
   note = {Comment: Extended tech report},
   file = {C\:\\Users\\iceca\\Zotero\\storage\\9FM6Q5MW\\Ren et al_2016_Faster R-CNN.pdf;C\:\\Users\\iceca\\Zotero\\storage\\W4DR8IGY\\1506.html}
+}
+
+@misc{renFasterRCNNRealTime2016a,
+  title = {Faster {{R-CNN}}: {{Towards Real-Time Object Detection}} with {{Region Proposal Networks}}},
+  shorttitle = {Faster {{R-CNN}}},
+  author = {Ren, Shaoqing and He, Kaiming and Girshick, Ross and Sun, Jian},
+  year = {2016},
+  month = jan,
+  number = {arXiv:1506.01497},
+  eprint = {1506.01497},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.1506.01497},
+  urldate = {2023-11-02},
+  abstract = {State-of-the-art object detection networks depend on region proposal algorithms to hypothesize object locations. Advances like SPPnet and Fast R-CNN have reduced the running time of these detection networks, exposing region proposal computation as a bottleneck. In this work, we introduce a Region Proposal Network (RPN) that shares full-image convolutional features with the detection network, thus enabling nearly cost-free region proposals. An RPN is a fully convolutional network that simultaneously predicts object bounds and objectness scores at each position. The RPN is trained end-to-end to generate high-quality region proposals, which are used by Fast R-CNN for detection. We further merge RPN and Fast R-CNN into a single network by sharing their convolutional features---using the recently popular terminology of neural networks with 'attention' mechanisms, the RPN component tells the unified network where to look. For the very deep VGG-16 model, our detection system has a frame rate of 5fps (including all steps) on a GPU, while achieving state-of-the-art object detection accuracy on PASCAL VOC 2007, 2012, and MS COCO datasets with only 300 proposals per image. In ILSVRC and COCO 2015 competitions, Faster R-CNN and RPN are the foundations of the 1st-place winning entries in several tracks. Code has been made publicly available.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  note = {2 stage, anchor-based
+\par
+also region based?
+\par
+Comment: Extended tech report},
+  file = {C\:\\Users\\iceca\\Zotero\\storage\\NFN59X8I\\Ren et al. - 2016 - Faster R-CNN Towards Real-Time Object Detection w.pdf;C\:\\Users\\iceca\\Zotero\\storage\\94AV95NR\\1506.html}
 }
 
 @article{renFasterRCNNRealTime2017,
@@ -80,6 +412,39 @@
   file = {C:\Users\iceca\Zotero\storage\PC8Z9L3M\Ren et al. - 2017 - Faster R-CNN Towards Real-Time Object Detection w.pdf}
 }
 
+@misc{tianFCOSFullyConvolutional2019,
+  title = {{{FCOS}}: {{Fully Convolutional One-Stage Object Detection}}},
+  shorttitle = {{{FCOS}}},
+  author = {Tian, Zhi and Shen, Chunhua and Chen, Hao and He, Tong},
+  year = {2019},
+  month = aug,
+  number = {arXiv:1904.01355},
+  eprint = {1904.01355},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.1904.01355},
+  urldate = {2023-11-02},
+  abstract = {We propose a fully convolutional one-stage object detector (FCOS) to solve object detection in a per-pixel prediction fashion, analogue to semantic segmentation. Almost all state-of-the-art object detectors such as RetinaNet, SSD, YOLOv3, and Faster R-CNN rely on pre-defined anchor boxes. In contrast, our proposed detector FCOS is anchor box free, as well as proposal free. By eliminating the predefined set of anchor boxes, FCOS completely avoids the complicated computation related to anchor boxes such as calculating overlapping during training. More importantly, we also avoid all hyper-parameters related to anchor boxes, which are often very sensitive to the final detection performance. With the only post-processing non-maximum suppression (NMS), FCOS with ResNeXt-64x4d-101 achieves 44.7\% in AP with single-model and single-scale testing, surpassing previous one-stage detectors with the advantage of being much simpler. For the first time, we demonstrate a much simpler and flexible detection framework achieving improved detection accuracy. We hope that the proposed FCOS framework can serve as a simple and strong alternative for many other instance-level tasks. Code is available at:Code is available at: https://tinyurl.com/FCOSv1},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  note = {anchor-free
+\par
+Comment: Accepted to Proc. Int. Conf. Computer Vision 2019. 13 pages. Code is available at: https://github.com/tianzhi0549/FCOS/},
+  file = {C\:\\Users\\iceca\\Zotero\\storage\\4S7CGKDV\\Tian et al. - 2019 - FCOS Fully Convolutional One-Stage Object Detecti.pdf;C\:\\Users\\iceca\\Zotero\\storage\\D4JR6S3J\\1904.html}
+}
+
+@inproceedings{wangMDLNASJointMultiDomain2023,
+  title = {{{MDL-NAS}}: {{A Joint Multi-Domain Learning Framework}} for {{Vision Transformer}}},
+  shorttitle = {{{MDL-NAS}}},
+  booktitle = {Proceedings of the {{IEEE}}/{{CVF Conference}} on {{Computer Vision}} and {{Pattern Recognition}}},
+  author = {Wang, Shiguang and Xie, Tao and Cheng, Jian and Zhang, Xingcheng and Liu, Haijun},
+  year = {2023},
+  pages = {20094--20104},
+  urldate = {2023-11-02},
+  langid = {english},
+  file = {C:\Users\iceca\Zotero\storage\7L7W7KQ7\Wang et al. - 2023 - MDL-NAS A Joint Multi-Domain Learning Framework f.pdf}
+}
+
 @misc{xieSimMIMSimpleFramework2022,
   title = {{{SimMIM}}: {{A Simple Framework}} for {{Masked Image Modeling}}},
   shorttitle = {{{SimMIM}}},
@@ -96,4 +461,58 @@
   archiveprefix = {arxiv},
   keywords = {Computer Science - Computer Vision and Pattern Recognition},
   file = {C\:\\Users\\iceca\\Zotero\\storage\\G5CHPPIE\\Xie et al. - 2022 - SimMIM A Simple Framework for Masked Image Modeli.pdf;C\:\\Users\\iceca\\Zotero\\storage\\7R9B4D7S\\2111.html}
+}
+
+@misc{zhaiScalingVisionTransformers2022,
+  title = {Scaling {{Vision Transformers}}},
+  author = {Zhai, Xiaohua and Kolesnikov, Alexander and Houlsby, Neil and Beyer, Lucas},
+  year = {2022},
+  month = jun,
+  number = {arXiv:2106.04560},
+  eprint = {2106.04560},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2106.04560},
+  urldate = {2023-11-02},
+  abstract = {Attention-based neural networks such as the Vision Transformer (ViT) have recently attained state-of-the-art results on many computer vision benchmarks. Scale is a primary ingredient in attaining excellent results, therefore, understanding a model's scaling properties is a key to designing future generations effectively. While the laws for scaling Transformer language models have been studied, it is unknown how Vision Transformers scale. To address this, we scale ViT models and data, both up and down, and characterize the relationships between error rate, data, and compute. Along the way, we refine the architecture and training of ViT, reducing memory consumption and increasing accuracy of the resulting models. As a result, we successfully train a ViT model with two billion parameters, which attains a new state-of-the-art on ImageNet of 90.45\% top-1 accuracy. The model also performs well for few-shot transfer, for example, reaching 84.86\% top-1 accuracy on ImageNet with only 10 examples per class.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning},
+  note = {Comment: Xiaohua, Alex, and Lucas contributed equally; CVPR 2022},
+  file = {C\:\\Users\\iceca\\Zotero\\storage\\4MKFI7FW\\Zhai et al. - 2022 - Scaling Vision Transformers.pdf;C\:\\Users\\iceca\\Zotero\\storage\\KX5HUFNF\\2106.html}
+}
+
+@misc{zhaiScalingVisionTransformers2022a,
+  title = {Scaling {{Vision Transformers}}},
+  author = {Zhai, Xiaohua and Kolesnikov, Alexander and Houlsby, Neil and Beyer, Lucas},
+  year = {2022},
+  month = jun,
+  number = {arXiv:2106.04560},
+  eprint = {2106.04560},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2106.04560},
+  urldate = {2023-11-02},
+  abstract = {Attention-based neural networks such as the Vision Transformer (ViT) have recently attained state-of-the-art results on many computer vision benchmarks. Scale is a primary ingredient in attaining excellent results, therefore, understanding a model's scaling properties is a key to designing future generations effectively. While the laws for scaling Transformer language models have been studied, it is unknown how Vision Transformers scale. To address this, we scale ViT models and data, both up and down, and characterize the relationships between error rate, data, and compute. Along the way, we refine the architecture and training of ViT, reducing memory consumption and increasing accuracy of the resulting models. As a result, we successfully train a ViT model with two billion parameters, which attains a new state-of-the-art on ImageNet of 90.45\% top-1 accuracy. The model also performs well for few-shot transfer, for example, reaching 84.86\% top-1 accuracy on ImageNet with only 10 examples per class.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning},
+  note = {Comment: Xiaohua, Alex, and Lucas contributed equally; CVPR 2022},
+  file = {C\:\\Users\\iceca\\Zotero\\storage\\VY5R9XYP\\Zhai et al. - 2022 - Scaling Vision Transformers.pdf;C\:\\Users\\iceca\\Zotero\\storage\\8Y6YWJPV\\2106.html}
+}
+
+@misc{zhuDeformableDETRDeformable2021,
+  title = {Deformable {{DETR}}: {{Deformable Transformers}} for {{End-to-End Object Detection}}},
+  shorttitle = {Deformable {{DETR}}},
+  author = {Zhu, Xizhou and Su, Weijie and Lu, Lewei and Li, Bin and Wang, Xiaogang and Dai, Jifeng},
+  year = {2021},
+  month = mar,
+  number = {arXiv:2010.04159},
+  eprint = {2010.04159},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  urldate = {2023-11-02},
+  abstract = {DETR has been recently proposed to eliminate the need for many hand-designed components in object detection while demonstrating good performance. However, it suffers from slow convergence and limited feature spatial resolution, due to the limitation of Transformer attention modules in processing image feature maps. To mitigate these issues, we proposed Deformable DETR, whose attention modules only attend to a small set of key sampling points around a reference. Deformable DETR can achieve better performance than DETR (especially on small objects) with 10 times less training epochs. Extensive experiments on the COCO benchmark demonstrate the effectiveness of our approach. Code is released at https://github.com/fundamentalvision/Deformable-DETR.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  note = {Comment: ICLR 2021 Oral},
+  file = {C\:\\Users\\iceca\\Zotero\\storage\\AF8SZYYP\\Zhu et al. - 2021 - Deformable DETR Deformable Transformers for End-t.pdf;C\:\\Users\\iceca\\Zotero\\storage\\KJC572DJ\\2010.html}
 }
