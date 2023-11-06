@@ -177,6 +177,22 @@ Comment: 10 pages (including 2 pages of References), 7 figures, 5 tables},
   file = {C\:\\Users\\iceca\\Zotero\\storage\\KJM8UGLM\\Fan et al. - 2021 - Multiscale Vision Transformers.pdf;C\:\\Users\\iceca\\Zotero\\storage\\7UH88ZYS\\2104.html}
 }
 
+@misc{foretSharpnessAwareMinimizationEfficiently2021,
+  title = {Sharpness-{{Aware Minimization}} for {{Efficiently Improving Generalization}}},
+  author = {Foret, Pierre and Kleiner, Ariel and Mobahi, Hossein and Neyshabur, Behnam},
+  year = {2021},
+  month = apr,
+  number = {arXiv:2010.01412},
+  eprint = {2010.01412},
+  primaryclass = {cs, stat},
+  publisher = {{arXiv}},
+  urldate = {2023-11-06},
+  abstract = {In today's heavily overparameterized models, the value of the training loss provides few guarantees on model generalization ability. Indeed, optimizing only the training loss value, as is commonly done, can easily lead to suboptimal model quality. Motivated by prior work connecting the geometry of the loss landscape and generalization, we introduce a novel, effective procedure for instead simultaneously minimizing loss value and loss sharpness. In particular, our procedure, Sharpness-Aware Minimization (SAM), seeks parameters that lie in neighborhoods having uniformly low loss; this formulation results in a min-max optimization problem on which gradient descent can be performed efficiently. We present empirical results showing that SAM improves model generalization across a variety of benchmark datasets (e.g., CIFAR-10, CIFAR-100, ImageNet, finetuning tasks) and models, yielding novel state-of-the-art performance for several. Additionally, we find that SAM natively provides robustness to label noise on par with that provided by state-of-the-art procedures that specifically target learning with noisy labels. We open source our code at \textbackslash url\{https://github.com/google-research/sam\}.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
+  file = {C\:\\Users\\iceca\\Zotero\\storage\\MGMYIRME\\Foret et al_2021_Sharpness-Aware Minimization for Efficiently Improving Generalization.pdf;C\:\\Users\\iceca\\Zotero\\storage\\QRJ3UD9Z\\2010.html}
+}
+
 @misc{ghiasiSimpleCopyPasteStrong2021,
   title = {Simple {{Copy-Paste}} Is a {{Strong Data Augmentation Method}} for {{Instance Segmentation}}},
   author = {Ghiasi, Golnaz and Cui, Yin and Srinivas, Aravind and Qian, Rui and Lin, Tsung-Yi and Cubuk, Ekin D. and Le, Quoc V. and Zoph, Barret},
@@ -395,6 +411,42 @@ one stage},
   file = {C\:\\Users\\iceca\\Zotero\\storage\\YPFZWQ3Q\\Liu et al. - 2016 - SSD Single Shot MultiBox Detector.pdf;C\:\\Users\\iceca\\Zotero\\storage\\NJE9ZP9U\\1512.html}
 }
 
+@misc{liuVarianceAdaptiveLearning2021,
+  title = {On the {{Variance}} of the {{Adaptive Learning Rate}} and {{Beyond}}},
+  author = {Liu, Liyuan and Jiang, Haoming and He, Pengcheng and Chen, Weizhu and Liu, Xiaodong and Gao, Jianfeng and Han, Jiawei},
+  year = {2021},
+  month = oct,
+  number = {arXiv:1908.03265},
+  eprint = {1908.03265},
+  primaryclass = {cs, stat},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.1908.03265},
+  urldate = {2023-11-06},
+  abstract = {The learning rate warmup heuristic achieves remarkable success in stabilizing training, accelerating convergence and improving generalization for adaptive stochastic optimization algorithms like RMSprop and Adam. Here, we study its mechanism in details. Pursuing the theory behind warmup, we identify a problem of the adaptive learning rate (i.e., it has problematically large variance in the early stage), suggest warmup works as a variance reduction technique, and provide both empirical and theoretical evidence to verify our hypothesis. We further propose RAdam, a new variant of Adam, by introducing a term to rectify the variance of the adaptive learning rate. Extensive experimental results on image classification, language modeling, and neural machine translation verify our intuition and demonstrate the effectiveness and robustness of our proposed method. All implementations are available at: https://github.com/LiyuanLucasLiu/RAdam.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computation and Language,Computer Science - Machine Learning,Statistics - Machine Learning},
+  note = {Comment: ICLR 2020. Fix several typos in the previous version},
+  file = {C\:\\Users\\iceca\\Zotero\\storage\\5WEVKNZE\\Liu et al_2021_On the Variance of the Adaptive Learning Rate and Beyond.pdf;C\:\\Users\\iceca\\Zotero\\storage\\8UGRJBC5\\1908.html}
+}
+
+@misc{paassFoundationModelsNatural2023,
+  title = {Foundation {{Models}} for {{Natural Language Processing}} -- {{Pre-trained Language Models Integrating Media}}},
+  author = {Paa{\ss}, Gerhard and Giesselbach, Sven},
+  year = {2023},
+  month = feb,
+  number = {arXiv:2302.08575},
+  eprint = {2302.08575},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2302.08575},
+  urldate = {2023-11-06},
+  abstract = {This open access book provides a comprehensive overview of the state of the art in research and applications of Foundation Models and is intended for readers familiar with basic Natural Language Processing (NLP) concepts. Over the recent years, a revolutionary new paradigm has been developed for training models for NLP. These models are first pre-trained on large collections of text documents to acquire general syntactic knowledge and semantic information. Then, they are fine-tuned for specific tasks, which they can often solve with superhuman accuracy. When the models are large enough, they can be instructed by prompts to solve new tasks without any fine-tuning. Moreover, they can be applied to a wide range of different media and problem domains, ranging from image and video processing to robot control learning. Because they provide a blueprint for solving many tasks in artificial intelligence, they have been called Foundation Models. After a brief introduction to basic NLP models the main pre-trained language models BERT, GPT and sequence-to-sequence transformer are described, as well as the concepts of self-attention and context-sensitive embedding. Then, different approaches to improving these models are discussed, such as expanding the pre-training criteria, increasing the length of input texts, or including extra knowledge. An overview of the best-performing models for about twenty application areas is then presented, e.g., question answering, translation, story generation, dialog systems, generating images from text, etc. For each application area, the strengths and weaknesses of current models are discussed, and an outlook on further developments is given. In addition, links are provided to freely available program code. A concluding chapter summarizes the economic opportunities, mitigation of risks, and potential developments of AI.},
+  archiveprefix = {arxiv},
+  keywords = {{68W20, 68W25},Computer Science - Computation and Language,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,Computer Science - Multimedia,I.2.10,I.2.6,I.2.7,I.2.8,I.4.10,I.4.8,I.5.2,I.5.4,I.7.0,J.1,J.3,K.4.1,K.4.2,K.5.0},
+  note = {Comment: This book has been accepted by Springer Nature and will be published as an open access monograph. https://link.springer.com/book/9783031231896. It is licensed under the CC BY-NC-SA license (https://creativecommons.org/licenses/by-nc-sa/4.0/), except for the material included from other authors, which may have different licenses},
+  file = {C\:\\Users\\iceca\\Zotero\\storage\\RTVWMXU5\\Paaß_Giesselbach_2023_Foundation Models for Natural Language Processing -- Pre-trained Language.pdf;C\:\\Users\\iceca\\Zotero\\storage\\HZB3HE3B\\2302.html}
+}
+
 @misc{redmonYouOnlyLook2016,
   title = {You {{Only Look Once}}: {{Unified}}, {{Real-Time Object Detection}}},
   shorttitle = {You {{Only Look Once}}},
@@ -477,6 +529,22 @@ Comment: Extended tech report},
 \par
 ``l networks (RCNNs) [5]. Although region-based CNNs were computationally expensive as originally developed in [5], their cost has been drastically reduced thanks to sharing convolutions across proposals [1], [2]. The latest incarnation, Fast R-CNN [2], achieves near real-time rates using very deep networks [3], when igno'' (Ren et al., 2017, p. 1)},
   file = {C:\Users\iceca\Zotero\storage\PC8Z9L3M\Ren et al. - 2017 - Faster R-CNN Towards Real-Time Object Detection w.pdf}
+}
+
+@article{scholkopfCausalRepresentationLearning2021,
+  title = {Toward {{Causal Representation Learning}}},
+  author = {Sch{\"o}lkopf, Bernhard and Locatello, Francesco and Bauer, Stefan and Ke, Nan Rosemary and Kalchbrenner, Nal and Goyal, Anirudh and Bengio, Yoshua},
+  year = {2021},
+  month = may,
+  journal = {Proceedings of the IEEE},
+  volume = {109},
+  number = {5},
+  pages = {612--634},
+  issn = {1558-2256},
+  doi = {10.1109/JPROC.2021.3058954},
+  urldate = {2023-11-06},
+  abstract = {The two fields of machine learning and graphical causality arose and are developed separately. However, there is, now, cross-pollination and increasing interest in both fields to benefit from the advances of the other. In this article, we review fundamental concepts of causal inference and relate them to crucial open problems of machine learning, including transfer and generalization, thereby assaying how causality can contribute to modern machine learning research. This also applies in the opposite direction: we note that most work in causality starts from the premise that the causal variables are given. A central problem for AI and causality is, thus, causal representation learning, that is, the discovery of high-level causal variables from low-level observations. Finally, we delineate some implications of causality for machine learning and propose key research areas at the intersection of both communities.},
+  file = {C:\Users\iceca\Zotero\storage\W6CCCFIK\Schölkopf et al_2021_Toward Causal Representation Learning.pdf}
 }
 
 @misc{tianFCOSFullyConvolutional2019,

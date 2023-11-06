@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "003 Topics/Topics to Study - Deep Learning.md",
+                "file": "003 Learning Resources/Standford Courses.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "003 Topics/Topics to Study - Deep Learning.md",
+                "file": "001 Ideas/Regularization - Dropout.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "003 Topics/Topics to Study - Deep Learning.md",
+                "file": "001 Ideas/Regularization - Dropout.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "003 Topics/Topics to Study - Deep Learning.md"
+                "file": "001 Ideas/Regularization - Dropout.md"
               }
             }
           }
@@ -161,10 +160,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "42a66c13d33d724b",
+  "active": "cad7fb63ce8fa59b",
   "lastOpenFiles": [
+    "003 Learning Resources/Standford Courses.md",
+    "003 Learning Resources/Topics to Study Deep Learning.md",
     "001 Ideas/Deep Learning - Backpropagation.md",
-    "003 Topics/Topics to Study - Deep Learning.md",
     "008 Obsidian/Files/Pasted image 20231106155135.png",
     "008 Obsidian/Files/Pasted image 20231106154900.png",
     "008 Obsidian/Files/Pasted image 20231106154834.png",
@@ -198,7 +198,6 @@
     "000 Primary Text/Blog - Differential Programming.md",
     "000 Primary Text/Blog - Types, Functional Programming, and DL.md",
     "001 Ideas/NN Initialization - Xavier.md",
-    "001 Ideas/NN Initialization He.md",
     "001 Ideas/High-level and General AI",
     "006 Personal/002 Research Advice",
     "004 Software/Ideas",

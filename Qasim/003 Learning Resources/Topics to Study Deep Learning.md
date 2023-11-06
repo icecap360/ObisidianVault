@@ -8,4 +8,7 @@
 - Diffusion Networks
 - Sharpness-Aware Minimization for Efficiently Improving Generalization
 - Transfer Learning with Pretrained Models:
-- 
+- Interpretability and Explainability: feature visualization, saliency maps, or SHAP values.
+- the little book of deep learning
+- Computational Graphs
+- Stanford Courses
