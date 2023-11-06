@@ -66,17 +66,18 @@ Feature pyramids are a basic component in recognition systems for detecting obje
 - We note that the parameters of the heads are shared across all feature pyramid levels; 
 ## FPNs for RoI Pooling
 - RoI pooling is used to extract features
-- 
-
-## Results
-- We note that the parameters of the heads are shared across all feature pyramid levels; we have also evaluated the alternative without sharing parameters and observed similar accuracy.
 - we assign an RoI of width w and height h (on the input image to the network) to the level Pk of our feature pyramid by:
 ![[Pasted image 20231106173805.png]]
 	- Here 224 is the canonical ImageNet pre-training size, and $k_0$ is the target level on which an RoI with $w * h = 224^2$ should be mapped to.
+	- $k_0$ is set to 4, as ResNet has 4 stages
+	- means that if the RoI’s scale becomes smaller (say, 1/2 of 224), it should be mapped into a finer-resolution level (say, k = 3).
+- We attach predictor heads (in Fast R-CNN the heads are class-specific classifiers and bounding box regressors) to all RoIs of all levels. Again, the heads all share parameters, regardless of their levels.
+	- A ResNet’s conv5 layers (a 9-layer deep subnetwork) are adopted as the head on top of the conv4 features, but our method has already harnessed conv5 to construct the feature pyramid.
+	- So unlike Fast R-CNN, we simply adopt RoI pooling to extract 7×7 features, and attach two hidden 1,024-d fully-connected (fc) layers (each followed by ReLU) before the final classification and bounding box regression layers. T
 	- 
-- 
 
-
+## Results
+- - We note that the parameters of the heads are shared across all feature pyramid levels; we have also evaluated the alternative without sharing parameters and observed similar accuracy.
 
 # Comments and Implications
 
