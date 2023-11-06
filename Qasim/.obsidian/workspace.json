@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "004 Software/Ideas/PyTorch - Autograd.md",
+                "file": "004 Software/Ideas/Pytorch - Hooks.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "004 Software/Ideas/PyTorch - Autograd.md",
+                "file": "004 Software/Ideas/Pytorch - Hooks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "004 Software/Ideas/PyTorch - Autograd.md",
+                "file": "004 Software/Ideas/Pytorch - Hooks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "004 Software/Ideas/PyTorch - Autograd.md"
+                "file": "004 Software/Ideas/Pytorch - Hooks.md"
               }
             }
           }
@@ -150,8 +150,9 @@
   },
   "active": "b0f106a3b67c6c4c",
   "lastOpenFiles": [
-    "004 Software/Ideas/PyTorch - Tensors.md",
     "004 Software/Ideas/PyTorch - Autograd.md",
+    "004 Software/Ideas/Pytorch - Hooks.md",
+    "004 Software/Ideas/PyTorch - Tensors.md",
     "004 Software/Ideas/PyTorch - GPUs.md",
     "004 Software/PyTorch.md",
     "008 Obsidian/Files/Untitled.png",
