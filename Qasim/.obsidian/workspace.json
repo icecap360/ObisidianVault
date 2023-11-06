@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "001 Ideas/Training - Fine-Tuning.md",
+                "file": "001 Ideas/Regularization - Dropout.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "42a66c13d33d724b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "001 Ideas/Neural Network - Linear Algebra of Neuron Weights.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "001 Ideas/Training - Fine-Tuning.md",
+                "file": "001 Ideas/Neural Network - Linear Algebra of Neuron Weights.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "001 Ideas/Training - Fine-Tuning.md",
+                "file": "001 Ideas/Neural Network - Linear Algebra of Neuron Weights.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "001 Ideas/Training - Fine-Tuning.md"
+                "file": "001 Ideas/Neural Network - Linear Algebra of Neuron Weights.md"
               }
             }
           }
@@ -148,8 +161,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cad7fb63ce8fa59b",
+  "active": "42a66c13d33d724b",
   "lastOpenFiles": [
+    "008 Obsidian/Files/Pasted image 20231106154355.png",
+    "000 Primary Text/Paper - Improving neural networks by preventing co-adaptation of feature detectors.md",
+    "001 Ideas/Neural Network - Linear Algebra of Neuron Weights.md",
+    "001 Ideas/Regularization - Dropout.md",
+    "001 Ideas/Training - Weight Contraints vs Penalty.md",
+    "001 Ideas/Training - Fine-Tuning.md",
     "001 Ideas/RNNs - LSTM.md",
     "008 Obsidian/Files/Pasted image 20231106153231.png",
     "008 Obsidian/Files/Pasted image 20231106153215.png",
@@ -180,11 +199,6 @@
     "002 Relationships/Neural Network - Initialization.md",
     "001 Ideas/Training - Transformers.md",
     "008 Obsidian/Templates/Primary Text (Paper).md",
-    "001 Ideas/Neural Network - Keep variance of activations constant.md",
-    "001 Ideas/Data Augmentation - Crop.md",
-    "001 Ideas/Training - Fine-Tuning.md",
-    "001 Ideas/Neck - Last Feature Map.md",
-    "001 Ideas/GPUs - Multi-GPU training.md",
     "001 Ideas/High-level and General AI",
     "006 Personal/002 Research Advice",
     "004 Software/Ideas",
