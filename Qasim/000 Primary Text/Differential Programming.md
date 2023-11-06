@@ -22,12 +22,21 @@ year: "{{2022}}"
 	- Note that we cannot predict control parameters directly because we don't know a good loss function between estimated control parameters and the ground-truth best control parameters.
 	- Given  NN that approximates the mapping from control parameters to resulting distance, how are we to get suitable control parameters for a given target distance
 		- Once we have a loss surface which is a function of the control parameters and whose shape is parameterized by our target distance; we can simply use **gradient descent**. While we first used gradient descent in order to _learn_ an approximation of the control parameters to distances mapping, we are now using gradient descent to _minimize_ the corresponding loss surface of this mapping as parameterized by our input target distance.
-	- Using this Newtonian Approach, the error between model control parameter's  is technically unbounded. 
+	- Using this  pproach, the model's control parameters can be way off, (error is technically unbounded), this is because error between approximate and tru model is unbounded. 
+	- To bound the errors: In order to bound the error, we would need to input a target, use gradient descent (on the fixed neural model) to learn control parameters, use these control parameters to run experiments and collect the _true_ resulting distance, and then compare this distance to the input target distance, performing some statistical analysis over large amounts of data.
 ![[Pasted image 20231106123009.png]]
-- Newtonian Approach
-	- - A gif is shown showing the true shape of the loss function given velocity/angle parameters derived from physics equations
-	- True loss function has the same trend but is not identical to the loss function after part one of the neural network training (where we have trained a network to predict distance from velocity/angle).
+- Newtonian Approach - use physics
+	- Use the loss function created from physics equations, then use gradient descent to find the optimal control params
+	- - A gif is shown showing the true shape of the loss function given velocity/angle parameters derived from physics equations, overlayyed with our loss function from the previous approach
+	- You'll notice that, despite the fact that the surfaces trend the same way, the **parabola which defines the minimum curve in the real model** (blue) **is not identical to the minimum curve of the neural model** (green). That is, even if we properly minimize on the empirical loss surface, the resulting control parameters may not lie on the true solution curve.
+	- True loss function has the same trend but is not identical to the loss function of our previous approach after part one of the neural network training (where we have trained a network to predict distance from velocity/angle).
 	- The true loss function, based on physics, is smoother, has robust descent, and fewer GD iterations. No ill-conditioning,
+- Differentiable Programming Approach (Combine the approaches)
+    - Remember this whole issue started because we were unable to measure loss on the parameters alone
+![[Pasted image 20231106125359.png]]
+
+
+
 # 3-Sentence Summary
 
 
