@@ -72,6 +72,8 @@ Object detection performance, as measured on the canonical PASCAL VOC dataset, h
         - (full) ignores the region’s shape and computes CNN features directly on the warped window, exactly as we did for detection. However, these features ignore the non-rectangular shape of the region. Two regions might have very similar bounding boxes while having very little overlap.
         - the second strategy (fg) computes CNN features only on a region’s foreground mask. We replace the background with the mean input so that background regions are zero after mean subtraction.
         - The third strategy (full+fg) simply concatenates the full and fg features; our experiments validate their complementarity (PERFORMS BEST)
+![[Pasted image 20231106184516.png]]
+
 ## Results
 - We propose a simple (and complementary) non-parametric method that directly shows what the network learned
     - The idea is to single out a particular unit (feature) in the network and use it as if it were an object detector in its own right. That is, we compute the unit’s activations on a large set of held-out region proposals (about 10 million), sort the proposals from highest to lowest activation, perform nonmaximum suppression, and then display the top-scoring regions.
