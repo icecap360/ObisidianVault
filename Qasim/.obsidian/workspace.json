@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "001 Ideas/Differential Programming.md",
+                "file": "000 Primary Text/Differential Programming.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "001 Ideas/Differential Programming.md",
+                "file": "000 Primary Text/Differential Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "001 Ideas/Differential Programming.md",
+                "file": "000 Primary Text/Differential Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "001 Ideas/Differential Programming.md"
+                "file": "000 Primary Text/Differential Programming.md"
               }
             }
           }
@@ -150,8 +150,10 @@
   },
   "active": "3f00efd1152c2ae0",
   "lastOpenFiles": [
+    "008 Obsidian/Files/Pasted image 20231106123009.png",
+    "000 Primary Text/Blog - Types, Functional Programming, and DL.md",
+    "000 Primary Text/Differential Programming.md",
     "004 Software/Ideas/Broadcasting.md",
-    "001 Ideas/Differential Programming.md",
     "004 Software/Ideas/Collections - Chainmap.md",
     "004 Software/Ideas/Collections - Deque.md",
     "004 Software/Ideas/Collections - Ordered_Dict.md",
@@ -174,8 +176,6 @@
     "001 Ideas/Deep Learning as Functional Programming.md",
     "000 Primary Text/Paper test.md",
     "000 Primary Text/Fast R-CNN.md",
-    "000 Primary Text/Blog - Types, Functional Programming, and DL.md",
-    "002 Relationships/Deep Learning Perspectives.md",
     "008 Obsidian/Files/Pasted image 20231106121401.png",
     "008 Obsidian/Files/Pasted image 20231106121342.png",
     "008 Obsidian/Files/Pasted image 20231106121326.png",
