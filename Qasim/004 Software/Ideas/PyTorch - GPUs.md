@@ -9,14 +9,35 @@ topics:
 	- .cuda( n ) - `n` is the index of the GPU. If no parameter then the tensor is places on GPU 0. You can change the default `n` by calling 
 	  `torch.cuda.set_device(0) # or 1,2,3`
 	- .to(device)  - .to on a tensor returns another tensor, but .to on a model moves the model (returns None)
-- Memory Management
-	- Tensors may not be freed even once you are out of the trainiing loop, e.g.
-	`for x in range(10): i = x print(i)`
+## Memory Management
 
-	- Pytorch does have strong garbage collection
-	- python doesn’t enforce scoping rules, so a variable is freed when no pointers to it exist
-	- 
-- OOM Errors Library - GPUtil
+- Tensors may not be freed even once you are out of the trainiing loop, e.g.
+	```
+	for x in range(10): 
+		i = x 
+	print(i) # 9 is printed
+	```
+
+- Pytorch does have strong garbage collection
+- python doesn’t enforce scoping rules, so a variable is freed when no pointers to it exist
+- In fact, as a **general rule** of thumb, if you are done with a tensor, you should del as it won't be garbage collected unless there is no reference to it left.
+	- To free up space, use `del pred, loss`, after the training loop is complete 
+- **In the training loop, use python datatypes**, not tensors. Example shown below
+	- Why is `iter_loss` not freed in this example
+```
+total_loss = 0
+
+for x in range(10):
+  # assume loss is computed
+  iter_loss = torch.randn(3,4).mean()
+  iter_loss.requires_grad = True     # losses are supposed to differentiable
+  total_loss += iter_loss            # use total_loss += iter_loss.item) instead
+```
+Everytime you add iter_loss, a computation graph with addbackward function node is added. A computational node cannot be freed unless backward is called on it, but there is no scope calling backward
+Solution: We merely replace the line `total_loss += iter_loss` with `total_loss += iter_loss.item()`, as item() returns the python data type from a tensor containing single values.
+
+	
+### OOM Errors Library - GPUtil
 	- Use GPUtil library
 	- Place the `GPUtil.showUtilization()`  at different places in the code to figure out exactly what is causing the network to go OOM
 ## Multiple GPUs
