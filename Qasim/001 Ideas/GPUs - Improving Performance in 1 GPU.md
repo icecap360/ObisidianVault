@@ -1,3 +1,9 @@
+---
+tags:
+  - "#Ideas"
+topics: "[[GPUs]]"
+---
+
 
 - 2 aspects to consider
 	- Data throughput/training time:
@@ -29,6 +35,16 @@
 - - Automatic Mixed Precision Training
     - If our GPU supports mixed precision training, enabling it is often one of the main ways to boost computational efficiency.
     - In particular, we use automatic mixed precision training, which switches between 32-bit and 16-bit floating point representations during training without sacrificing accuracy.
-    - 
+- Static Graphs with Torch.Compile
+    - Under the hood, this is a 3-step process including graph acquisition, graph lowering, and graph compilation.
+    - The initial optimization compilation step takes a few minutes but eventually accelerates the model training. In this case, since we are only training the model for three epochs, the benefits of the compilation are not visible due to the extra overhead. However, if we were training the model for longer or training a larger model, the compilation would be worth it.
+- Gradient Accumulation
+    - Gradient accumulation is a way to virtually increase the batch size during training, which is very useful when the available GPU memory is insufficient to accommodate the desired batch size.
+    - gradients are computed for smaller batches and accumulated (usually summed or averaged) over multiple iterations instead of updating the model weights after every batch. Once the accumulated gradients reach the target “virtual” batch size, the model weights are updated with the accumulated gradients.
+    - While gradient accumulation can help us train models with larger batch sizes, it does not reduce the total computation required. In fact, it can sometimes lead to a slightly slower training process, as the weight updates are performed less frequently.
 # References
 [https://huggingface.co/docs/transformers/perf_train_gpu_one](https://huggingface.co/docs/transformers/perf_train_gpu_one)
+
+Details sections:
+* [https://lightning.ai/blog/gradient-accumulation/](https://lightning.ai/blog/gradient-accumulation/)
+* [https://sebastianraschka.com/blog/2023/pytorch-faster.html](https://sebastianraschka.com/blog/2023/pytorch-faster.html)

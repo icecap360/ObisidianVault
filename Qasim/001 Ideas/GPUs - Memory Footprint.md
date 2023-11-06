@@ -2,7 +2,7 @@
 tags:
   - "#Ideas"
   - "#Incomplete"
-topics: "[[GPUs - Model Memory Footprint]]"
+topics: "[[GPUs - Memory Footprint]]"
 ---
 * 3 main groups of operation in transformers, ranked by compute intensity
     - tensor contraction

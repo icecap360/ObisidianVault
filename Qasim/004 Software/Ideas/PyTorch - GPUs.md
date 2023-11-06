@@ -124,4 +124,4 @@ Notice in the forward function, we transfer the intermediate output from sub_
 - 
 # Reference
 
-[[GPUs - Model Memory Footprint]]
+[[GPUs - Memory Footprint]]

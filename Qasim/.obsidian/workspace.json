@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "001 Ideas/GPUs - Improving Performance in 1 GPU.md",
+                "file": "001 Ideas/Data Augmentation - Crop.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "001 Ideas/GPUs - Improving Performance in 1 GPU.md",
+                "file": "001 Ideas/Data Augmentation - Crop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "001 Ideas/GPUs - Improving Performance in 1 GPU.md",
+                "file": "001 Ideas/Data Augmentation - Crop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "001 Ideas/GPUs - Improving Performance in 1 GPU.md"
+                "file": "001 Ideas/Data Augmentation - Crop.md"
               }
             }
           }
@@ -150,8 +150,15 @@
   },
   "active": "3f00efd1152c2ae0",
   "lastOpenFiles": [
-    "001 Ideas/GPUs - Model Memory Footprint.md",
+    "001 Ideas/Training - Transformers.md",
+    "001 Ideas/Data Augmentation - Crop.md",
+    "001 Ideas/GPUs - Multi-GPU training.md",
+    "001 Ideas/Deep Learning as Functional Programming.md",
     "001 Ideas/GPUs - Improving Performance in 1 GPU.md",
+    "001 Ideas/High-level and General AI",
+    "001 Ideas/GPUs - Memory Footprint.md",
+    "008 Obsidian/Files/Pasted image 20231106133645.png",
+    "001 Ideas/Untitled.md",
     "004 Software/Ideas/PyTorch - GPUs.md",
     "006 Personal/001 Productivity/Drills better then Projects.md",
     "006 Personal/001 Productivity/How to read a programming book.md",
@@ -174,11 +181,6 @@
     "004 Software/Ideas/PyTorch - nn.Parameter.md",
     "004 Software/Ideas/PyTorch - Optimizer.md",
     "004 Software/Ideas/PyTorch - Save and Load Weights.md",
-    "004 Software/Ideas/PyTorch - Tensors.md",
-    "004 Software/Ideas/Collections - Named_Tuples.md",
-    "004 Software/Ideas/Collections - Counter.md",
-    "006 Personal/002 Research Advice/Read enough so you start to develop intuition - Hinton.md",
-    "006 Personal/002 Research Advice/Focus on how much, not what - Karpathy.md",
     "008 Obsidian/Files/Pasted image 20231106121401.png",
     "008 Obsidian/Files/Pasted image 20231106121342.png",
     "008 Obsidian/Files/Pasted image 20231106121326.png",
@@ -186,7 +188,6 @@
     "008 Obsidian/Files/Pasted image 20231106121051.png",
     "006 Personal/002 Research Advice",
     "008 Obsidian/Files/Untitled.png",
-    "008 Obsidian/Files/Pasted image 20231105203903.png",
     "004 Software/Ideas",
     "008 Obsidian/Zotero My Library.bib",
     "003 Topics",
@@ -196,7 +197,6 @@
     "006 Personal/001 Productivity",
     "008 Obsidian",
     "007 Random",
-    "006 Personal/000 Reflections",
     "Untitled 1.canvas",
     "Untitled 2.canvas"
   ]
