@@ -1,0 +1,1 @@
+- Hinton - For creative researchers read enough so you start developing intuitions.

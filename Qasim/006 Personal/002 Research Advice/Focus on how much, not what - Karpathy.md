@@ -1,0 +1,1 @@
+- Karpathy - focus not on what to do but how much to do. just get 10000 hours. it is a numbers game.
