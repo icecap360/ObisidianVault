@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "004 Software/Ideas/PyTorch - nn.Module.md",
+                "file": "004 Software/PyTorch.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "004 Software/Ideas/PyTorch - nn.Module.md",
+                "file": "004 Software/PyTorch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "004 Software/Ideas/PyTorch - nn.Module.md",
+                "file": "004 Software/PyTorch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "004 Software/Ideas/PyTorch - nn.Module.md"
+                "file": "004 Software/PyTorch.md"
               }
             }
           }
@@ -150,13 +150,14 @@
   },
   "active": "7aaca0309e5ed45c",
   "lastOpenFiles": [
+    "004 Software/Ideas/PyTorch - nn.Module.md",
+    "004 Software/PyTorch.md",
     "004 Software/Ideas/PyTorch - nn.ModuleList.md",
     "004 Software/Ideas/PyTorch - Weight Initialization.md",
     "004 Software/Ideas/PyTorch - nn.Parameter.md",
     "004 Software/Ideas/PyTorch - Tensors.md",
     "004 Software/Ideas/PyTorch - Save and Load Weights.md",
     "004 Software/Ideas/PyTorch - Optimizer.md",
-    "004 Software/Ideas/PyTorch - nn.Module.md",
     "004 Software/Ideas/PyTorch - Datasets and Dataloaders.md",
     "004 Software/Ideas/PyTorch - Autograd.md",
     "004 Software/Ideas/Python - Intra-Package Imports.md",
@@ -166,7 +167,6 @@
     "004 Software/Ideas/Collections - Deque.md",
     "004 Software/Ideas/Collections - Counter.md",
     "004 Software/Ideas/Collections - Chainmap.md",
-    "004 Software/PyTorch.md",
     "008 Obsidian/Files/Pasted image 20231105203903.png",
     "008 Obsidian/Files/Pasted image 20231031133319.png",
     "torch.zero_grad.md",
