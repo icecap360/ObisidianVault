@@ -31,6 +31,8 @@ Feature pyramids are a basic component in recognition systems for detecting obje
     - The principle advantage of featurizing each level of an image pyramid is that it produces a multi-scale feature representation in which all levels are semantically strong, including the high-resolution levels.
 - Running a CNN on each level of features is inefficient computationally, plus all four feature levels cannot be trained without OOM
 - So at the time of writing this paper, image pyramids were used mostly at test time only, which creates inconsistency between training and testing
+-
+## Solution
 - CNNs are also hierarchical
     - This in-network feature hierarchy produces feature maps of different spatial resolutions, but introduces large semantic gaps caused by different depths.
     - The high-resolution maps have low-level features that harm their representational capacity for object recognition.
@@ -38,8 +40,15 @@ Feature pyramids are a basic component in recognition systems for detecting obje
     - It misses the oppurtunity to reuse the feature maps, why?
     - to avoid using low-level features SSD , it builds the pyramid starting from high up in the network (e.g., conv4_3 of VGG nets \[36]) and then by adding several new layers.
 ![[Pasted image 20231106170250.png]]
-
+- Our model echoes a featurized image pyramid, which has not been explored in these works.
+![[Pasted image 20231106170509.png]]
+- The bottom-up pathway is the feedforward computation of the backbone ConvNet, which computes a feature hierarchy consisting of feature maps at several scales with a scaling step of 2.
+- Use Feature Maps from the last layer in a stage 
+	- If maps are same size, then the layers are in the same stage. We choose the output of the last layer of each stage as our reference set of feature maps, which we will enrich to create our pyramid. This choice is natural since the deepest layer of each stage should have the strongest features.
 - 
+## Results
+- The resulting Feature Pyramid Network is general purpose and in this paper we focus on sliding window proposers (Region Proposal Network, RPN for short) \[29] and region-based detectors (Fast R-CNN) \[11]. in this paper we present results using ResNets \[16].
+
 
 
 # Comments and Implications
