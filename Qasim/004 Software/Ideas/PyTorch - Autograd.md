@@ -25,7 +25,11 @@ topics:
 	- All mathematical functions in PyTorch are implemented by this class.
 	- forward() 
 	- backward(): e.g. lets say our tensor is d, d=f(w3b,w4c)
+		- Inputs: incoming gradients from the network in front. This gradient is also the gradient of L w.r.t to d and is stored in grad attribute of the d. It can be accessed by calling d.grad.
+		- d is our Tensor here. It's grad_fn is <ThAddBackward>. This is basically the addition operation since the function that creates d adds inputs.
 		- 
+			- It then computes the local gradients with respect to its inputs  $ \frac{\partial d}{w_3b}, \frac{\partial d}{w_4c} $, multiplies them with the incoming gradients, and shares them with the inputs
+			- Calling `backward()` on a vector valued function: You can onlu call backward() on scalar Tensors. One solution is to sum the vector before calling. Another solution is to pass `torch.ones` of size of shape of the tensor you are trying to call backward with. 
 	- Relationship to `grad_fn`: A function that we apply to tensors to construct computational graph is in fact an object of class [Function](https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function). This object must know how to compute the function in the forward direction, and also how to compute its derivative during the backward propagation step.
     - A reference to the backward propagation function is stored in `grad_fn` property of a tensor.
 - Conceptually, autograd keeps a **record of data** (tensors) and **all executed operations** (along with the resulting new **tensors**) in a DAG consisting of [Function](https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function) objects.
