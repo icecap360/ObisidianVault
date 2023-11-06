@@ -7,8 +7,14 @@ topics:
 ---
 - PyTorch has a built-in differentiation engine called torch.autograd. It supports automatic computation of gradient for any computational graph.
 - You can set the value of *requires_grad* when creating a tensor, or later by using *x.requires_grad_(True)* method.
-- A function that we apply to tensors to construct computational graph is in fact an object of class [Function](https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function). This object must know how to compute the function in the _forward_ direction, and also how to compute its derivative during the _backward propagation_ step.
-    - A reference to the backward propagation function is stored in *grad_fn* property of a tensor.
+- A function that we apply to tensors to construct computational graph is in fact an object of class [Function](https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function). This object must know how to compute the function in the forward direction, and also how to compute its derivative during the backward propagation step.
+    - A reference to the backward propagation function is stored in `grad_fn` property of a tensor.
+
+- **grad_fn** refers to the mathematical operator that created the variable. Every tensor has one.
+	- it is set during the forward pass but is used during the backward pass
+	- set only once when the tensor is created
+	- If `requires_grad` is set to False, `grad_fn` would be `None`
+	- If Tensor is a leaf node (i.e. `is_leaf` is set to True), then `grad_fn` is also None
 
 - We can only obtain the `grad` properties for the leaf nodes of the computational graph, which have `requires_grad` property set to `True`. For all other nodes in our graph, gradients will not be available.
     ![[Pasted image 20231031133319.png]]

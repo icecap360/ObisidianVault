@@ -18,6 +18,8 @@ topics: "[[PyTorch]]"
 - .shape, 
 - .dtype, 
 - .device
+- grad_fn() - has a reference to 
+- is_leaf() - returns whether or not tensor is a leaf 
 - .item()
     - converts tensor into numerical, only for tensors with 1 element
 - .to()
