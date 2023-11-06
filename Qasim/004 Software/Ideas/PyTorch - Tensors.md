@@ -5,7 +5,7 @@ tags:
   - "#Software"
 topics: "[[PyTorch]]"
 ---
-- Tensors are similar to [[numpy.Array]], except that tensors can run on GPUs or other hardware accelerators.
+- Tensors are similar to [[Numpy - Array]], except that tensors can run on GPUs or other hardware accelerators.
 - A change in the tensor reflects in the NumPy array ONLY if both are on the CPU
 - - **Don’t use inplace operations**
     - In-place operations save some memory, but can be problematic when computing derivatives because of an immediate loss of history. Hence, their use is discouraged.

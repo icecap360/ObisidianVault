@@ -1,3 +1,3 @@
 - *torch.nn* namespace provides all the building blocks you need to build your own neural network
-- Every module in PyTorch subclasses the [[torch.nn.Module]].
-- 
+- Every module in PyTorch subclasses the [[PyTorch - nn.Module]].
+- Series of 5 Paperspace blogs are excellent linked on one page [https://blog.paperspace.com/pytorch-101-understanding-graphs-and-automatic-differentiation/](https://blog.paperspace.com/pytorch-101-understanding-graphs-and-automatic-differentiation/)

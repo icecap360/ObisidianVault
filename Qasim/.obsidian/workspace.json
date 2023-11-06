@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "433d4144a1a2d026",
+        "id": "6aed110b7955fb65",
         "type": "tabs",
         "children": [
           {
-            "id": "0ca3776cbd4d67fe",
+            "id": "7aaca0309e5ed45c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "004 Software/Ideas/torch.Save and Load Weights.md",
+                "file": "004 Software/Ideas/PyTorch - nn.Parameter.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "004 Software/Ideas/torch.Save and Load Weights.md",
+                "file": "004 Software/Ideas/PyTorch - nn.Parameter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "004 Software/Ideas/torch.Save and Load Weights.md",
+                "file": "004 Software/Ideas/PyTorch - nn.Parameter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "004 Software/Ideas/torch.Save and Load Weights.md"
+                "file": "004 Software/Ideas/PyTorch - nn.Parameter.md"
               }
             }
           }
@@ -148,26 +148,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0ca3776cbd4d67fe",
+  "active": "7aaca0309e5ed45c",
   "lastOpenFiles": [
-    "004 Software/Ideas/torch.Optimizer.md",
-    "004 Software/Ideas/torch.Save and Load Weights.md",
-    "004 Software/Ideas/torch.Autograd.md",
-    "008 Obsidian/Files/Pasted image 20231031133319.png",
-    "004 Software/Ideas/torch.Tensors.md",
-    "torch.zero_grad.md",
-    "004 Software/Ideas/torch.Datasets and Dataloaders.md",
-    "004 Software/Ideas/numpy.Array.md",
+    "004 Software/Ideas/PyTorch - Tensors.md",
+    "004 Software/Ideas/PyTorch - nn.Parameter.md",
+    "004 Software/Ideas/PyTorch - Save and Load Weights.md",
+    "004 Software/Ideas/PyTorch - Optimizer.md",
+    "004 Software/Ideas/PyTorch - nn.Module.md",
+    "004 Software/Ideas/PyTorch - Datasets and Dataloaders.md",
+    "004 Software/Ideas/PyTorch - Autograd.md",
+    "004 Software/Ideas/Python - Intra-Package Imports.md",
+    "004 Software/Ideas/Numpy - Array.md",
+    "004 Software/Ideas/Collections - Ordered_Dict.md",
+    "004 Software/Ideas/Collections - Named_Tuples.md",
+    "004 Software/Ideas/Collections - Deque.md",
+    "004 Software/Ideas/Collections - Counter.md",
+    "004 Software/Ideas/Collections - Chainmap.md",
     "004 Software/PyTorch.md",
-    "004 Software/Ideas/torch.nn.Module.md",
-    "004 Software/Ideas/collections.Ordered_Dict.md",
-    "004 Software/Ideas/collections.Named_Tuples.md",
-    "004 Software/Ideas/collections.Deque.md",
-    "004 Software/Ideas/collections.Counter.md",
-    "004 Software/Ideas/collections.Chainmap.md",
+    "008 Obsidian/Files/Pasted image 20231105203903.png",
+    "008 Obsidian/Files/Pasted image 20231031133319.png",
+    "torch.zero_grad.md",
     "004 Software/Ideas/Broadcasting.md",
     "004 Software/Python Packages.md",
-    "004 Software/Ideas/Intra-Package Imports.md",
     "004 Software/Ideas",
     "004 Software/Datatypes.md",
     "008 Obsidian/Templates/Idea (Software).md",
@@ -178,7 +180,6 @@
     "008 Obsidian/Templates/Idea.md",
     "008 Obsidian/Templates/Ideas (Equation Aligned).md",
     "008 Obsidian/Templates/Idea (Definition).md",
-    "008 Obsidian/Templates/Idea (Component).md",
     "008 Obsidian/Files/Pasted image 20231030201149.png",
     "008 Obsidian/Files/Pasted image 20231030200916.png",
     "008 Obsidian/Files/Pasted image 20231030200658.png",

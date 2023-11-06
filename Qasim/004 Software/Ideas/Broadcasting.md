@@ -3,7 +3,7 @@ tags:
   - "#Ideas"
   - "#Incomplete"
   - "#Software"
-topics: "[[numpy.Array]]"
+topics: "[[Numpy - Array]]"
 ---
 The rules for broadcasting are:
 - Each tensor must have at least one dimension - no empty tensors.
