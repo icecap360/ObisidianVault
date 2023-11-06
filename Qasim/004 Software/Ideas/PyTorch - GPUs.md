@@ -10,7 +10,7 @@ topics:
 	  `torch.cuda.set_device(0) # or 1,2,3`
 	- .to(device)  - .to on a tensor returns another tensor, but .to on a model moves the model (returns None)
 ## Memory Management
-
+### Training Loop
 - Tensors may not be freed even once you are out of the trainiing loop, e.g.
 	```
 	for x in range(10): 
@@ -35,11 +35,45 @@ for x in range(10):
 ```
 Everytime you add iter_loss, a computation graph with addbackward function node is added. A computational node cannot be freed unless backward is called on it, but there is no scope calling backward
 Solution: We merely replace the line `total_loss += iter_loss` with `total_loss += iter_loss.item()`, as item() returns the python data type from a tensor containing single values.
-
-	
+### Emptying the cuda cache
+- `torch.cuda.empty_cache()`
+- Pytorch may not give memory back after using `del`
+	- memory can become cached so that PyTorch can allocate future tensors without requesting the OS
+	- this can be problematic if you are using more then 2 processes
 ### OOM Errors Library - GPUtil
-	- Use GPUtil library
-	- Place the `GPUtil.showUtilization()`  at different places in the code to figure out exactly what is causing the network to go OOM
+- Use GPUtil library
+- Place the `GPUtil.showUtilization()`  at different places in the code to figure out exactly what is causing the network to go OOM
+
+## Importance of torch.no_grad()
+- Computational graphs are created during the forward pass
+- As variables are allocated, buffers for their gradients and intermediate values are also allocated
+- These buffers are freed during backward pass, with the exception of those allocated for leaf variables
+- If backward pass does not happen, the buffers aren't freed leading to memory pile
+- Thus conduct inference with the torch.no_grad() context manager
+
+## Using `cudnn` backend for benchmarking
+- Provides optimisation especially when the input to your network is fixed size
+```
+torch.backends.cudnn.benchmark = True
+torch.backends.cudnn.enabled = True
+```
+
+## Using 16 bit Floats
+```
+model = model.half()     # convert a model to 16-bit
+input = input.half()     # convert a model to 16-bit
+```
+- Cuts GPU by almost half
+- Drawbacks:
+	- In PyTorch, batch-norm layers have convergence issues with half precision floats. If that's the case with you, make sure that batch norm layers are float32.
+```
+model.half()  # convert to half precision
+for layer in model.modules():
+  if isinstance(layer, nn.BatchNorm2d):
+    layer.float()
+```
+
+Also, you need to make sure when the output is passed through different layers in the forward function, the input to the batch norm layer is converted from float16 to float32 and then the output needs to be converted back to float16
 ## Multiple GPUs
 ### Data Parallelism
 - where we divide batches into smaller batches, and process these smaller batches in parallel on multiple GPU.
