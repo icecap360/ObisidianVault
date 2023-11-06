@@ -2,16 +2,14 @@
 tags:
   - "#RawInformation"
   - "#Paper"
-  - "#Unread"
-completed: false
-title: "Fast R-CNN"
-authors: "Ross Girshick"
-year: '2015/09'
-url: "http://arxiv.org/abs/1504.08083"
-citekey: "girshickFastRCNN2015"
+completed: true
+title: Fast R-CNN
+authors: Ross Girshick
+year: 2015/09
+url: http://arxiv.org/abs/1504.08083
+citekey: girshickFastRCNN2015
 aliases:
-  - ""
-  - "girshickFastRCNN2015"
+  - girshickFastRCNN2015
 ---
 
 # Short Summary

@@ -2,8 +2,7 @@
 tags:
   - "#RawInformation"
   - "#Paper"
-  - "#Unread"
-completed: false
+completed: true
 title: "Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification"
 authors: Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun
 year: 2015/02

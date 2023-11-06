@@ -2,16 +2,14 @@
 tags:
   - "#RawInformation"
   - "#Paper"
-  - "#Unread"
-completed: false
+completed: true
 title: Paper - Improving neural networks by preventing co-adaptation of feature detectors
-authors: "Geoffrey E. Hinton, Nitish Srivastava, Alex Krizhevsky, Ilya Sutskever, Ruslan R. Salakhutdinov"
-year: '2012/07'
-url: "http://arxiv.org/abs/1207.0580"
-citekey: "hintonImprovingNeuralNetworks2012"
+authors: Geoffrey E. Hinton, Nitish Srivastava, Alex Krizhevsky, Ilya Sutskever, Ruslan R. Salakhutdinov
+year: 2012/07
+url: http://arxiv.org/abs/1207.0580
+citekey: hintonImprovingNeuralNetworks2012
 aliases:
-  - ""
-  - "hintonImprovingNeuralNetworks2012"
+  - hintonImprovingNeuralNetworks2012
 ---
 
 # Short Summary

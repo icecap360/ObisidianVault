@@ -2,16 +2,14 @@
 tags:
   - "#RawInformation"
   - "#Paper"
-  - "#Unread"
-completed: false
+completed: true
 title: Paper - Feature Pyramid Networks for Object Detection
-authors: "Tsung-Yi Lin, Piotr Dollár, Ross Girshick, Kaiming He, Bharath Hariharan, Serge Belongie"
-year: '2017/04'
-url: "http://arxiv.org/abs/1612.03144"
-citekey: "linFeaturePyramidNetworks2017"
+authors: Tsung-Yi Lin, Piotr Dollár, Ross Girshick, Kaiming He, Bharath Hariharan, Serge Belongie
+year: 2017/04
+url: http://arxiv.org/abs/1612.03144
+citekey: linFeaturePyramidNetworks2017
 aliases:
-  - ""
-  - "linFeaturePyramidNetworks2017"
+  - linFeaturePyramidNetworks2017
 ---
 
 # Short Summary
