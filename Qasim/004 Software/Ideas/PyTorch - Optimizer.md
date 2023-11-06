@@ -1,9 +1,8 @@
 ---
 tags:
   - "#Ideas"
-  - "#Incomplete"
   - "#Software"
-topics:
+topics: "[[PyTorch]]"
 ---
 - All optimization logic is encapsulated in the optimizer.
     - requires registering the model parameters and learning rate

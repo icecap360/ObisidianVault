@@ -1,9 +1,8 @@
 ---
 tags:
   - "#Ideas"
-  - "#Incomplete"
   - "#Software"
-topics:
+topics: "[[PyTorch]]"
 ---
 - PyTorch has a built-in differentiation engine called torch.autograd. It supports automatic computation of gradient for any computational graph.
 ### Requires_Grad

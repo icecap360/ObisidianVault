@@ -1,9 +1,8 @@
 ---
 tags:
   - "#Ideas"
-  - "#Incomplete"
   - "#Software"
-topics:
+topics: "[[PyTorch]]"
 ---
 - pyTorch models store the learned parameters in an internal state dictionary, called state_dict
 - be sure to call model.eval() method before inferencing to set the dropout and batch normalization  layers to evaluation mode. Failing to do this will yield inconsistent inference results.

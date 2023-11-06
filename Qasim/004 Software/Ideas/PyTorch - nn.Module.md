@@ -1,9 +1,8 @@
 ---
 tags:
   - "#Ideas"
-  - "#Incomplete"
   - "#Software"
-topics:
+topics: "[[PyTorch]]"
 ---
 - Every module in PyTorch subclasses the torch.nn.Module.
 - By subclassing nn.module, all parameters will be tracked

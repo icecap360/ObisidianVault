@@ -1,3 +1,9 @@
+---
+tags:
+  - "#Ideas"
+  - "#Software"
+topics: "[[PyTorch]]"
+---
 - Allow you to do things during backpropagation
 - register a hook on a Tensor or nn.Module. A hook is basically a function that is executed when the either `forward` or `backward` is called.
 	- When I say forward, I don't mean the forward of a nn.Module . forward function here means the forward  function of the torch.Autograd.Function object that is the grad_fn of a Tensor. For example, if a tensor is created by tens = tens1 + tens2, it's grad_fn is AddBackward. Still doesn't make sense? You should definitely go back and read this article.

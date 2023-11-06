@@ -1,9 +1,8 @@
 ---
 tags:
   - "#Ideas"
-  - "#Incomplete"
   - "#Software"
-topics:
+topics: "[[PyTorch]]"
 ---
 -  Moving objects and tensors to Cuda devices
 	- .cuda( n ) - `n` is the index of the GPU. If no parameter then the tensor is places on GPU 0. You can change the default `n` by calling 

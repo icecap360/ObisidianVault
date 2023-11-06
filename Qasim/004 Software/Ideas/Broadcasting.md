@@ -1,7 +1,6 @@
 ---
 tags:
   - "#Ideas"
-  - "#Incomplete"
   - "#Software"
 topics: "[[Numpy - Array]]"
 ---

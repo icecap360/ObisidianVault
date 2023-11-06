@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "017f675d5cf8de8c",
+        "id": "08dc3d6b75cf94b1",
         "type": "tabs",
         "children": [
           {
-            "id": "5874577ff38d5bc9",
+            "id": "3f00efd1152c2ae0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 Primary Text/Blog - Types, Functional Programming, and DL.md",
+                "file": "001 Ideas/Differential Programming.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "torch.zero_grad",
+                "query": "tag:Incomplete",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 Primary Text/Blog - Types, Functional Programming, and DL.md",
+                "file": "001 Ideas/Differential Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 Primary Text/Blog - Types, Functional Programming, and DL.md",
+                "file": "001 Ideas/Differential Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 Primary Text/Blog - Types, Functional Programming, and DL.md"
+                "file": "001 Ideas/Differential Programming.md"
               }
             }
           }
@@ -148,46 +148,46 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5874577ff38d5bc9",
+  "active": "3f00efd1152c2ae0",
   "lastOpenFiles": [
+    "004 Software/Ideas/Broadcasting.md",
+    "001 Ideas/Differential Programming.md",
+    "004 Software/Ideas/Collections - Chainmap.md",
+    "004 Software/Ideas/Collections - Deque.md",
+    "004 Software/Ideas/Collections - Ordered_Dict.md",
+    "004 Software/Ideas/PyTorch - Datasets and Dataloaders.md",
+    "004 Software/Ideas/PyTorch - Autograd, nn.AutoGrad.Function.md",
+    "004 Software/Ideas/Python - Intra-Package Imports.md",
+    "004 Software/Ideas/Numpy - Array.md",
+    "004 Software/Ideas/PyTorch - GPUs.md",
+    "004 Software/Ideas/Pytorch - Hooks.md",
+    "004 Software/Ideas/PyTorch - nn.Module.md",
+    "004 Software/Ideas/PyTorch - nn.ModuleList.md",
+    "004 Software/Ideas/PyTorch - nn.Parameter.md",
+    "004 Software/Ideas/PyTorch - Optimizer.md",
+    "004 Software/Ideas/PyTorch - Save and Load Weights.md",
+    "004 Software/Ideas/PyTorch - Tensors.md",
+    "004 Software/Ideas/Collections - Named_Tuples.md",
+    "004 Software/Ideas/Collections - Counter.md",
+    "006 Personal/002 Research Advice/Read enough so you start to develop intuition - Hinton.md",
+    "006 Personal/002 Research Advice/Focus on how much, not what - Karpathy.md",
+    "001 Ideas/Deep Learning as Functional Programming.md",
+    "000 Primary Text/Paper test.md",
+    "000 Primary Text/Fast R-CNN.md",
+    "000 Primary Text/Blog - Types, Functional Programming, and DL.md",
+    "002 Relationships/Deep Learning Perspectives.md",
     "008 Obsidian/Files/Pasted image 20231106121401.png",
     "008 Obsidian/Files/Pasted image 20231106121342.png",
     "008 Obsidian/Files/Pasted image 20231106121326.png",
     "008 Obsidian/Files/Pasted image 20231106121313.png",
     "008 Obsidian/Files/Pasted image 20231106121051.png",
-    "006 Personal/002 Research Advice/Focus on how much, not what - Karpathy.md",
-    "000 Primary Text/Blog - Types, Functional Programming, and DL.md",
-    "006 Personal/002 Research Advice/Read enough so you start to develop intuition - Hinton.md",
-    "001 Ideas/Supervised Learning is AI - Ilya.md",
     "006 Personal/002 Research Advice",
-    "001 Ideas/Thoughts are not words - Hinton.md",
-    "004 Software/Ideas/Pytorch - Hooks.md",
-    "004 Software/Ideas/PyTorch - Autograd, nn.AutoGrad.Function.md",
-    "004 Software/Ideas/PyTorch - Datasets and Dataloaders.md",
-    "004 Software/Ideas/PyTorch - Tensors.md",
-    "004 Software/Ideas/PyTorch - GPUs.md",
-    "004 Software/PyTorch.md",
     "008 Obsidian/Files/Untitled.png",
-    "004 Software/Ideas/PyTorch - nn.Module.md",
-    "004 Software/Ideas/PyTorch - nn.Parameter.md",
-    "004 Software/Ideas/PyTorch - Optimizer.md",
-    "004 Software/Ideas/Untitled.md",
-    "004 Software/Ideas/PyTorch - nn.ModuleList.md",
-    "004 Software/Ideas/PyTorch - Weight Initialization.md",
-    "004 Software/Ideas/PyTorch - Save and Load Weights.md",
-    "004 Software/Ideas/Python - Intra-Package Imports.md",
-    "004 Software/Ideas/Numpy - Array.md",
-    "004 Software/Ideas/Collections - Ordered_Dict.md",
-    "004 Software/Ideas/Collections - Named_Tuples.md",
-    "004 Software/Ideas/Collections - Deque.md",
-    "004 Software/Ideas/Collections - Counter.md",
-    "004 Software/Ideas/Collections - Chainmap.md",
     "008 Obsidian/Files/Pasted image 20231105203903.png",
     "008 Obsidian/Files/Pasted image 20231031133319.png",
     "004 Software/Ideas",
     "008 Obsidian/Files/Pasted image 20231031103358.png",
     "008 Obsidian/Files/Pasted image 20231030201149.png",
-    "008 Obsidian/Files/Pasted image 20231030200916.png",
     "008 Obsidian/Zotero My Library.bib",
     "003 Topics",
     "Untitled.canvas",

@@ -2,7 +2,6 @@
 tags:
   - "#RawInformation"
   - Article
-  - "#Unread"
 completed: false
 url: https://colah.github.io/posts/2015-09-NN-Types-FP/
 year: "2015"
@@ -11,6 +10,7 @@ authors: Christopher Olah
 
 # 3-Sentence Summary
 Deep learning studies a connection between optimization and functional programming.
+- Long form: It feels like a new kind of programming altogether, a kind of differentiable functional programming. One writes a very rough functional program, with these flexible, learnable pieces, and defines the correct behavior of the program with lots of data. Then you apply gradient descent, or some other optimization algorithm. The result is a program capable of doing remarkable things that we have no idea how to create directly, like generating captions describing images.
 
 
 # Details
