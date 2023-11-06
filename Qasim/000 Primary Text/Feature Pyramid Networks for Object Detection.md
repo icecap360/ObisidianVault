@@ -50,7 +50,19 @@ Feature pyramids are a basic component in recognition systems for detecting obje
 	- **Top-down pathway**:
 	  The topdown pathway hallucinates higher resolution features by upsampling spatially coarser, but semantically stronger, feature maps from higher pyramid levels. 
 	- **Lateral connection**: Lateral connections are then used to enhance features from the bottom-up pathway. Each lateral connection merges feature maps of the same spatial size from the bottom-up pathway and the top-down pathway. The bottom-up feature map is of lower-level semantics, but its activations are more accurately localized as it was subsampled fewer times
-		- They choose to upsample by nearest neightbour, and merge with bottom-up map by element-wise additions.
+		- They choose to upsample higher-level feature map by nearest neightbour, use 1x1 conv, and then merge with bottom-up map by element-wise additions.
+- Note that all feature maps have the same number of channels, as they want simplicity in this paper
+
+### FPNs with RPNs
+- What is RPN?
+	- a small subnetwork is evaluated on dense 3×3 sliding windows,  performing object/nonobject binary classification and bounding box regression. 
+	- i.e.  3×3 convolutional layer followed by two sibling 1×1 convolutions for classification and regression, which we refer to as a network head
+	- Anchors are used as a set of reference boxes
+	- Anchors are of multiple pre-defined scales and aspect ratios 
+- We attach a head of the same design (3×3 conv and two sibling 1×1 convs) to each level on our feature pyramid
+- We assign anchors of a single scale to each level. Formally, we define the anchors to have areas of {322 , 642 , 1282 , 2562 , 5122} pixels
+	- we also use anchors of multiple aspect ratios {1:2, 1:1, 2:1} at each level. 
+	- So in total there are 15 anchors over the pyramid
 
 ## Results
 - The resulting Feature Pyramid Network is general purpose and in this paper we focus on sliding window proposers (Region Proposal Network, RPN for short) \[29] and region-based detectors (Fast R-CNN) \[11]. in this paper we present results using ResNets \[16].
