@@ -63,9 +63,18 @@ Feature pyramids are a basic component in recognition systems for detecting obje
 - We assign anchors of a single scale to each level. Formally, we define the anchors to have areas of {322 , 642 , 1282 , 2562 , 5122} pixels
 	- we also use anchors of multiple aspect ratios {1:2, 1:1, 2:1} at each level. 
 	- So in total there are 15 anchors over the pyramid
+- We note that the parameters of the heads are shared across all feature pyramid levels; 
+## FPNs for RoI Pooling
+- RoI pooling is used to extract features
+- 
 
 ## Results
-- The resulting Feature Pyramid Network is general purpose and in this paper we focus on sliding window proposers (Region Proposal Network, RPN for short) \[29] and region-based detectors (Fast R-CNN) \[11]. in this paper we present results using ResNets \[16].
+- We note that the parameters of the heads are shared across all feature pyramid levels; we have also evaluated the alternative without sharing parameters and observed similar accuracy.
+- we assign an RoI of width w and height h (on the input image to the network) to the level Pk of our feature pyramid by:
+![[Pasted image 20231106173805.png]]
+	- Here 224 is the canonical ImageNet pre-training size, and $k_0$ is the target level on which an RoI with $w * h = 224^2$ should be mapped to.
+	- 
+- 
 
 
 
