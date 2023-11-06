@@ -11,8 +11,6 @@ url: https://proceedings.mlr.press/v9/glorot10a.html
 citekey: glorotUnderstandingDifficultyTraining2010
 aliases:
   - glorotUnderstandingDifficultyTraining2010
-  - Xavier
-  - Glorot
 ---
 
 # Short Summary
