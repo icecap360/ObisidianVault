@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "08dc3d6b75cf94b1",
+        "id": "d32a778731743488",
         "type": "tabs",
         "children": [
           {
-            "id": "3f00efd1152c2ae0",
+            "id": "62b0cbe95b7e657d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "001 Ideas/Untitled.md",
+                "file": "000 Primary Text/Understanding the difficulty of training deep feedforward neural networks.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "001 Ideas/Untitled.md",
+                "file": "000 Primary Text/Understanding the difficulty of training deep feedforward neural networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "001 Ideas/Untitled.md",
+                "file": "000 Primary Text/Understanding the difficulty of training deep feedforward neural networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "001 Ideas/Untitled.md"
+                "file": "000 Primary Text/Understanding the difficulty of training deep feedforward neural networks.md"
               }
             }
           }
@@ -148,10 +148,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3f00efd1152c2ae0",
+  "active": "62b0cbe95b7e657d",
   "lastOpenFiles": [
+    "008 Obsidian/Files/Pasted image 20231106141756.png",
+    "000 Primary Text/Untitled 1.md",
+    "000 Primary Text/Understanding the difficulty of training deep feedforward neural networks.md",
+    "000 Primary Text/Untitled.md",
     "001 Ideas/Neural Network - Initialization.md",
-    "001 Ideas/Untitled.md",
+    "001 Ideas/Neural Network - Keep variance of activations constant.md",
     "001 Ideas/Data Augmentation - Crop.md",
     "001 Ideas/Fine-Tuning - Use a higher Resolution.md",
     "001 Ideas/Neck - Last Feature Map.md",
@@ -177,10 +181,6 @@
     "004 Software/Ideas/PyTorch - Datasets and Dataloaders.md",
     "004 Software/Ideas/PyTorch - Autograd, nn.AutoGrad.Function.md",
     "004 Software/Ideas/Python - Intra-Package Imports.md",
-    "004 Software/Ideas/Numpy - Array.md",
-    "004 Software/Ideas/Pytorch - Hooks.md",
-    "004 Software/Ideas/PyTorch - nn.Module.md",
-    "004 Software/Ideas/PyTorch - nn.ModuleList.md",
     "008 Obsidian/Files/Pasted image 20231106121401.png",
     "008 Obsidian/Files/Pasted image 20231106121342.png",
     "008 Obsidian/Files/Pasted image 20231106121326.png",
