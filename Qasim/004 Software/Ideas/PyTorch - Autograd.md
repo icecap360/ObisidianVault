@@ -23,14 +23,29 @@ topics:
     
 - Torch.nn.Auto_Grad.Function:
 	- All mathematical functions in PyTorch are implemented by this class.
-	- forward() 
-	- backward(): e.g. lets say our tensor is d, d=f(w3b,w4c)
-		- Inputs: incoming gradients from the network in front. This gradient is also the gradient of L w.r.t to d and is stored in grad attribute of the d. It can be accessed by calling d.grad.
-		- d is our Tensor here. It's grad_fn is <ThAddBackward>. This is basically the addition operation since the function that creates d adds inputs.
-		- 
-			- It then computes the local gradients with respect to its inputs  $ \frac{\partial d}{w_3b}, \frac{\partial d}{w_4c} $, multiplies them with the incoming gradients, and shares them with the inputs
-			- Calling `backward()` on a vector valued function: You can onlu call backward() on scalar Tensors. One solution is to sum the vector before calling. Another solution is to pass `torch.ones` of size of shape of the tensor you are trying to call backward with. 
-	- Relationship to `grad_fn`: A function that we apply to tensors to construct computational graph is in fact an object of class [Function](https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function). This object must know how to compute the function in the forward direction, and also how to compute its derivative during the backward propagation step.
+	- `forward`() 
+	- `backward`(): e.g. lets say our tensor is d, d=f(w3b,w4c)
+		- Inputs: incoming gradients from the network in front. This gradient is also the gradient of L w.r.t to d and is stored in grad attribute of the d. It can be accessed by calling `d.grad`.
+		- d is our Tensor here. It's `grad_fn` is `<ThAddBackward>`. This is basically the addition operation since the function that creates d adds inputs.
+		- It then computes the local gradients with respect to its inputs  $\frac{\partial d}{w_3b}, \frac{\partial d}{w_4c}$, multiplies them with the incoming gradients, and shares them with the inputs
+		- Calling `backward()` on a vector valued function: You can onlu call backward() on scalar Tensors. 
+			- One solution is to sum the vector before calling. 
+			- Another solution is to pass `torch.ones` of size of shape of the tensor you are trying to call backward with. (i.e. `# Replace L.backward() with L.backward(torch.ones(L.shape))`)
+```python
+def backward (incoming_gradients):
+	self.Tensor.grad = incoming_gradients
+
+	for inp in self.inputs:
+		if inp.grad_fn is not None:
+			new_incoming_gradients = //
+			  incoming_gradient * local_grad(self.Tensor, inp)
+
+			inp.grad_fn.backward(new_incoming_gradients)
+		else:
+			pass
+```
+
+ - Relationship of torch.nn. to `grad_fn`: A function that we apply to tensors to construct computational graph is in fact an object of class [Function](https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function). This object must know how to compute the function in the forward direction, and also how to compute its derivative during the backward propagation step.
     - A reference to the backward propagation function is stored in `grad_fn` property of a tensor.
 - Conceptually, autograd keeps a **record of data** (tensors) and **all executed operations** (along with the resulting new **tensors**) in a DAG consisting of [Function](https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function) objects.
     - In this DAG, leaves are the input tensors, roots are the output tensors.
@@ -39,8 +54,10 @@ topics:
     - computes the gradients from each `.grad_fn`,
     - accumulates them in the respective tensor’s `.grad` attribute
     - using the chain rule, propagates all the way to the leaf tensors
-- How torch allows you to change shape size and operations at each iteration
+- **DAGs are dynamic in PyTorch**: How torch allows you to change shape size and operations at each iteration
     - **DAGs are dynamic in PyTorch** An important thing to note is that the graph is recreated from scratch; after each `.backward()` call, autograd starts populating a new graph. This is exactly what allows you to use control flow statements in your model; you can change the shape, size and operations at every iteration if needed.
+    - A graph is created as a result of forward function of many Tensors being invoked. Only then, the buffers for the non-leaf nodes allocated for the graph and intermediate values. Before forward() the tensor is just a leaf node.
+i.e. `forward` 
 
 - Jacobian products
     - let the loss function be a scalar
