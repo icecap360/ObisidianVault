@@ -9,9 +9,11 @@ topics:
     - requires registering the model parameters and learning rate
     - `optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate)`
     - Inside the training loop, optimization happens in three steps:
+	- Make sure you call `scheduler.step` at start of the epoch loop so your learning rate is updated. Be careful not to write it in the batch loop, otherwise your learning rate may be updated at the 10th batch rather than 10th epoch.
         - Call `optimizer.zero_grad()` to reset the gradients of model parameters. Gradients by default add up; to prevent double-counting, we explicitly zero them at each iteration.
         - Backpropagate the prediction loss with a call to `loss.backward()`. PyTorch deposits the gradients of the loss w.r.t. each parameter.
         - Once we have our gradients, we call `optimizer.step()` to adjust the parameters by the gradients collected in the backward pass
+    - 
 
 # Syntax
 ```
@@ -56,6 +58,10 @@ def test_loop(dataloader, model,loss_fn):
 ```
 
 # Examples
+- Different learning rates for different layers
+```
+optimiser = torch.optim.SGD([{"params": Net.fc1.parameters(), 'lr' : 0.001, "momentum" : 0.99}, {"params": Net.fc2.parameters()}], lr = 0.01, momentum = 0.9)
+```
 
 # Comments and Links
 - 

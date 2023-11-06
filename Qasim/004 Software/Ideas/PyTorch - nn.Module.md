@@ -14,7 +14,7 @@ topics:
 - **apply**(fn) - applies fn recursively to every submodule
 - compile() - computes the forward
 - .cpu()
-- .cuda()
+- .cuda( n ) - `n` is the index of the GPU. If no parameter then the tensor is places on GPU 0.
 - double()
 - .eval() - sets thte module in evaluation mode
 	- This is equivalent with self.train(False).
@@ -42,8 +42,8 @@ topics:
 	- register_forward_pre_hook()
 	- register_full_backward_pre_hook()
 		- Modifying inputs inplace is not allowed when using backward hooks and will raise an error.
-- state_dict
-	- state_dict() - gets state dict
+- state_dict: Maps nn.Parameter objects to values
+	- state_dict() - gets state dict. 
 	- load_state_dict(state_dict, strict=True, assign=False) - If strict is True, then the keys of state_dict must exactly match the keys returned by this module’s state_dict() function
 		- assign (bool, optional) – whether to assign items in the state dictionary to their corresponding keys in the module instead of copying them inplace into the module’s current parameters and buffers. When False, the properties of the tensors in the current module are preserved while when True, the properties of the Tensors in the state dict are preserved. Default: False
 		- If assign is True the optimizer must be created after the call to load_state_dict.

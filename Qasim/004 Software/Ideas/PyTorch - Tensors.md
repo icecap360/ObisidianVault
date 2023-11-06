@@ -13,6 +13,7 @@ topics: "[[PyTorch]]"
     - Use .to() to move to a different device
 
 # Syntax
+- .cuda( n ) - `n` is the index of the GPU. If no parameter then the tensor is places on GPU 0.
 - .numpy()
 - .shape, 
 - .dtype, 
