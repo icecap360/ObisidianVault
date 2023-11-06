@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "006 Personal/001 Productivity/Drills better then Projects.md",
+                "file": "001 Ideas/GPUs.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "006 Personal/001 Productivity/Drills better then Projects.md",
+                "file": "001 Ideas/GPUs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "006 Personal/001 Productivity/Drills better then Projects.md",
+                "file": "001 Ideas/GPUs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "006 Personal/001 Productivity/Drills better then Projects.md"
+                "file": "001 Ideas/GPUs.md"
               }
             }
           }
@@ -150,8 +150,11 @@
   },
   "active": "3f00efd1152c2ae0",
   "lastOpenFiles": [
-    "006 Personal/001 Productivity/How to read a programming book.md",
+    "001 Ideas/GPUs - Model Memory Footprint.md",
+    "001 Ideas/GPUs.md",
+    "004 Software/Ideas/PyTorch - GPUs.md",
     "006 Personal/001 Productivity/Drills better then Projects.md",
+    "006 Personal/001 Productivity/How to read a programming book.md",
     "000 Primary Text/Differential Programming.md",
     "008 Obsidian/Files/Pasted image 20231106125509.png",
     "008 Obsidian/Files/Pasted image 20231106125359.png",
@@ -165,7 +168,6 @@
     "004 Software/Ideas/PyTorch - Autograd, nn.AutoGrad.Function.md",
     "004 Software/Ideas/Python - Intra-Package Imports.md",
     "004 Software/Ideas/Numpy - Array.md",
-    "004 Software/Ideas/PyTorch - GPUs.md",
     "004 Software/Ideas/Pytorch - Hooks.md",
     "004 Software/Ideas/PyTorch - nn.Module.md",
     "004 Software/Ideas/PyTorch - nn.ModuleList.md",
@@ -177,8 +179,6 @@
     "004 Software/Ideas/Collections - Counter.md",
     "006 Personal/002 Research Advice/Read enough so you start to develop intuition - Hinton.md",
     "006 Personal/002 Research Advice/Focus on how much, not what - Karpathy.md",
-    "001 Ideas/Deep Learning as Functional Programming.md",
-    "000 Primary Text/Paper test.md",
     "008 Obsidian/Files/Pasted image 20231106121401.png",
     "008 Obsidian/Files/Pasted image 20231106121342.png",
     "008 Obsidian/Files/Pasted image 20231106121326.png",

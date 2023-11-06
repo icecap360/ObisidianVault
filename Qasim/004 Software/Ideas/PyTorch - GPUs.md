@@ -123,3 +123,5 @@ Notice in the forward function, we transfer the intermediate output from sub_
 # Comments and Links
 - 
 # Reference
+
+[[GPUs - Model Memory Footprint]]
