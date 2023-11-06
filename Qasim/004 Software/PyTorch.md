@@ -7,8 +7,10 @@
 	- `named_buffers` Return buffer tensors such as running mean average of a Batch Norm layer.
 - GPUs
 	- Moving objects and tensors to Cuda devices
-	- .cuda( n ) - `n` is the index of the GPU. If no parameter then the tensor is places on GPU 0.
-	- .to(device)  - .to on a tensor returns another tensor, but .to on a model moves the model (returns None)
+	- .cuda( n ) - `n` is the index of the GPU. If no parameter then the tensor is places on GPU 0. You can change the default `n` by calling 
+	  `torch.cuda.set_device(0) # or 1,2,3`
+	  
+ 	- .to(device)  - .to on a tensor returns another tensor, but .to on a model moves the model (returns None)
 	- 
 
 # References
