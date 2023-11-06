@@ -34,12 +34,17 @@ Object detection performance, as measured on the canonical PASCAL VOC dataset, h
 ## Solution
 - At test time, our method generates around 2000 category-independent region proposals for the input image, extracts a fixed-length feature vector from each proposal using a CNN, and then classifies each region with category-specific linear SVMs. We use a simple technique (affine image warping) to compute a fixed-size CNN input from each region proposal, regardless of the region’s shape
 	- Our system is also quite efficient. The only class-specific computations are a reasonably small matrix-vector product and greedy non-maximum suppression.
-	- Region proposal: we use selective search to enable a controlled comparison with prior detection work
+- Region proposal:
+	- We use selective search to enable a controlled comparison with prior detection work
 - CNN backbone:
     - Features are computed by forward propagating a mean-subtracted 227 × 227 RGB image through five convolutional layers and two fully connected layers.
 - Regardless of the size or aspect ratio of the candidate region, we warp all pixels in a tight bounding box around it to the required size.
-- Prior to warping, we dilate the tight bounding box so that at the warped size there are exactly p pixels of warped image context around the original box (we use p = 16).
-	- 
+	- Prior to warping, we **dilate** the tight bounding box so that at the warped size there are exactly p pixels of warped image **context** around the original box (we use p = 16).
+![[Pasted image 20231106183102.png]]
+- SVM: Then, for each class, we score each extracted feature vector using the SVM trained for that class.
+- Given all scored regions in an image, we apply a greedy non-maximum suppression (for each class independently) that rejects a region if it has an intersection-overunion (IoU) overlap with a higher scoring selected region larger than a learned threshold.
+- Domain-specific fine-tuning of the Imagenet pretrained CNN: 
+	- To adapt our CNN to the new task (detection) and the new domain (warped proposal windows), we continue stochastic gradient descent (SGD) training of the CNN parameters using only warped region proposals. We treat all region proposals with ≥ 0.5 IoU overlap with a ground-truth box as positives for that box’s class and the rest as negatives.
 
 
 # Comments and Implications
