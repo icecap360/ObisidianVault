@@ -43,9 +43,15 @@ Feature pyramids are a basic component in recognition systems for detecting obje
 - Our model echoes a featurized image pyramid, which has not been explored in these works.
 ![[Pasted image 20231106170509.png]]
 - The bottom-up pathway is the feedforward computation of the backbone ConvNet, which computes a feature hierarchy consisting of feature maps at several scales with a scaling step of 2.
-- Use Feature Maps from the last layer in a stage 
-	- If maps are same size, then the layers are in the same stage. We choose the output of the last layer of each stage as our reference set of feature maps, which we will enrich to create our pyramid. This choice is natural since the deepest layer of each stage should have the strongest features.
 - 
+-The construction of our pyramid involves a bottom-up pathway, a top-down pathway, and lateral connections, as introduced in the following.
+	- **Bottom-up pathway**: The bottom-up pathway is the feedforward computation of the backbone ConvNet, which computes a feature hierarchy consisting of feature maps at several scales with a scaling step of 2.
+	  Use Feature Maps from the last layer in each stage. This choice is natural since the deepest layer of each stage should have the strongest features.
+	- **Top-down pathway**:
+	  The topdown pathway hallucinates higher resolution features by upsampling spatially coarser, but semantically stronger, feature maps from higher pyramid levels. 
+	- **Lateral connection**: Lateral connections are then used to enhance features from the bottom-up pathway. Each lateral connection merges feature maps of the same spatial size from the bottom-up pathway and the top-down pathway. The bottom-up feature map is of lower-level semantics, but its activations are more accurately localized as it was subsampled fewer times
+		- They choose to upsample by nearest neightbour, and merge with bottom-up map by element-wise additions.
+
 ## Results
 - The resulting Feature Pyramid Network is general purpose and in this paper we focus on sliding window proposers (Region Proposal Network, RPN for short) \[29] and region-based detectors (Fast R-CNN) \[11]. in this paper we present results using ResNets \[16].
 
