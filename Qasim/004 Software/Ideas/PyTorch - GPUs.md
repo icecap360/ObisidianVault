@@ -65,6 +65,9 @@ input = input.half()     # convert a model to 16-bit
 ```
 - Cuts GPU by almost half
 - Drawbacks:
+	- You can have overflow issues with 16-bit float. e.g. overflow while trying to store the Union area of two bounding boxes (for computation of IoUs)  in a float16.  So make sure you have a realistic bound on the value you are trying to save in a float16. 
+	  
+	  Nvidia has recently released a PyTorch extension called Apex, that facilitates numerically safe mixed precision training in PyTorch.
 	- In PyTorch, batch-norm layers have convergence issues with half precision floats. If that's the case with you, make sure that batch norm layers are float32.
 ```
 model.half()  # convert to half precision
@@ -74,6 +77,9 @@ for layer in model.modules():
 ```
 
 Also, you need to make sure when the output is passed through different layers in the forward function, the input to the batch norm layer is converted from float16 to float32 and then the output needs to be converted back to float16
+
+
+	- 
 ## Multiple GPUs
 ### Data Parallelism
 - where we divide batches into smaller batches, and process these smaller batches in parallel on multiple GPU.
