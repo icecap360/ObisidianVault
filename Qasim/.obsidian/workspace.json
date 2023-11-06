@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "001 Ideas/Data Augmentation - Crop.md",
+                "file": "001 Ideas/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "001 Ideas/Data Augmentation - Crop.md",
+                "file": "001 Ideas/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "001 Ideas/Data Augmentation - Crop.md",
+                "file": "001 Ideas/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "001 Ideas/Data Augmentation - Crop.md"
+                "file": "001 Ideas/Untitled.md"
               }
             }
           }
@@ -150,15 +150,17 @@
   },
   "active": "3f00efd1152c2ae0",
   "lastOpenFiles": [
-    "001 Ideas/Training - Transformers.md",
+    "001 Ideas/Fine-Tuning - Use a higher Resolution.md",
+    "001 Ideas/Untitled.md",
+    "001 Ideas/Neck - Last Feature Map.md",
     "001 Ideas/Data Augmentation - Crop.md",
+    "001 Ideas/Training - Transformers.md",
     "001 Ideas/GPUs - Multi-GPU training.md",
     "001 Ideas/Deep Learning as Functional Programming.md",
     "001 Ideas/GPUs - Improving Performance in 1 GPU.md",
     "001 Ideas/High-level and General AI",
     "001 Ideas/GPUs - Memory Footprint.md",
     "008 Obsidian/Files/Pasted image 20231106133645.png",
-    "001 Ideas/Untitled.md",
     "004 Software/Ideas/PyTorch - GPUs.md",
     "006 Personal/001 Productivity/Drills better then Projects.md",
     "006 Personal/001 Productivity/How to read a programming book.md",
@@ -179,8 +181,6 @@
     "004 Software/Ideas/PyTorch - nn.Module.md",
     "004 Software/Ideas/PyTorch - nn.ModuleList.md",
     "004 Software/Ideas/PyTorch - nn.Parameter.md",
-    "004 Software/Ideas/PyTorch - Optimizer.md",
-    "004 Software/Ideas/PyTorch - Save and Load Weights.md",
     "008 Obsidian/Files/Pasted image 20231106121401.png",
     "008 Obsidian/Files/Pasted image 20231106121342.png",
     "008 Obsidian/Files/Pasted image 20231106121326.png",
