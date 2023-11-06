@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "004 Software/Ideas/PyTorch - Multiple GPUs.md",
+                "file": "004 Software/Ideas/PyTorch - GPUs.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "004 Software/Ideas/PyTorch - Multiple GPUs.md",
+                "file": "004 Software/Ideas/PyTorch - GPUs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "004 Software/Ideas/PyTorch - Multiple GPUs.md",
+                "file": "004 Software/Ideas/PyTorch - GPUs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "004 Software/Ideas/PyTorch - Multiple GPUs.md"
+                "file": "004 Software/Ideas/PyTorch - GPUs.md"
               }
             }
           }
@@ -150,9 +150,9 @@
   },
   "active": "b0f106a3b67c6c4c",
   "lastOpenFiles": [
-    "008 Obsidian/Files/Untitled.png",
     "004 Software/PyTorch.md",
-    "004 Software/Ideas/PyTorch - Multiple GPUs.md",
+    "004 Software/Ideas/PyTorch - GPUs.md",
+    "008 Obsidian/Files/Untitled.png",
     "004 Software/Ideas/PyTorch - nn.Module.md",
     "004 Software/Ideas/PyTorch - Tensors.md",
     "004 Software/Ideas/PyTorch - nn.Parameter.md",
