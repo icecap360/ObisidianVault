@@ -1,4 +1,5 @@
 - Allow you to do things during backpropagation
-- register a hook on a Tensor or nn.Module
-
-### Hooks are regist
+- register a hook on a Tensor or nn.Module. A hook is basically a function that is executed when the either `forward` or `backward` is called.
+	- When I say forward, I don't mean the forward of a nn.Module . forward function here means the forward  function of the torch.Autograd.Function object that is the grad_fn of a Tensor. For example, if a tensor is created by tens = tens1 + tens2, it's grad_fn is AddBackward. Still doesn't make sense? You should definitely go back and read this article.
+	- Notice, that a nn.Module like a nn.Linear has multiple forward invocations. It's output is created by two operations, (Y = W * X + B), addition and multiplication and thus there will be two forward calls. This can mess things up, and can lead to multiple outputs. We will touch this in more detail later in this article.
+- 
