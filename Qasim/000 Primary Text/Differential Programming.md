@@ -34,7 +34,10 @@ year: "{{2022}}"
 - Differentiable Programming Approach (Combine the approaches)
     - Remember this whole issue started because we were unable to measure loss on the parameters alone
 ![[Pasted image 20231106125359.png]]
-
+	- use the physical model to generate a sensible loss function.
+	- The result is effectively an autoencoding network in which the neural network learns the "inverse" of the physical model which maps from control parameters to resulting distances:
+![[Pasted image 20231106125509.png]]
+	- Since our physical model constitutes a composition of differentiable functions, we can backpropagate through the network and update the parameters of the neural network to learn.
 
 
 # 3-Sentence Summary

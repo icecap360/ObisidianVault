@@ -1,0 +1,5 @@
+This is false. “The only way to improve at X is to do it” is the advice you give when you actually have no idea how to improve. When you do know, you isolate subskills and drill them. to condition a shot-putter, the best way is not to put weights in their hands and have them mimic the throwing motion, but rather to train the body’s ability to produce power, using squats and lots of heavy exercises that don’t even resemble shot-putting.
+
+Programmers learn by making bad design decisions, working on the codebase for a year, and then find themselves wishing they could go back and do things differently. I can give you that experience in an hour, same way a pino teacher can correct a student saving them countless hours
+
+It’s time to stop looking for panaceas and shortcuts and realize that deliberate learning and deliberate practice --- as a separate activity from the everyday doing --- is the only way to mastery.

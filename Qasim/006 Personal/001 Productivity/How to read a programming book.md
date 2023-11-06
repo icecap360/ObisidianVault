@@ -1,0 +1,1 @@
+Read your programming book as normal. When you get to a code sample, read it over Then close the book. Then try to type it up. Simple, right? But try it and watch as you’re forced to learn some of the structure of the code. This will teach your mind to compress the knowledge.
