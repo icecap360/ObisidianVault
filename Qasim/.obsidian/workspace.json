@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d32a778731743488",
+        "id": "2c08ac7d5350c363",
         "type": "tabs",
         "children": [
           {
-            "id": "62b0cbe95b7e657d",
+            "id": "cad7fb63ce8fa59b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 Primary Text/Understanding the difficulty of training deep feedforward neural networks.md",
+                "file": "000 Primary Text/Paper - Delving Deep into Rectifiers - Surpassing Human-Level Performance on ImageNet Classification.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 Primary Text/Understanding the difficulty of training deep feedforward neural networks.md",
+                "file": "000 Primary Text/Paper - Delving Deep into Rectifiers - Surpassing Human-Level Performance on ImageNet Classification.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 Primary Text/Understanding the difficulty of training deep feedforward neural networks.md",
+                "file": "000 Primary Text/Paper - Delving Deep into Rectifiers - Surpassing Human-Level Performance on ImageNet Classification.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 Primary Text/Understanding the difficulty of training deep feedforward neural networks.md"
+                "file": "000 Primary Text/Paper - Delving Deep into Rectifiers - Surpassing Human-Level Performance on ImageNet Classification.md"
               }
             }
           }
@@ -148,8 +148,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "62b0cbe95b7e657d",
+  "active": "cad7fb63ce8fa59b",
   "lastOpenFiles": [
+    "000 Primary Text/Paper - Understanding the difficulty of training deep feedforward neural networks.md",
+    "000 Primary Text/Paper - Delving Deep into Rectifiers - Surpassing Human-Level Performance on ImageNet Classification.md",
+    "008 Obsidian/Templates/Primary Text (Paper).md",
+    "000 Primary Text/Untitled 2.md",
+    "002 Relationships/Neural Network - Initialization.md",
+    "008 Obsidian/Files/Pasted image 20231106144518.png",
+    "008 Obsidian/Files/Pasted image 20231106144450.png",
+    "008 Obsidian/Files/Pasted image 20231106144441.png",
     "008 Obsidian/Files/Pasted image 20231106144402.png",
     "008 Obsidian/Files/Pasted image 20231106144331.png",
     "008 Obsidian/Files/Pasted image 20231106144307.png",
@@ -157,11 +165,8 @@
     "008 Obsidian/Files/Pasted image 20231106144154.png",
     "008 Obsidian/Files/Pasted image 20231106143933.png",
     "008 Obsidian/Files/Pasted image 20231106143915.png",
-    "008 Obsidian/Files/Pasted image 20231106141756.png",
     "000 Primary Text/Untitled 1.md",
-    "000 Primary Text/Understanding the difficulty of training deep feedforward neural networks.md",
     "000 Primary Text/Untitled.md",
-    "001 Ideas/Neural Network - Initialization.md",
     "001 Ideas/Neural Network - Keep variance of activations constant.md",
     "001 Ideas/Data Augmentation - Crop.md",
     "001 Ideas/Fine-Tuning - Use a higher Resolution.md",
@@ -172,21 +177,16 @@
     "001 Ideas/GPUs - Improving Performance in 1 GPU.md",
     "001 Ideas/High-level and General AI",
     "001 Ideas/GPUs - Memory Footprint.md",
-    "008 Obsidian/Files/Pasted image 20231106133645.png",
     "004 Software/Ideas/PyTorch - GPUs.md",
     "006 Personal/001 Productivity/Drills better then Projects.md",
     "006 Personal/001 Productivity/How to read a programming book.md",
     "000 Primary Text/Differential Programming.md",
-    "008 Obsidian/Files/Pasted image 20231106125509.png",
-    "008 Obsidian/Files/Pasted image 20231106125359.png",
     "000 Primary Text/Blog - Types, Functional Programming, and DL.md",
     "004 Software/Ideas/Broadcasting.md",
     "004 Software/Ideas/Collections - Chainmap.md",
     "004 Software/Ideas/Collections - Deque.md",
     "004 Software/Ideas/Collections - Ordered_Dict.md",
     "004 Software/Ideas/PyTorch - Datasets and Dataloaders.md",
-    "004 Software/Ideas/PyTorch - Autograd, nn.AutoGrad.Function.md",
-    "004 Software/Ideas/Python - Intra-Package Imports.md",
     "006 Personal/002 Research Advice",
     "004 Software/Ideas",
     "008 Obsidian/Zotero My Library.bib",

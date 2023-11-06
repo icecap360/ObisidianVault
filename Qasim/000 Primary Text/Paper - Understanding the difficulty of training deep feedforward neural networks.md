@@ -4,17 +4,20 @@ tags:
   - "#Paper"
   - "#Unread"
 completed: false
-title: "Understanding the difficulty of training deep feedforward neural networks"
-authors: "Xavier Glorot, Yoshua Bengio"
-year: '2010/03'
-url: "https://proceedings.mlr.press/v9/glorot10a.html"
-citekey: "glorotUnderstandingDifficultyTraining2010"
+title: Understanding the difficulty of training deep feedforward neural networks
+authors: Xavier Glorot, Yoshua Bengio
+year: 2010/03
+url: https://proceedings.mlr.press/v9/glorot10a.html
+citekey: glorotUnderstandingDifficultyTraining2010
 aliases:
-  - ""
-  - "glorotUnderstandingDifficultyTraining2010"
+  - glorotUnderstandingDifficultyTraining2010
+  - Xavier
+  - Glorot
 ---
 
 # Short Summary
+* Glorot Initialization
+![[Pasted image 20231106144518.png]]
 
 ## Key Points
 
@@ -44,8 +47,11 @@ Whereas before 2006 it appears that deep multi-layer neural networks were not su
 ![[Pasted image 20231106144307.png]]
 Or as a compromise,
 ![[Pasted image 20231106144402.png]]
-	- 
-
+- Uniform initialization (as shown in equation 1) the following property when all layers are of same size (z). It is bad because variance decreases as n increases
+![[Pasted image 20231106144441.png]]
+![[Pasted image 20231106144450.png]]
+Normalized the initialization
+![[Pasted image 20231106144518.png]]
 
 
 # Comments and Implications
