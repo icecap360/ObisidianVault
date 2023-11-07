@@ -2,7 +2,7 @@
 tags:
   - "#Ideas"
   - "#Incomplete"
-topics: "[[Object Detection]]"
+topics: "[[Object Detection - Anchors]]"
 ---
 Input: A list of Proposal boxes B, corresponding confidence scores S and overlap threshold N.
 

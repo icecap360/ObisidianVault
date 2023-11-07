@@ -49,7 +49,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "001 Ideas/Untitled.md",
+                "file": "001 Ideas/Object Detection - Non-Maximum Suppression.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "94bf8f91fb2969d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 Primary Text/Paper - Non-local Neural Networks.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Explainability - Maximum Activation Firing.md",
+                "file": "001 Ideas/Explainability - Maximum Activation Firing.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -158,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "001 Ideas/Untitled.md",
+                "file": "000 Primary Text/Paper - Non-local Neural Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "001 Ideas/Untitled.md",
+                "file": "000 Primary Text/Paper - Non-local Neural Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "001 Ideas/Untitled.md"
+                "file": "000 Primary Text/Paper - Non-local Neural Networks.md"
               }
             }
           }
@@ -221,33 +233,36 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4d84e9fe6518d41c",
+  "active": "94bf8f91fb2969d7",
   "lastOpenFiles": [
-    "001 Ideas/Object Detection - R-CNN.md",
-    "001 Ideas/Untitled.md",
+    "008 Obsidian/Files/Pasted image 20231106194350.png",
+    "008 Obsidian/Files/Pasted image 20231106194319.png",
+    "008 Obsidian/Files/Pasted image 20231106194256.png",
+    "008 Obsidian/Files/Pasted image 20231106194148.png",
+    "008 Obsidian/Files/Pasted image 20231106194127.png",
+    "008 Obsidian/Files/Pasted image 20231106193940.png",
+    "001 Ideas/Explainability - Maximum Activation Firing.md",
+    "000 Primary Text/Paper - Non-local Neural Networks.md",
     "001 Ideas/Object Detection - Non-Maximum Suppression.md",
+    "001 Ideas/Object Detection - Region Proposals - Sliding Windows and Image Pyramids.md",
+    "001 Ideas/Object Detection - Region Proposals - Selective Search.md",
+    "001 Ideas/Object Detection - Anchors.md",
+    "008 Obsidian/Files/Pasted image 20231106193543.png",
+    "008 Obsidian/Files/Pasted image 20231106193508.png",
+    "001 Ideas/NN Initialization - He.md",
+    "001 Ideas/Object Detection - R-CNN.md",
     "000 Primary Text/Paper - Understanding Diffusion Models - A Unified Perspective.md",
     "008 Obsidian/Files/Pasted image 20231106193308.png",
     "008 Obsidian/Files/Pasted image 20231106193253.png",
     "008 Obsidian/Files/Pasted image 20231106193117.png",
-    "008 Obsidian/Files/Pasted image 20231106193044.png",
-    "008 Obsidian/Files/Pasted image 20231106193020.png",
-    "008 Obsidian/Files/Pasted image 20231106192956.png",
-    "008 Obsidian/Files/Pasted image 20231106192827.png",
-    "008 Obsidian/Files/Pasted image 20231106192809.png",
-    "008 Obsidian/Files/Pasted image 20231106192642.png",
-    "008 Obsidian/Files/Pasted image 20231106192602.png",
     "002 Relationships/Region Proposals.md",
     "005 Projects/MetaGraspNet.md",
     "005 Projects/TurboViT.md",
     "001 Ideas/Metrics - Mean Average Precision.md",
     "001 Ideas/Metrics - GIOU.md",
-    "Explainability - Maximum Activation Firing.md",
     "000 Primary Text/Paper - Improving neural networks by preventing co-adaptation of feature detectors.md",
     "000 Primary Text/Paper - Rich feature hierarchies for accurate object detection and semantic segmentation.md",
-    "001 Ideas/Region Proposals - Sliding Windows and Image Pyramids.md",
     "001 Ideas/Traditional CV - Superpixels.md",
-    "001 Ideas/Region Proposals - Selective Search.md",
     "000 Primary Text/Paper - Deep Neural Networks for Object Detection.md",
     "001 Ideas/Data Augmentation - Crop.md",
     "003 Learning Resources/Standford Courses.md",
@@ -256,10 +271,7 @@
     "000 Primary Text/Paper - Feature Pyramid Networks for Object Detection.md",
     "000 Primary Text/Untitled.md",
     "001 Ideas/Neck - FPN.md",
-    "000 Primary Text/Paper - Feature Pyramid Network.md",
-    "001 Ideas/Regularization - Dropout.md",
     "001 Ideas/Untitled",
-    "003 Learning Resources/Topics to Study Deep Learning.md",
     "001 Ideas/High-level and General AI",
     "006 Personal/002 Research Advice",
     "004 Software/Ideas",
