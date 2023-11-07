@@ -34,12 +34,15 @@ Existing deep convolutional neural networks (CNNs) require a fixed-size (e.g., 2
 	1) SPP is able to generate a fixedlength output regardless of the input size, while the sliding window pooling used in the previous deep networks [3] cannot; 	
 	2) SPP uses multi-level spatial bins, while the sliding window pooling uses only a single window size. Multi-level pooling has been shown to be robust to object deformations [15]; 
 	3) SPP can pool features extracted at variable scales thanks to the flexibility of input scales.
-### ChatGPT
+### ChatGPT, Online
+- Features ==  keypoints and descriptors of those keypoints.
+
 - Here's how Spatial Pyramid Matching works:
 1. Image Subdivision: The image is divided into a grid of cells, creating a coarse level of spatial subdivision. This grid typically starts with one cell that covers the entire image.
 2. Feature Extraction: Visual features are extracted from each of the cells. These features can be local descriptors like SIFT (Scale-Invariant Feature Transform) or SURF (Speeded-Up Robust Features) descriptors. For each cell, you calculate a feature histogram representing the distribution of visual features within that cell.
 3. Aggregation: The histograms from all cells at the current level of the pyramid are concatenated or combined to create a single, more comprehensive histogram representation for that level.
 	1. often done by taking a weighted sum of the number of matches that occur at each level of resolution
+	2. At any fixed resolution, two points are said to match if they fall into the same cell of the grid; matches found at finer resolutions are weighted more highly than matches found at coarser resolutions.
 4. Refinement: Steps 1 to 3 are repeated for multiple levels of the pyramid, each time dividing the image into smaller and more numerous subregions. This hierarchical structure allows the model to capture information at different spatial scales.
 5. Classification or Matching: The concatenated histograms from all levels of the pyramid are used as the feature representation for the image. This representation can be fed into a classifier or used for matching tasks, such as image retrieval or object recognition.
 
@@ -59,8 +62,12 @@ How does spatial pyramid matching help BoW:
 - Training with variable-size images **increases scale-invariance** and **reduces over-fitting**.
 	- We develop a simple multi-size training method.
 	- In each epoch we train the network with a given input size, and switch to another input size for the next epoch. Experiments show that this multi-size training converges just as the traditional single-size training, and leads to better testing accuracy.
-- 
 
+### Similarity between BoW and Spatial Pyramid Pooling Layer
+- Convolutional layers extract features regardless of the input size
+![[Pasted image 20231107161005.png]]
+- These feature maps from CNNs are analogous to feature maps of traditional methods
+	- In those methods, SIFT vectors [29] or image patches [28] are densely extracted and then encoded, e.g., by vector quantization [16], [15], [30], sparse coding [17], [18], or Fisher kernels [19]. These encoded features consist of the feature maps, and are then pooled by Bag-of-Words (BoW) [16] or spatial pyramids [14], [15].
 ## Results
 
 # Comments and Implications
