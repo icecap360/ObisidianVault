@@ -55,7 +55,8 @@ Existing deep convolutional neural networks (CNNs) require a fixed-size (e.g., 2
 - These spatial bins have sizes proportional to the image size, so the number of bins is fixed regardless of the image size
 	- Unlike sliding windows, because number of sliding windows depends on the input size
 - The outputs of the spatial pyramid pooling are $kM$-dimensional vectors with the number of bins denoted as $M$ , and $k$ is the number of filters in the last convolutional layer.
-- W
+- Remember, we  have multiple pooling layers (you can think of them as channels) that each pool to a different scale
+- 
 
 - 
 
