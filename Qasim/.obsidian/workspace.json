@@ -33,6 +33,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "001 Ideas/High-level and General AI/CV Architecture - Spatial Pyramid Poolint.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4ddb1ebf7c4e831",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "000 Primary Text/Paper - Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition.md",
                 "mode": "source",
                 "source": false
@@ -40,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -169,11 +181,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f6f16ffb346b2da0",
+  "active": "b4ddb1ebf7c4e831",
   "lastOpenFiles": [
+    "001 Ideas/High-level and General AI/CV Architecture - Spatial Pyramid Poolint.md",
+    "000 Primary Text/Paper - Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition.md",
     "008 Obsidian/Files/Pasted image 20231107172959.png",
     "Traditional CV - Spatial Pyramid Matching.md",
-    "000 Primary Text/Paper - Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition.md",
     "008 Obsidian/Files/Pasted image 20231107162427.png",
     "001 Ideas/Untitled.md",
     "001 Ideas/Traditional CV - Bag of Visual Words.md",
@@ -206,7 +219,6 @@
     "000 Primary Text/Untitled.md",
     "008 Obsidian/Files/Pasted image 20231106204333.png",
     "008 Obsidian/Templates/Primary Text (Paper).md",
-    "008 Obsidian/Files/Pasted image 20231106201229.png",
     "001 Ideas/Untitled",
     "001 Ideas/High-level and General AI",
     "006 Personal/002 Research Advice",
