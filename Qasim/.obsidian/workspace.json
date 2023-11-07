@@ -40,7 +40,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Traditional CV - Spatial Pyramid Matching.md",
+                "file": "000 Primary Text/Paper - Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Traditional CV - Spatial Pyramid Matching.md",
+                "file": "000 Primary Text/Paper - Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Traditional CV - Spatial Pyramid Matching.md"
+                "file": "000 Primary Text/Paper - Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition.md"
               }
             }
           }
@@ -169,10 +169,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c1dfca7d3284e323",
+  "active": "f6f16ffb346b2da0",
   "lastOpenFiles": [
-    "000 Primary Text/Paper - Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition.md",
     "Traditional CV - Spatial Pyramid Matching.md",
+    "000 Primary Text/Paper - Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition.md",
     "008 Obsidian/Files/Pasted image 20231107162427.png",
     "001 Ideas/Untitled.md",
     "001 Ideas/Traditional CV - Bag of Visual Words.md",
