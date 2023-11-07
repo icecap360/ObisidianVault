@@ -53,7 +53,7 @@ Notice that you are solving the same problem, you are just reorganizing it so th
 - Linear projection when F and x are not the same dimension
 ![[Pasted image 20231106204821.png]]
 - The also show that using an identity mapping is superior to learning Ws
-- The residual block should be used with 2+ layer blocks, as one layer skip connection is not difficult for the model to model
+	- The residual block should be used with 2+ layer blocks, as one layer skip connection is not difficult for the model to model
 # Comments and Implications
 
 # Links
