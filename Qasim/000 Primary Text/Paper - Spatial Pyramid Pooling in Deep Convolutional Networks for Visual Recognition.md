@@ -34,10 +34,17 @@ Existing deep convolutional neural networks (CNNs) require a fixed-size (e.g., 2
 	1) SPP is able to generate a fixedlength output regardless of the input size, while the sliding window pooling used in the previous deep networks [3] cannot; 	
 	2) SPP uses multi-level spatial bins, while the sliding window pooling uses only a single window size. Multi-level pooling has been shown to be robust to object deformations [15]; 
 	3) SPP can pool features extracted at variable scales thanks to the flexibility of input scales.
+### From original SPP paper
+- Informally, pyramid matching works by placing a sequence of increasingly coarser grids over the feature space and taking a weighted sum of the number of matches that occur at each level of resolution.
+- At any fixed resolution, two points are said to match if they fall into the same cell of the grid; matches found at finer resolutions are weighted more highly than matches found at coarser resolutions.
+- 
 ## Methodology
 - We add an SPP layer on top of the last convolutional layers
 - The SPP layer pools the features and generates fixed length outputs, which are then fed into the fully connected layers (or other classifiers). 
-	- In other words, we perform some information “**aggregation**” at a **deeper stage** of the network hierarchy (between convolutional layers and fully-connected layers) to avoid the **need** for **cropping** or **warping** at the **beginning**. 
+	- In other words, we perform some **information** “**aggregation**” at a **deeper stage** of the network hierarchy (between convolutional layers and fully-connected layers) to avoid the need for cropping or warping at the beginning. 
+- Training with variable-size images increases scale-invariance and **reduces over-fitting**.
+	- 
+- 
 
 ## Results
 
