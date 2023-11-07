@@ -44,18 +44,6 @@
             }
           },
           {
-            "id": "9ee44480ed09e658",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "001 Ideas/Loss Functions - GIOU.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "17033c2f706bc837",
             "type": "leaf",
             "state": {
@@ -73,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 Primary Text/Paper - Rich feature hierarchies for accurate object detection and semantic segmentation.md",
+                "file": "000 Primary Text/Paper - Improving neural networks by preventing co-adaptation of feature detectors.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -158,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 Primary Text/Paper - Rich feature hierarchies for accurate object detection and semantic segmentation.md",
+                "file": "002 Relationships/Region Proposals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 Primary Text/Paper - Rich feature hierarchies for accurate object detection and semantic segmentation.md",
+                "file": "002 Relationships/Region Proposals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 Primary Text/Paper - Rich feature hierarchies for accurate object detection and semantic segmentation.md"
+                "file": "002 Relationships/Region Proposals.md"
               }
             }
           }
@@ -221,10 +209,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8421c22e90a902c9",
+  "active": "f8d21d7955041852",
   "lastOpenFiles": [
+    "005 Projects/MetaGraspNet.md",
+    "005 Projects/TurboViT.md",
+    "008 Obsidian/Files/Pasted image 20231106192156.png",
+    "001 Ideas/Metrics - Mean Average Precision.md",
+    "008 Obsidian/Files/Pasted image 20231106191912.png",
+    "008 Obsidian/Files/Pasted image 20231106191752.png",
+    "008 Obsidian/Files/Pasted image 20231106191646.png",
+    "001 Ideas/Metrics - GIOU.md",
+    "001 Ideas/Non-Maximum Suppression.md",
     "Explainability - Maximum Activation Firing.md",
-    "001 Ideas/Loss Functions - GIOU.md",
+    "000 Primary Text/Paper - Improving neural networks by preventing co-adaptation of feature detectors.md",
+    "000 Primary Text/Paper - Rich feature hierarchies for accurate object detection and semantic segmentation.md",
     "001 Ideas/Region Proposals - Sliding Windows and Image Pyramids.md",
     "008 Obsidian/Files/Pasted image 20231106191212.png",
     "001 Ideas/Traditional CV - Superpixels.md",
@@ -234,20 +232,14 @@
     "008 Obsidian/Files/Pasted image 20231106190738.png",
     "008 Obsidian/Files/Pasted image 20231106190718.png",
     "008 Obsidian/Files/Pasted image 20231106190632.png",
-    "008 Obsidian/Files/Pasted image 20231106190609.png",
-    "008 Obsidian/Files/Pasted image 20231106190314.png",
     "002 Relationships/Region Proposals.md",
     "001 Ideas/R-CNN.md",
-    "000 Primary Text/Paper - Rich feature hierarchies for accurate object detection and semantic segmentation.md",
     "000 Primary Text/Paper - Deep Neural Networks for Object Detection.md",
-    "008 Obsidian/Files/Pasted image 20231106184516.png",
-    "008 Obsidian/Files/Pasted image 20231106184350.png",
     "001 Ideas/Data Augmentation - Crop.md",
     "003 Learning Resources/Standford Courses.md",
     "000 Primary Text/Paper - Delving Deep into Rectifiers - Surpassing Human-Level Performance on ImageNet Classification.md",
     "000 Primary Text/Paper - Fast R-CNN.md",
     "000 Primary Text/Paper - Feature Pyramid Networks for Object Detection.md",
-    "000 Primary Text/Paper - Improving neural networks by preventing co-adaptation of feature detectors.md",
     "000 Primary Text/Untitled.md",
     "001 Ideas/Neck - FPN.md",
     "000 Primary Text/Paper - Feature Pyramid Network.md",
@@ -256,10 +248,6 @@
     "003 Learning Resources/Topics to Study Deep Learning.md",
     "001 Ideas/Deep Learning - Backpropagation.md",
     "001 Ideas/Deep Learning - Functional Programming.md",
-    "001 Ideas/Deep Learning - Keep variance of activations constant.md",
-    "001 Ideas/Deep Learning - Linear Algebra of Neuron Weights.md",
-    "002 Relationships/Deep Learning Perspectives.md",
-    "001 Ideas/Training - Weight Contraints vs Penalty.md",
     "001 Ideas/High-level and General AI",
     "006 Personal/002 Research Advice",
     "004 Software/Ideas",
