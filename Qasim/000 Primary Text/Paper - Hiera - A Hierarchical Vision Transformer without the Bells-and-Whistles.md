@@ -56,7 +56,19 @@ model hierarchical vision transformers are complex, which makes them slow on act
 ![[Pasted image 20231106204333.png]]
 Caption: While MAE masks individual tokens, tokens in multi- stage transformers start very small (e.g., 4 × 4 pixels), doubling size in each stage. (a) Thus, we mask coarser “mask units” (32×32 pixels) instead of tokens directly. (b) For efficiency, MAE is sparse, meaning it deletes what it masks (a problem for spatial modules like convs). (c) Keeping masked tokens fixes this, but gives up the potential 4 − 10× training speed-up of MAE. (d) As a baseline, we introduce a trick that treats mask units as a separate entities for convs, solving the issue but requiring undesirable padding. (e) In Hiera, we side-step the problem entirely by changing the architecture so the kernels can’t overlap between mask unit
 
-## Using MViT as out architecture
+## Using MViT as our Architecture
+- We choose MViTv2 as our base architecture, as its small 3 × 3 kernels are affected the least by the separate-and-pad trick described in Fig. 4d
+- - About MViT2
+    - 4 stages
+        - starts by modelling low level features with small channel capacity but high spatial resolution
+        - each subsequent stage trades channel capacity for spatial resolution
+    - pooling attention: features are locally aggregated using 3x3 convolution before computing self-attention
+        - K and V pooled to decrease computation in the first two stages, while Q is pooled to transition from one stage to the next by reducing spatial resolution
+    - decomposed relative position embeddings used instead of absolute ones
+    - residual pooling connection to skip between pooled Q tokens inside the attention block
+- - Applying MAE
+    - MViT2 downsamples by 2x2 a total of 3 times across 4 stages, as it uses a token size of 4x4 pixels, thus mask unit size=32x32, which ensures that each mask unit corresponds to $8^2,4^2,2^2,1^2$ tokens in stages 1,2,3,4
+    - As in 4d, mask units are shifted to the batch dimension to seperate them for pooling, treating each mask unit as an “image”, but undo shift afterward so that self-attention is still global
  
 ## Results
 
