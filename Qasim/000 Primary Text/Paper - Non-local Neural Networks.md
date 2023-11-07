@@ -2,16 +2,14 @@
 tags:
   - "#RawInformation"
   - "#Paper"
-  - "#Unread"
-completed: false
+completed: true
 title: Paper - Non-local Neural Networks
-authors: "Xiaolong Wang, Ross Girshick, Abhinav Gupta, Kaiming He"
-year: '2018/04'
-url: "http://arxiv.org/abs/1711.07971"
-citekey: "wangNonlocalNeuralNetworks2018"
+authors: Xiaolong Wang, Ross Girshick, Abhinav Gupta, Kaiming He
+year: 2018/04
+url: http://arxiv.org/abs/1711.07971
+citekey: wangNonlocalNeuralNetworks2018
 aliases:
-  - ""
-  - "wangNonlocalNeuralNetworks2018"
+  - wangNonlocalNeuralNetworks2018
 ---
 
 # Short Summary

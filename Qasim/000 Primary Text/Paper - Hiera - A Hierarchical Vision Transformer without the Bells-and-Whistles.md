@@ -2,16 +2,16 @@
 tags:
   - "#RawInformation"
   - "#Paper"
-  - "#Unread"
+  - "#Incomplete"
 completed: false
 title: "Hiera: A Hierarchical Vision Transformer without the Bells-and-Whistles"
-authors: "Chaitanya Ryali, Yuan-Ting Hu, Daniel Bolya, Chen Wei, Haoqi Fan, Po-Yao Huang, Vaibhav Aggarwal, Arkabandhu Chowdhury, Omid Poursaeed, Judy Hoffman, Jitendra Malik, Yanghao Li, Christoph Feichtenhofer"
-year: '2023/06'
-url: "http://arxiv.org/abs/2306.00989"
-citekey: "ryaliHieraHierarchicalVision2023"
+authors: Chaitanya Ryali, Yuan-Ting Hu, Daniel Bolya, Chen Wei, Haoqi Fan, Po-Yao Huang, Vaibhav Aggarwal, Arkabandhu Chowdhury, Omid Poursaeed, Judy Hoffman, Jitendra Malik, Yanghao Li, Christoph Feichtenhofer
+year: 2023/06
+url: http://arxiv.org/abs/2306.00989
+citekey: ryaliHieraHierarchicalVision2023
 aliases:
-  - "Hiera"
-  - "ryaliHieraHierarchicalVision2023"
+  - Hiera
+  - ryaliHieraHierarchicalVision2023
 ---
 
 # Short Summary

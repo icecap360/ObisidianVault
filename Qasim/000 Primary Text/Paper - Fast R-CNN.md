@@ -2,7 +2,8 @@
 tags:
   - "#RawInformation"
   - "#Paper"
-completed: true
+  - "#Incomplete"
+completed: false
 title: Fast R-CNN
 authors: Ross Girshick
 year: 2015/09
