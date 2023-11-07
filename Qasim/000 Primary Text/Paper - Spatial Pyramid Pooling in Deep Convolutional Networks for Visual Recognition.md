@@ -25,9 +25,19 @@ Existing deep convolutional neural networks (CNNs) require a fixed-size (e.g., 2
 # Details
 ## Problem
 - there is a technical issue in the training and testing of the CNNs: the prevalent CNNs require a fixed input image size (e.g., 224×224), which limits both the aspect ratio and the scale of the input image. When applied to images of arbitrary sizes, current methods mostly fit the input image to the fixed size, either via cropping [3], [4] or via warping [13], [7], as shown in Figure 1 (top). But the cropped region may not contain the entire object, while the warped content may result in unwanted geometric distortion.
+
+## Background
+- Spatial pyramid pooling [14], [15] (popularly known as spatial pyramid matching ) is famous
+	-  an extension of the Bag-of-Words (BoW) model
+- It partitions the image into divisions from finer to coarser levels, and aggregates local features in them.
+- SPP properties
+	1) SPP is able to generate a fixedlength output regardless of the input size, while the sliding window pooling used in the previous deep networks [3] cannot; 	
+	2) SPP uses multi-level spatial bins, while the sliding window pooling uses only a single window size. Multi-level pooling has been shown to be robust to object deformations [15]; 
+	3) SPP can pool features extracted at variable scales thanks to the flexibility of input scales.
 ## Methodology
 - We add an SPP layer on top of the last convolutional layers
-- The SPP layer pools the features and generates fixed length outputs, which are then fed into the fullyconnected layers (or other classifiers). In other words, we perform some information “aggregation” at a deeper stage of the network hierarchy (between convolutional layers and fully-connected layers) to avoid the need for cropping or warping at the beginning. Figure 1 (bottom) shows the change of the network architecture by introducing the SPP layer. We call the new network structure SPP-net.
+- The SPP layer pools the features and generates fixed length outputs, which are then fed into the fully connected layers (or other classifiers). 
+	- In other words, we perform some information “**aggregation**” at a **deeper stage** of the network hierarchy (between convolutional layers and fully-connected layers) to avoid the **need** for **cropping** or **warping** at the **beginning**. 
 
 ## Results
 
