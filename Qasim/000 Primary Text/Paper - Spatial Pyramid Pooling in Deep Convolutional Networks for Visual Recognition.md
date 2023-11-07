@@ -56,6 +56,9 @@ Existing deep convolutional neural networks (CNNs) require a fixed-size (e.g., 2
 	- Unlike sliding windows, because number of sliding windows depends on the input size
 - The outputs of the spatial pyramid pooling are $kM$-dimensional vectors with the number of bins denoted as $M$ , and $k$ is the number of filters in the last convolutional layer.
 - Remember, we  have multiple pooling layers (you can think of them as channels) that each pool to a different scale
+
+## SPP-NET FOR IMAGE CLASSIFICATION
+- We investigate four different network architectures in existing publications [3], [4], [5] (or their modifications), and we show SPP improves the accuracy of all these architectures
 - 
 
 - 
