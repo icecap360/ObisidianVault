@@ -29,6 +29,8 @@ Both convolutional and recurrent operations are building blocks that process one
 - As such, our work provides insight by relating this recent self-attention model to the classic computer vision method of non-local means [ 4 ], and extends the sequential self-attention network in [ 49 ] to a generic space/spacetime non-local network for image/video recognition in computer vision.
 
 ## Solution
+
+### Formulation
 ![[Pasted image 20231106193940.png]]
 * Let g(x_j) = W_j\*X_j 
 * Possibilities of f:
@@ -38,6 +40,15 @@ Both convolutional and recurrent operations are building blocks that process one
 	- Concatenation ![[Pasted image 20231106194319.png]]
 	- embedded gaussian version of f, with softmax along dimension j ![[Pasted image 20231106194350.png]]
 This is Self -Attention!
+Despite the relation to \[ 49], we show that the attentional behavior (due to softmax) is not essential in the applications we study.
+
+### Non-Local Block
+- **Generalize** a non-local operation into a self-sufficient **block**
+![[Pasted image 20231106194435.png]]
+- Subsample x (e.g. by pooling) for computational savings
+![[Pasted image 20231106194626.png]]
+
+
 # Comments and Implications
 
 # Links

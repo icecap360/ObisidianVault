@@ -61,7 +61,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 Primary Text/Paper - Non-local Neural Networks.md",
+                "file": "001 Ideas/Vision Transformers - Non-local Blocks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f6ad6093b36c55c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 Primary Text/Paper - Deformable DETR - Deformable Transformers for End-to-End Object Detection.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6903309796b5540d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "001 Ideas/Vision Transformers - DETR.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -170,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 Primary Text/Paper - Non-local Neural Networks.md",
+                "file": "001 Ideas/Vision Transformers - DETR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 Primary Text/Paper - Non-local Neural Networks.md",
+                "file": "001 Ideas/Vision Transformers - DETR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 Primary Text/Paper - Non-local Neural Networks.md"
+                "file": "001 Ideas/Vision Transformers - DETR.md"
               }
             }
           }
@@ -233,8 +257,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "94bf8f91fb2969d7",
+  "active": "6903309796b5540d",
   "lastOpenFiles": [
+    "000 Primary Text/Paper - End-to-End Object Detection with Transformers.md",
+    "001 Ideas/Vision Transformers - DETR.md",
+    "000 Primary Text/Paper - Deformable DETR - Deformable Transformers for End-to-End Object Detection.md",
+    "001 Ideas/Vision Transformers - Non-local Blocks.md",
+    "008 Obsidian/Files/Pasted image 20231106194844.png",
+    "008 Obsidian/Files/Pasted image 20231106194829.png",
+    "000 Primary Text/Paper - Non-local Neural Networks.md",
+    "008 Obsidian/Files/Pasted image 20231106194626.png",
+    "008 Obsidian/Files/Pasted image 20231106194435.png",
     "008 Obsidian/Files/Pasted image 20231106194350.png",
     "008 Obsidian/Files/Pasted image 20231106194319.png",
     "008 Obsidian/Files/Pasted image 20231106194256.png",
@@ -242,19 +275,13 @@
     "008 Obsidian/Files/Pasted image 20231106194127.png",
     "008 Obsidian/Files/Pasted image 20231106193940.png",
     "001 Ideas/Explainability - Maximum Activation Firing.md",
-    "000 Primary Text/Paper - Non-local Neural Networks.md",
     "001 Ideas/Object Detection - Non-Maximum Suppression.md",
     "001 Ideas/Object Detection - Region Proposals - Sliding Windows and Image Pyramids.md",
     "001 Ideas/Object Detection - Region Proposals - Selective Search.md",
     "001 Ideas/Object Detection - Anchors.md",
-    "008 Obsidian/Files/Pasted image 20231106193543.png",
-    "008 Obsidian/Files/Pasted image 20231106193508.png",
     "001 Ideas/NN Initialization - He.md",
     "001 Ideas/Object Detection - R-CNN.md",
     "000 Primary Text/Paper - Understanding Diffusion Models - A Unified Perspective.md",
-    "008 Obsidian/Files/Pasted image 20231106193308.png",
-    "008 Obsidian/Files/Pasted image 20231106193253.png",
-    "008 Obsidian/Files/Pasted image 20231106193117.png",
     "002 Relationships/Region Proposals.md",
     "005 Projects/MetaGraspNet.md",
     "005 Projects/TurboViT.md",
@@ -268,9 +295,6 @@
     "003 Learning Resources/Standford Courses.md",
     "000 Primary Text/Paper - Delving Deep into Rectifiers - Surpassing Human-Level Performance on ImageNet Classification.md",
     "000 Primary Text/Paper - Fast R-CNN.md",
-    "000 Primary Text/Paper - Feature Pyramid Networks for Object Detection.md",
-    "000 Primary Text/Untitled.md",
-    "001 Ideas/Neck - FPN.md",
     "001 Ideas/Untitled",
     "001 Ideas/High-level and General AI",
     "006 Personal/002 Research Advice",
