@@ -42,8 +42,9 @@ Existing deep convolutional neural networks (CNNs) require a fixed-size (e.g., 2
 - We add an SPP layer on top of the last convolutional layers
 - The SPP layer pools the features and generates fixed length outputs, which are then fed into the fully connected layers (or other classifiers). 
 	- In other words, we perform some **information** “**aggregation**” at a **deeper stage** of the network hierarchy (between convolutional layers and fully-connected layers) to avoid the need for cropping or warping at the beginning. 
-- Training with variable-size images increases scale-invariance and **reduces over-fitting**.
-	- 
+- Training with variable-size images **increases scale-invariance** and **reduces over-fitting**.
+	- We develop a simple multi-size training method.
+	- In each epoch we train the network with a given input size, and switch to another input size for the next epoch. Experiments show that this multi-size training converges just as the traditional single-size training, and leads to better testing accuracy.
 - 
 
 ## Results
