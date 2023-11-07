@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "001 Ideas/Region Proposals - Selective Search.md",
+                "file": "001 Ideas/Loss Functions - GIOU.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "001 Ideas/Region Proposals - Selective Search.md",
+                "file": "000 Primary Text/Paper - Rich feature hierarchies for accurate object detection and semantic segmentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "001 Ideas/Region Proposals - Selective Search.md",
+                "file": "000 Primary Text/Paper - Rich feature hierarchies for accurate object detection and semantic segmentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "001 Ideas/Region Proposals - Selective Search.md"
+                "file": "000 Primary Text/Paper - Rich feature hierarchies for accurate object detection and semantic segmentation.md"
               }
             }
           }
@@ -221,27 +221,29 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9ee44480ed09e658",
+  "active": "8421c22e90a902c9",
   "lastOpenFiles": [
+    "Explainability - Maximum Activation Firing.md",
+    "001 Ideas/Loss Functions - GIOU.md",
+    "001 Ideas/Region Proposals - Sliding Windows and Image Pyramids.md",
+    "008 Obsidian/Files/Pasted image 20231106191212.png",
+    "001 Ideas/Traditional CV - Superpixels.md",
+    "008 Obsidian/Files/Pasted image 20231106191013.png",
+    "001 Ideas/Region Proposals - Selective Search.md",
+    "008 Obsidian/Files/Pasted image 20231106190756.png",
+    "008 Obsidian/Files/Pasted image 20231106190738.png",
+    "008 Obsidian/Files/Pasted image 20231106190718.png",
+    "008 Obsidian/Files/Pasted image 20231106190632.png",
+    "008 Obsidian/Files/Pasted image 20231106190609.png",
     "008 Obsidian/Files/Pasted image 20231106190314.png",
     "002 Relationships/Region Proposals.md",
-    "Explainability - Maximum Activation Firing.md",
-    "001 Ideas/Region Proposals - Selective Search.md",
     "001 Ideas/R-CNN.md",
     "000 Primary Text/Paper - Rich feature hierarchies for accurate object detection and semantic segmentation.md",
     "000 Primary Text/Paper - Deep Neural Networks for Object Detection.md",
     "008 Obsidian/Files/Pasted image 20231106184516.png",
     "008 Obsidian/Files/Pasted image 20231106184350.png",
-    "008 Obsidian/Files/Pasted image 20231106183951.png",
-    "008 Obsidian/Files/Pasted image 20231106183938.png",
-    "008 Obsidian/Files/Pasted image 20231106183927.png",
-    "008 Obsidian/Files/Pasted image 20231106183915.png",
-    "008 Obsidian/Files/Pasted image 20231106183852.png",
-    "008 Obsidian/Files/Pasted image 20231106183102.png",
     "001 Ideas/Data Augmentation - Crop.md",
     "003 Learning Resources/Standford Courses.md",
-    "008 Obsidian/Files/Pasted image 20231106181423.png",
-    "008 Obsidian/Files/Pasted image 20231106181421.png",
     "000 Primary Text/Paper - Delving Deep into Rectifiers - Surpassing Human-Level Performance on ImageNet Classification.md",
     "000 Primary Text/Paper - Fast R-CNN.md",
     "000 Primary Text/Paper - Feature Pyramid Networks for Object Detection.md",
@@ -258,8 +260,6 @@
     "001 Ideas/Deep Learning - Linear Algebra of Neuron Weights.md",
     "002 Relationships/Deep Learning Perspectives.md",
     "001 Ideas/Training - Weight Contraints vs Penalty.md",
-    "001 Ideas/Training - Fine-Tuning.md",
-    "001 Ideas/RNNs - LSTM.md",
     "001 Ideas/High-level and General AI",
     "006 Personal/002 Research Advice",
     "004 Software/Ideas",
