@@ -4,7 +4,7 @@ tags:
   - "#Paper"
   - "#Unread"
 completed: false
-title: Paper - {{title}}
+title: "{{title}}"
 authors: "{{authors}}"
 year: '{{date | format("YYYY/MM")}}'
 url: "{{url}}"

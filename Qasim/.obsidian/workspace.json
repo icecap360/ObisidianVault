@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 Primary Text/An Image is Worth 16x16 Words - Transformers for Image Recognition at Scale.md",
+                "file": "000 Primary Text/Paper - An Image is Worth 16x16 Words - Transformers for Image Recognition at Scale.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e8eee9a5e7344056",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 Primary Text/Paper - An Image is Worth 16x16 Words - Transformers for Image Recognition at Scale.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 Primary Text/An Image is Worth 16x16 Words - Transformers for Image Recognition at Scale.md",
+                "file": "000 Primary Text/Paper - An Image is Worth 16x16 Words - Transformers for Image Recognition at Scale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 Primary Text/An Image is Worth 16x16 Words - Transformers for Image Recognition at Scale.md",
+                "file": "000 Primary Text/Paper - An Image is Worth 16x16 Words - Transformers for Image Recognition at Scale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 Primary Text/An Image is Worth 16x16 Words - Transformers for Image Recognition at Scale.md"
+                "file": "000 Primary Text/Paper - An Image is Worth 16x16 Words - Transformers for Image Recognition at Scale.md"
               }
             }
           }
@@ -184,8 +197,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b5e8b170de8bac14",
+  "active": "e8eee9a5e7344056",
   "lastOpenFiles": [
+    "000 Primary Text/Hiera - A Hierarchical Vision Transformer without the Bells-and-Whistles.md",
+    "000 Primary Text/Paper - An Image is Worth 16x16 Words - Transformers for Image Recognition at Scale.md",
+    "008 Obsidian/Templates/Primary Text (Paper).md",
+    "008 Obsidian/Files/Pasted image 20231106201229.png",
+    "008 Obsidian/Files/Pasted image 20231106200734.png",
+    "008 Obsidian/Files/Pasted image 20231106200506.png",
     "000 Primary Text/Paper - End-to-End Object Detection with Transformers.md",
     "000 Primary Text/Paper - Deformable DETR - Deformable Transformers for End-to-End Object Detection.md",
     "001 Ideas/Vision Transformers - Non-local Blocks.md",
@@ -194,7 +213,6 @@
     "001 Ideas/Data Augmentation - Crop.md",
     "000 Primary Text/Paper - Deep Neural Networks for Object Detection.md",
     "003 Learning Resources/Standford Courses.md",
-    "000 Primary Text/An Image is Worth 16x16 Words - Transformers for Image Recognition at Scale.md",
     "008 Obsidian/Files/Pasted image 20231106195837.png",
     "008 Obsidian/Files/Pasted image 20231106195815.png",
     "008 Obsidian/Files/Pasted image 20231106195739.png",
@@ -204,9 +222,6 @@
     "008 Obsidian/Files/Pasted image 20231106194844.png",
     "008 Obsidian/Files/Pasted image 20231106194829.png",
     "000 Primary Text/Paper - Non-local Neural Networks.md",
-    "008 Obsidian/Files/Pasted image 20231106194626.png",
-    "008 Obsidian/Files/Pasted image 20231106194435.png",
-    "008 Obsidian/Files/Pasted image 20231106194350.png",
     "001 Ideas/Explainability - Maximum Activation Firing.md",
     "001 Ideas/Object Detection - Region Proposals - Sliding Windows and Image Pyramids.md",
     "001 Ideas/Object Detection - Region Proposals - Selective Search.md",
@@ -220,8 +235,6 @@
     "001 Ideas/Metrics - GIOU.md",
     "000 Primary Text/Paper - Improving neural networks by preventing co-adaptation of feature detectors.md",
     "000 Primary Text/Paper - Rich feature hierarchies for accurate object detection and semantic segmentation.md",
-    "001 Ideas/Traditional CV - Superpixels.md",
-    "000 Primary Text/Paper - Delving Deep into Rectifiers - Surpassing Human-Level Performance on ImageNet Classification.md",
     "001 Ideas/Untitled",
     "001 Ideas/High-level and General AI",
     "006 Personal/002 Research Advice",
