@@ -58,7 +58,7 @@ Object detection performance, as measured on the canonical PASCAL VOC dataset, h
 	- We use a simple bounding-box regression stage to improve localization performance. After scoring each selective search proposal with a class-specific detection SVM, we predict a new bounding box for the detection using a class-specific bounding-box regressor
 	- P’s are proposals, and G are ground truth
 ![[Pasted image 20231106183852.png]]
-	- Transform Proposal Predictions into into predictions G_hat
+		- Transform Proposal Predictions into into predictions G_hat
 ![[Pasted image 20231106183915.png]]
 ![[Pasted image 20231106183927.png]]
 ![[Pasted image 20231106183938.png]]
