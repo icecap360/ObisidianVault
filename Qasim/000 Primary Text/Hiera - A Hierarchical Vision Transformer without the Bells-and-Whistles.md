@@ -44,6 +44,20 @@ model hierarchical vision transformers are complex, which makes them slow on act
     - special masking strategy that significantly hurts accuracy
     - MCMAE uses masked conolution in first couple of stages, reduces efficieny
     - Hiera: Designing our architecture specifically for sparse MAE pretraining,
+- - Approach
+    - simple experiment: take an existing hierarchical vision transformer and ablate its bells-and-whistles while training with a strong pretext task
+    - MAE breaks the 2D grid hierarchical ViT’s rely on
+    - Terminology:
+        - mask units: resolution we apply MAE masking
+        - tokens: internal resolution of the model
+    - We use patch sizes equivalent to what is typically used by other hierarchical models: 4x4
+    - Idea: treat mask units as contiguous, seprate from tokens
+    - In our case, we mask 32×32 pixel regions, meaning one mask unit is 8 × 8 tokens at the start of the network.
+![[Pasted image 20231106204333.png]]
+Caption: While MAE masks individual tokens, tokens in multi- stage transformers start very small (e.g., 4 × 4 pixels), doubling size in each stage. (a) Thus, we mask coarser “mask units” (32×32 pixels) instead of tokens directly. (b) For efficiency, MAE is sparse, meaning it deletes what it masks (a problem for spatial modules like convs). (c) Keeping masked tokens fixes this, but gives up the potential 4 − 10× training speed-up of MAE. (d) As a baseline, we introduce a trick that treats mask units as a separate entities for convs, solving the issue but requiring undesirable padding. (e) In Hiera, we side-step the problem entirely by changing the architecture so the kernels can’t overlap between mask unit
+
+## Using MViT as out architecture
+ 
 ## Results
 
 # Comments and Implications
