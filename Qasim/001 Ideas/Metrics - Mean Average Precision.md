@@ -21,8 +21,8 @@ Here is a summary of the steps to calculate the AP:
 ## Intuition
 - AUC and AP are better at describing the PR curve, as F1 is just a single number
 ![[Pasted image 20231106191752.png]]
-- As you can see, AP is a deiscrete version of AUC. It can be calculated by a weighted mean
-- For object detection tasks, precision is calculated based on the IoU threshold.The precision value differs based w.r.t IoU threshold.This shows that the AP metric is dependent on the IoU threshold. **Choosing the IoU threshold is an arbitrary process**. Hence, to avoid this ambiguity use mAP.
+- As you can see, AP is a discrete version of AUC. It can be calculated by a weighted mean
+- For object detection tasks, precision is calculated based on the IoU threshold. The precision value differs based w.r.t IoU threshold. This shows that the AP metric is dependent on the IoU threshold. **Choosing the IoU threshold is an arbitrary process**. Hence, to avoid this ambiguity use mAP.
 - Summary: choose a set of IOU thresholds, calculate AP for each threshold, average the AP across IOU thresholds, now average across classes
 - - Notice how when the IOU is low, the model gets better predictions (wider precision recall curves)
 ![[Pasted image 20231106191912.png]]
