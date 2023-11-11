@@ -8,20 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a322481932a6c0b2",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "c1dfca7d3284e323",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Traditional CV - Spatial Pyramid Matching.md",
+                "file": "006 Personal/TODO.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "001 Ideas/High-level and General AI/CV Architecture - Spatial Pyramid Poolint.md",
+                "file": "001 Ideas/High-level and General AI/CV Architecture - Spatial Pyramid Pooling.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "001 Ideas/High-level and General AI/CV Architecture - Spatial Pyramid Poolint.md",
+                "file": "006 Personal/TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "001 Ideas/High-level and General AI/CV Architecture - Spatial Pyramid Poolint.md",
+                "file": "006 Personal/TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "001 Ideas/High-level and General AI/CV Architecture - Spatial Pyramid Poolint.md"
+                "file": "006 Personal/TODO.md"
               }
             }
           }
@@ -169,8 +160,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f6f16ffb346b2da0",
+  "active": "c1dfca7d3284e323",
   "lastOpenFiles": [
+    "006 Personal/Zotero and Raindrop.md",
+    "006 Personal/001 Productivity/Scheduling.md",
+    "006 Personal/TODO.md",
+    "Traditional CV - Spatial Pyramid Matching.md",
+    "006 Personal/Untitled.md",
+    "001 Ideas/High-level and General AI/CV Architecture - Spatial Pyramid Pooling.md",
     "006 Personal/Thesis and Graduation.md",
     "001 Ideas/NN Layers - Attention Condensors.md",
     "001 Ideas/NN Layers - Attention.md",
@@ -179,9 +176,7 @@
     "002 Relationships/Transformers.md",
     "001 Ideas/Metrics - Mean Average Precision.md",
     "000 Primary Text/Paper - Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition.md",
-    "001 Ideas/High-level and General AI/CV Architecture - Spatial Pyramid Poolint.md",
     "008 Obsidian/Files/Pasted image 20231107172959.png",
-    "Traditional CV - Spatial Pyramid Matching.md",
     "008 Obsidian/Files/Pasted image 20231107162427.png",
     "001 Ideas/Untitled.md",
     "001 Ideas/Traditional CV - Bag of Visual Words.md",
@@ -198,12 +193,8 @@
     "000 Primary Text/Paper - Rich feature hierarchies for accurate object detection and semantic segmentation.md",
     "000 Primary Text/Paper - Non-local Neural Networks.md",
     "000 Primary Text/Paper - Feature Pyramid Networks for Object Detection.md",
-    "000 Primary Text/Paper - Fast R-CNN.md",
     "008 Obsidian/Files/Pasted image 20231106210149.png",
     "008 Obsidian/Files/Pasted image 20231106210126.png",
-    "006 Personal/Daniels Super Paper List.md",
-    "003 Learning Resources/Computer Vision.md",
-    "003 Topics/Untitled.md",
     "008 Obsidian/Files/Pasted image 20231106204821.png",
     "008 Obsidian/Files/Pasted image 20231106204758.png",
     "008 Obsidian/Files/Pasted image 20231106204713.png",

@@ -8,4 +8,5 @@
 		* use google calendar
 		* use generous time blocks
 	* task management: think eisenhower matrix important vs urgent
+		* Ignore non-urgent non-important tasks, but do every other task
 		* flow and order of tasks is key
