@@ -1,0 +1,3 @@
+- There is a ppt that the counciller made
+	- In the ppt is a link to a resource that is a execel sheet where you input the desrired graduation date and it will tell you when you need to have things done by
+- Basically there is one deadline that is critical, that is the deadline of uploading your thesis to uwspace before the 100% tuition deadline, so you don't get charged tuition
